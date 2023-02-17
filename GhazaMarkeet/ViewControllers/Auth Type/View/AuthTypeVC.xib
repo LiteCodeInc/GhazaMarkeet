@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthTypeVC" customModule="GhazaMarkeet" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AuthTypeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="HdY-oU-26D">
+                    <rect key="frame" x="76" y="158" width="241" height="207"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Price &amp; Deals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsP-YT-HHr" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
+                    <rect key="frame" x="25" y="440" width="343" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="XqG-7D-RaU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAA-i6-b9a" customClass="CustomBtnWithoutBG" customModule="GhazaMarkeet" customModuleProvider="target">
+                    <rect key="frame" x="27" y="733" width="339" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="Y5S-P1-XRm"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="SIGN UP"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLw-ob-XuE" customClass="CustomBtnWithBG" customModule="GhazaMarkeet" customModuleProvider="target">
+                    <rect key="frame" x="27" y="666" width="339" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="1h2-NH-65f"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="LOGIN"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will find all your favorite deals at the best prices only on Gahazamarket." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15h-ls-B95" customClass="H2" customModule="GhazaMarkeet" customModuleProvider="target">
+                    <rect key="frame" x="25" y="478" width="343" height="40.666666666666629"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="Theam2"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="15h-ls-B95" secondAttribute="trailing" constant="25" id="5Jg-gz-Pzz"/>
+                <constraint firstItem="HdY-oU-26D" firstAttribute="top" relation="lessThanOrEqual" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="105" id="ED0-QI-zs2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HdY-oU-26D" secondAttribute="trailing" constant="76" id="Lw1-jF-Zq8"/>
+                <constraint firstItem="LsP-YT-HHr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="O1K-fD-4hG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LsP-YT-HHr" secondAttribute="trailing" constant="25" id="QA5-X1-AfJ"/>
+                <constraint firstItem="15h-ls-B95" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="RMA-Y4-QXQ"/>
+                <constraint firstItem="LsP-YT-HHr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="28" id="SUL-eo-6TV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="eAA-i6-b9a" secondAttribute="bottom" constant="33" id="VbF-qw-wZ6"/>
+                <constraint firstItem="TLw-ob-XuE" firstAttribute="leading" secondItem="eAA-i6-b9a" secondAttribute="leading" id="Y3O-dm-bkv"/>
+                <constraint firstItem="LsP-YT-HHr" firstAttribute="top" secondItem="HdY-oU-26D" secondAttribute="bottom" constant="75" id="fgo-Ol-dvD"/>
+                <constraint firstItem="eAA-i6-b9a" firstAttribute="top" secondItem="TLw-ob-XuE" secondAttribute="bottom" constant="15" id="lPx-i2-TcQ"/>
+                <constraint firstItem="HdY-oU-26D" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="76" id="nIz-nO-dw3"/>
+                <constraint firstItem="TLw-ob-XuE" firstAttribute="trailing" secondItem="eAA-i6-b9a" secondAttribute="trailing" id="nsx-n8-bDs"/>
+                <constraint firstItem="15h-ls-B95" firstAttribute="top" secondItem="LsP-YT-HHr" secondAttribute="bottom" constant="10" id="rLw-2g-Anw"/>
+                <constraint firstItem="eAA-i6-b9a" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="27" id="uwJ-cf-f9r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eAA-i6-b9a" secondAttribute="trailing" constant="27" id="ync-GH-7XF"/>
+            </constraints>
+            <point key="canvasLocation" x="91" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AuthTypeIcon" width="207" height="207"/>
+        <namedColor name="Theam2">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
