@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904F8D953F3F7086F9FF4D2A /* libPods-GhazaMarkeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86515BD1F09EA0DC91E762BE /* libPods-GhazaMarkeet.a */; };
 		BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FF929A00EBB00949780 /* AppDelegate.swift */; };
 		BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FFB29A00EBB00949780 /* SceneDelegate.swift */; };
 		BAF44FFE29A00EBB00949780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FFD29A00EBB00949780 /* ViewController.swift */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A600165CFC7D3411E34D5A0 /* Pods-GhazaMarkeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.debug.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.debug.xcconfig"; sourceTree = "<group>"; };
+		445770629E1DE110FDE832CA /* Pods-GhazaMarkeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.release.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.release.xcconfig"; sourceTree = "<group>"; };
+		86515BD1F09EA0DC91E762BE /* libPods-GhazaMarkeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhazaMarkeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF44FF629A00EBB00949780 /* GhazaMarkeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhazaMarkeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF44FF929A00EBB00949780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF44FFB29A00EBB00949780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904F8D953F3F7086F9FF4D2A /* libPods-GhazaMarkeet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40CC645B482E506EC1F9A090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86515BD1F09EA0DC91E762BE /* libPods-GhazaMarkeet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF099F96209A710E939B7180 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A600165CFC7D3411E34D5A0 /* Pods-GhazaMarkeet.debug.xcconfig */,
+				445770629E1DE110FDE832CA /* Pods-GhazaMarkeet.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BAF44FED29A00EBB00949780 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				BAF4500F29A00EC200949780 /* GhazaMarkeetTests */,
 				BAF4501929A00EC200949780 /* GhazaMarkeetUITests */,
 				BAF44FF729A00EBB00949780 /* Products */,
+				AF099F96209A710E939B7180 /* Pods */,
+				40CC645B482E506EC1F9A090 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAF4502029A00EC200949780 /* Build configuration list for PBXNativeTarget "GhazaMarkeet" */;
 			buildPhases = (
+				AF6A8274C6275030330C40D5 /* [CP] Check Pods Manifest.lock */,
 				BAF44FF229A00EBB00949780 /* Sources */,
 				BAF44FF329A00EBB00949780 /* Frameworks */,
 				BAF44FF429A00EBB00949780 /* Resources */,
+				6B85CAFD28E7295F8EBF2183 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B85CAFD28E7295F8EBF2183 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF6A8274C6275030330C40D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GhazaMarkeet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BAF44FF229A00EBB00949780 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		BAF4502129A00EC200949780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A600165CFC7D3411E34D5A0 /* Pods-GhazaMarkeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +529,7 @@
 		};
 		BAF4502229A00EC200949780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445770629E1DE110FDE832CA /* Pods-GhazaMarkeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

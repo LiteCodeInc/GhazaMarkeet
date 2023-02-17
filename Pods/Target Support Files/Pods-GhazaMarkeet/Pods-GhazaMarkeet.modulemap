@@ -1,0 +1,6 @@
+module Pods_GhazaMarkeet {
+  umbrella header "Pods-GhazaMarkeet-umbrella.h"
+
+  export *
+  module * { export * }
+}
