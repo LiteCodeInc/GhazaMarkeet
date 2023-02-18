@@ -12,6 +12,8 @@ enum AssetsColor: String {
     case Theam
     case Theam2
     case TextBlack
+    case TextFieldBorder
+    case TextFieldPlaceholder
     case SubHeading
     case SubHeadingTwo
 }
@@ -21,6 +23,8 @@ let theamTwo = UIColor.appColor(.Theam2)
 let textBlack = UIColor.appColor(.TextBlack)
 let subHeading = UIColor.appColor(.SubHeading)
 let subHeadingTwo = UIColor.appColor(.SubHeadingTwo)
+let textFieldBorder = UIColor.appColor(.TextFieldBorder)
+let textFieldPlaceholder = UIColor.appColor(.TextFieldPlaceholder)
 
 
 //// MARK: ---------------- UIVIEW'S ----------------
@@ -32,17 +36,16 @@ let subHeadingTwo = UIColor.appColor(.SubHeadingTwo)
 //    }
 //}
 //
-//// MARK: ---------------- TEXTFIELD'S ----------------
-//class ERideField: UITextField {
-//    override var isEnabled: Bool {
-//        didSet{
-//            backgroundColor = lightBlack
-//            textColor = white
-//        }
-//    }
-//}
-//
-//
+
+// MARK: ---------------- TEXTFIELD'S ----------------
+class CustomField: UITextField {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        backgroundColor = .clear
+        textColor = textBlack
+    }
+}
+
 // MARK: ---------------- LABEL'S ----------------
 class H1: UILabel {
     required init?(coder: NSCoder) {
@@ -63,7 +66,7 @@ class H2: UILabel {
 class H3: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.interRegular, size: 16)
+        font = UIFont(name: Constant.robotoRegular, size: 14)
         textColor = subHeadingTwo
     }
 }
@@ -151,5 +154,22 @@ class CustomBtnWithoutBG: UIButton {
         borderColor = theam
         borderWidth = 1
         cornerRadius = 10
+    }
+}
+
+class CustomBtnWithUnderline: UIButton {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        tintColor = theam
+        let yourAttributes: [NSAttributedString.Key: Any] = [
+            .font: UIFont(name: Constant.robotoMedium, size: 14),
+            .foregroundColor: theam,
+            .underlineStyle: NSUnderlineStyle.single.rawValue
+        ]
+        let attributeString = NSMutableAttributedString(
+            string: self.titleLabel!.text ?? "",
+            attributes: yourAttributes
+        )
+        setAttributedTitle(attributeString, for: .normal)
     }
 }

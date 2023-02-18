@@ -16,6 +16,8 @@ class Constant {
     static let Login_Type = "Login_Type"
     
     static let robotoBold = "Roboto-Bold"
+    static let robotoMedium = "Roboto-Medium"
+    static let robotoRegular = "Roboto-Regular"
     static let interRegular = "Inter-Regular"
     
     // Other's

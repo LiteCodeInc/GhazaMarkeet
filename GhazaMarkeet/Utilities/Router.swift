@@ -14,11 +14,11 @@ class Router {
         from.changeRootViewController(controller: to)
     }
     
-//    // LOGIN
-//    class func moveToLoginVC(view:UIViewController) {
-//        let loginVC = LoginVC()
-//        view.navigationController?.pushViewController(loginVC, animated: true)
-//    }
+    // LOGIN
+    class func moveToForgotVC(view:UIViewController) {
+        let forgotPasswordVC = ForgotPasswordVC()
+        view.navigationController?.pushViewController(forgotPasswordVC, animated: true)
+    }
 //    
 //    // SIGNUP
 //    class func moveToSignupVC(view:UIViewController) {
