@@ -13,6 +13,8 @@
 		BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657C29A023F10022EFB5 /* SplashPresenter.swift */; };
 		BA90658529A025C20022EFB5 /* AuthTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90658329A025C20022EFB5 /* AuthTypeVC.swift */; };
 		BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90658429A025C20022EFB5 /* AuthTypeVC.xib */; };
+		BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD010B029A1589D000639E3 /* SignUpVC.swift */; };
+		BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD010B129A1589D000639E3 /* SignUpVC.xib */; };
 		BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */; };
 		BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */; };
 		BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FF929A00EBB00949780 /* AppDelegate.swift */; };
@@ -22,6 +24,8 @@
 		BAF4501129A00EC200949780 /* GhazaMarkeetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4501029A00EC200949780 /* GhazaMarkeetTests.swift */; };
 		BAF4501B29A00EC200949780 /* GhazaMarkeetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4501A29A00EC200949780 /* GhazaMarkeetUITests.swift */; };
 		BAF4501D29A00EC200949780 /* GhazaMarkeetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4501C29A00EC200949780 /* GhazaMarkeetUITestsLaunchTests.swift */; };
+		BAFAA8B329A14D9F005B2197 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFAA8B129A14D9F005B2197 /* OtpVC.swift */; };
+		BAFAA8B429A14D9F005B2197 /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAFAA8B229A14D9F005B2197 /* OtpVC.xib */; };
 		BAFC92DF29A026D1001608A9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC92DE29A026D1001608A9 /* Router.swift */; };
 		BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC92F429A027C1001608A9 /* Ex-UIImage.swift */; };
 		BAFC930529A027C1001608A9 /* Ex-UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC92F529A027C1001608A9 /* Ex-UITableViewCell.swift */; };
@@ -88,6 +92,8 @@
 		BA90657C29A023F10022EFB5 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		BA90658329A025C20022EFB5 /* AuthTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTypeVC.swift; sourceTree = "<group>"; };
 		BA90658429A025C20022EFB5 /* AuthTypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthTypeVC.xib; sourceTree = "<group>"; };
+		BAD010B029A1589D000639E3 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		BAD010B129A1589D000639E3 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
 		BAF44FF629A00EBB00949780 /* GhazaMarkeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhazaMarkeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +107,8 @@
 		BAF4501629A00EC200949780 /* GhazaMarkeetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GhazaMarkeetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF4501A29A00EC200949780 /* GhazaMarkeetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhazaMarkeetUITests.swift; sourceTree = "<group>"; };
 		BAF4501C29A00EC200949780 /* GhazaMarkeetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhazaMarkeetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAFAA8B129A14D9F005B2197 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		BAFAA8B229A14D9F005B2197 /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 		BAFC92DE29A026D1001608A9 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		BAFC92F429A027C1001608A9 /* Ex-UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex-UIImage.swift"; sourceTree = "<group>"; };
 		BAFC92F529A027C1001608A9 /* Ex-UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ex-UITableViewCell.swift"; sourceTree = "<group>"; };
@@ -232,6 +240,8 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BAD010AC29A15872000639E3 /* SignUp */,
+				BAFAA8AD29A14D6D005B2197 /* Otp */,
 				BAD2653C29A148F300C8D26D /* Forgot Password */,
 				BAFC934429A035D6001608A9 /* Login */,
 				BA90658129A025990022EFB5 /* Auth Type */,
@@ -281,6 +291,39 @@
 				BA90658429A025C20022EFB5 /* AuthTypeVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BAD010AC29A15872000639E3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BAD010AF29A1588A000639E3 /* Model */,
+				BAD010AE29A15882000639E3 /* ViewModel */,
+				BAD010AD29A1587D000639E3 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		BAD010AD29A1587D000639E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAD010B029A1589D000639E3 /* SignUpVC.swift */,
+				BAD010B129A1589D000639E3 /* SignUpVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAD010AE29A15882000639E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BAD010AF29A1588A000639E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BAD2653C29A148F300C8D26D /* Forgot Password */ = {
@@ -372,6 +415,39 @@
 				BAF4501C29A00EC200949780 /* GhazaMarkeetUITestsLaunchTests.swift */,
 			);
 			path = GhazaMarkeetUITests;
+			sourceTree = "<group>";
+		};
+		BAFAA8AD29A14D6D005B2197 /* Otp */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAA8B029A14D88005B2197 /* Model */,
+				BAFAA8AF29A14D83005B2197 /* ViewModel */,
+				BAFAA8AE29A14D7E005B2197 /* View */,
+			);
+			path = Otp;
+			sourceTree = "<group>";
+		};
+		BAFAA8AE29A14D7E005B2197 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAFAA8B129A14D9F005B2197 /* OtpVC.swift */,
+				BAFAA8B229A14D9F005B2197 /* OtpVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BAFAA8AF29A14D83005B2197 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BAFAA8B029A14D88005B2197 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BAFC92F329A027C1001608A9 /* Extensions */ = {
@@ -577,12 +653,14 @@
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
 				BAFC933729A02E9B001608A9 /* Roboto-BoldItalic.ttf in Resources */,
+				BAFAA8B429A14D9F005B2197 /* OtpVC.xib in Resources */,
 				BAFC933629A02E9B001608A9 /* Roboto-MediumItalic.ttf in Resources */,
 				BAFC934C29A03FA7001608A9 /* LoginVC.xib in Resources */,
 				BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */,
 				BAFC932F29A02E95001608A9 /* Roboto-Black.ttf in Resources */,
 				BAFC933929A02E9B001608A9 /* Roboto-Thin.ttf in Resources */,
 				BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */,
+				BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */,
 				BAFC933829A02E9B001608A9 /* Roboto-Regular.ttf in Resources */,
 				BAFC933529A02E9B001608A9 /* Roboto-BlackItalic.ttf in Resources */,
 				BAFC933329A02E9B001608A9 /* Roboto-LightItalic.ttf in Resources */,
@@ -674,12 +752,14 @@
 				BAFC934B29A03FA7001608A9 /* LoginVC.swift in Sources */,
 				BAFC931029A027C1001608A9 /* Ex-UIColor.swift in Sources */,
 				BAFC930B29A027C1001608A9 /* Ex-UIButton.swift in Sources */,
+				BAFAA8B329A14D9F005B2197 /* OtpVC.swift in Sources */,
 				BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */,
 				BAFC930C29A027C1001608A9 /* Ex-UILabel.swift in Sources */,
 				BAFC931629A027DA001608A9 /* Utility.swift in Sources */,
 				BAFC932129A029AD001608A9 /* Popup-Helper.swift in Sources */,
 				BAFC930E29A027C1001608A9 /* Ex-UICollectionView.swift in Sources */,
 				BAFC931D29A02922001608A9 /* Constant.swift in Sources */,
+				BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */,
 				BAFC930D29A027C1001608A9 /* Ex-ViewController.swift in Sources */,
 				BAFC932029A029AD001608A9 /* Document-Picker-Helper.swift in Sources */,
 				BAFC930529A027C1001608A9 /* Ex-UITableViewCell.swift in Sources */,

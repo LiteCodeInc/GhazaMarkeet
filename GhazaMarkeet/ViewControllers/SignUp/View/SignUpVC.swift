@@ -1,0 +1,32 @@
+//
+//  SignUpVC.swift
+//  GhazaMarkeet
+//
+//  Created by Mapple.pk on 19/02/2023.
+//
+
+import UIKit
+
+class SignUpVC: UIViewController {
+
+    //IBOUTLET'S
+    
+    //VARIABLE'S
+    
+    //VC LIFE CYCLE
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setupUI()
+    }
+
+    //IBACTION'S
+    
+}
+
+extension SignUpVC {
+    
+    func setupUI() {
+        
+    }
+    
+}

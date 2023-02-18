@@ -58,7 +58,7 @@ class H1: UILabel {
 class H2: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.robotoBold, size: 16)
+        font = UIFont(name: Constant.interRegular, size: 16)
         textColor = subHeading
     }
 }
@@ -86,6 +86,23 @@ class H5: UILabel {
         textColor = .white
     }
 }
+
+class UnderLineLabel: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        let yourAttributes: [NSAttributedString.Key: Any] = [
+            .font: UIFont(name: Constant.robotoMedium, size: 14),
+            .foregroundColor: theam,
+            .underlineStyle: NSUnderlineStyle.single.rawValue
+        ]
+        let attributeString = NSMutableAttributedString(
+            string: self.text ?? "",
+            attributes: yourAttributes
+        )
+        self.attributedText = attributeString
+    }
+}
+
 //
 //class NumberPad: UILabel {
 //    required init?(coder: NSCoder) {
@@ -164,6 +181,23 @@ class CustomBtnWithUnderline: UIButton {
         let yourAttributes: [NSAttributedString.Key: Any] = [
             .font: UIFont(name: Constant.robotoMedium, size: 14),
             .foregroundColor: theam,
+            .underlineStyle: NSUnderlineStyle.single.rawValue
+        ]
+        let attributeString = NSMutableAttributedString(
+            string: self.titleLabel!.text ?? "",
+            attributes: yourAttributes
+        )
+        setAttributedTitle(attributeString, for: .normal)
+    }
+}
+
+class CustomBtnTwoWithUnderline: UIButton {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        tintColor = theam
+        let yourAttributes: [NSAttributedString.Key: Any] = [
+            .font: UIFont(name: Constant.robotoMedium, size: 14),
+            .foregroundColor: subHeadingTwo,
             .underlineStyle: NSUnderlineStyle.single.rawValue
         ]
         let attributeString = NSMutableAttributedString(

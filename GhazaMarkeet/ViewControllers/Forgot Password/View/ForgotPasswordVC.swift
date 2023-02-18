@@ -10,6 +10,7 @@ import UIKit
 class ForgotPasswordVC: UIViewController {
 
     //IBOUTLET'S
+    @IBOutlet weak var EmailField: CustomField!
     
     //VARIABLE'S
     
@@ -19,5 +20,12 @@ class ForgotPasswordVC: UIViewController {
     }
 
     //IBACTION'S
+    @IBAction func BacBtnAction(_ sender: UIButton) {
+        Router.changeRootView(from: self, to: LoginVC())
+    }
+    
+    @IBAction func SendBtnAction(_ sender: CustomBtnWithBG) {
+        Router.changeRootView(from: self, to: OtpVC())
+    }
     
 }
