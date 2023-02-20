@@ -99,7 +99,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABz-lp-rZf">
                                                     <rect key="frame" x="0.0" y="24" width="339" height="52"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Email" translatesAutoresizingMaskIntoConstraints="NO" id="6cz-Vj-E8j">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="UserIcon" translatesAutoresizingMaskIntoConstraints="NO" id="6cz-Vj-E8j">
                                                             <rect key="frame" x="14" y="16" width="20" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="gOX-OE-0Vz"/>
@@ -114,7 +114,7 @@
                                                                 <constraint firstAttribute="width" constant="1" id="eof-M9-xMb"/>
                                                             </constraints>
                                                         </view>
-                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uwj-PV-7b0" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uwj-PV-7b0" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="61" y="0.0" width="270" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -178,7 +178,7 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lfn-sk-Q44">
                                                     <rect key="frame" x="0.0" y="24" width="339" height="52"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Password" translatesAutoresizingMaskIntoConstraints="NO" id="09g-nd-wN8">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PhoneNumber" translatesAutoresizingMaskIntoConstraints="NO" id="09g-nd-wN8">
                                                             <rect key="frame" x="14" y="16" width="20" height="20"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="20" id="34x-2E-FP3"/>
@@ -193,7 +193,7 @@
                                                                 <constraint firstAttribute="width" constant="1" id="mZX-wo-bKn"/>
                                                             </constraints>
                                                         </view>
-                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ahO-GD-IAo" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ahO-GD-IAo" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="61" y="0.0" width="270" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
@@ -272,7 +272,7 @@
                                                                 <constraint firstAttribute="height" constant="23" id="gpt-jz-1xw"/>
                                                             </constraints>
                                                         </view>
-                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="meS-yM-rUx" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="meS-yM-rUx" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="61" y="0.0" width="270" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
@@ -430,7 +430,7 @@
                                                                 <constraint firstAttribute="width" constant="1" id="ejd-zo-K9w"/>
                                                             </constraints>
                                                         </view>
-                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFM-nE-Oxl" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KFM-nE-Oxl" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="61" y="0.0" width="270" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -486,6 +486,9 @@
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="SIGN UP"/>
+                                            <connections>
+                                                <action selector="SignUpBtnAction:" destination="-1" eventType="touchUpInside" id="ULs-Xn-U9c"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFZ-9H-zIP">
                                             <rect key="frame" x="210.66666666666666" y="215.33333333333334" width="32" height="32"/>
@@ -495,8 +498,11 @@
                                             </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="Camera" title=" " imagePadding="-4"/>
+                                            <connections>
+                                                <action selector="CameraBtnAction:" destination="-1" eventType="touchUpInside" id="JEo-nc-dBy"/>
+                                            </connections>
                                         </button>
-                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="H9S-6Y-aZT">
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H9S-6Y-aZT">
                                             <rect key="frame" x="82.000000000000014" y="852.33333333333337" width="229.33333333333337" height="16"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Already have an account? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Exg-P1-RR1" userLabel="Already have an account? ">
@@ -505,13 +511,16 @@
                                                     <color key="textColor" name="SubHeading2"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnx-zy-nMm" customClass="CustomBtnWithUnderline" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnx-zy-nMm" customClass="CustomBtnWithUnderline" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="163.66666666666666" y="0.0" width="65.666666666666657" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="54V-4q-Faf"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                                    <connections>
+                                                        <action selector="LoginBtnAction:" destination="-1" eventType="touchUpInside" id="jwu-7x-h5i"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -592,10 +601,11 @@
     <resources>
         <image name="BottomBG" width="360" height="61.333332061767578"/>
         <image name="Camera" width="28.333333969116211" height="28.333333969116211"/>
-        <image name="Email" width="20" height="20"/>
         <image name="Password" width="16" height="17.333333969116211"/>
+        <image name="PhoneNumber" width="20" height="20"/>
         <image name="TopBG" width="360" height="20"/>
         <image name="User" width="92" height="92"/>
+        <image name="UserIcon" width="21" height="21"/>
         <namedColor name="SubHeading2">
             <color red="0.71764705882352942" green="0.74901960784313726" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

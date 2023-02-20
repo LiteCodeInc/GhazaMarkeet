@@ -33,6 +33,7 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func SignUpBtnAction(_ sender: CustomBtnWithoutBG) {
+        Router.changeRootView(from: self, to: SignUpVC())
     }
 }
 

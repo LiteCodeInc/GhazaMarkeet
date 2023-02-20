@@ -15,14 +15,14 @@ enum AssetsColor: String {
     case TextFieldBorder
     case TextFieldPlaceholder
     case SubHeading
-    case SubHeadingTwo
+    case SubHeading2
 }
 
 let theam = UIColor.appColor(.Theam)
 let theamTwo = UIColor.appColor(.Theam2)
 let textBlack = UIColor.appColor(.TextBlack)
 let subHeading = UIColor.appColor(.SubHeading)
-let subHeadingTwo = UIColor.appColor(.SubHeadingTwo)
+let subHeadingTwo = UIColor.appColor(.SubHeading2)
 let textFieldBorder = UIColor.appColor(.TextFieldBorder)
 let textFieldPlaceholder = UIColor.appColor(.TextFieldPlaceholder)
 
@@ -194,9 +194,9 @@ class CustomBtnWithUnderline: UIButton {
 class CustomBtnTwoWithUnderline: UIButton {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        tintColor = theam
+        tintColor = subHeadingTwo
         let yourAttributes: [NSAttributedString.Key: Any] = [
-            .font: UIFont(name: Constant.robotoMedium, size: 14),
+            .font:  UIFont(name: Constant.robotoMedium, size: 14),
             .foregroundColor: subHeadingTwo,
             .underlineStyle: NSUnderlineStyle.single.rawValue
         ]

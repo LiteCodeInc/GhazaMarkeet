@@ -15,6 +15,7 @@ class OtpVC: UIViewController {
     @IBOutlet weak var FieldThree: UITextField!
     @IBOutlet weak var FieldFour: UITextField!
     @IBOutlet weak var SendBtn: CustomBtnWithBG!
+    @IBOutlet weak var ResendBtn: CustomBtnTwoWithUnderline!
     
     //VARIABLE'S
     

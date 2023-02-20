@@ -24,7 +24,7 @@ class AuthTypeVC: UIViewController {
     }
     
     @IBAction func SignupBtnAction(_ sender: CustomBtnWithoutBG) {
-        
+        Router.changeRootView(from: self, to: SignUpVC())
     }
     
 }

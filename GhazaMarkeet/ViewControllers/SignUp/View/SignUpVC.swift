@@ -21,6 +21,17 @@ class SignUpVC: UIViewController {
 
     //IBACTION'S
     
+    @IBAction func CameraBtnAction(_ sender: UIButton) {
+    }
+    
+    @IBAction func LoginBtnAction(_ sender: CustomBtnWithUnderline) {
+        Router.changeRootView(from: self, to: LoginVC())
+    }
+    
+    @IBAction func SignUpBtnAction(_ sender: CustomBtnWithoutBG) {
+        
+    }
+    
 }
 
 extension SignUpVC {
