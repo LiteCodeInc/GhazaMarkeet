@@ -29,7 +29,7 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func LoginBtnAction(_ sender: CustomBtnWithBG) {
-        
+        Router.changeRootView(from: self, to: GhazaTabbar())
     }
     
     @IBAction func SignUpBtnAction(_ sender: CustomBtnWithoutBG) {

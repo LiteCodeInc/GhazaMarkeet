@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		428D2F5613C9E83738A30037 /* libPods-GhazaMarkeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 373546932554645DBEE4606E /* libPods-GhazaMarkeet.a */; };
+		BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */; };
+		BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */; };
+		BA1154D829A4230F000D50A9 /* GhazaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */; };
+		BA1154D929A4230F000D50A9 /* GhazaTabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154D729A4230F000D50A9 /* GhazaTabbar.xib */; };
+		BA1154DE29A4238C000D50A9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154DC29A4238C000D50A9 /* HomeVC.swift */; };
+		BA1154DF29A4238C000D50A9 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154DD29A4238C000D50A9 /* HomeVC.xib */; };
+		BA1154E529A423FC000D50A9 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154E329A423FC000D50A9 /* CategoriesVC.swift */; };
+		BA1154E629A423FC000D50A9 /* CategoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154E429A423FC000D50A9 /* CategoriesVC.xib */; };
+		BA1154EA29A4244F000D50A9 /* PodtAdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154E829A4244F000D50A9 /* PodtAdVC.swift */; };
+		BA1154EB29A4244F000D50A9 /* PodtAdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154E929A4244F000D50A9 /* PodtAdVC.xib */; };
+		BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154EE29A42482000D50A9 /* ChatListVC.swift */; };
+		BA1154F129A42482000D50A9 /* ChatListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154EF29A42482000D50A9 /* ChatListVC.xib */; };
+		BA1154F629A424B3000D50A9 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154F429A424B3000D50A9 /* ProfileVC.swift */; };
+		BA1154F729A424B3000D50A9 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154F529A424B3000D50A9 /* ProfileVC.xib */; };
+		BA1154FA29A42EC2000D50A9 /* ProfileOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154F829A42EC2000D50A9 /* ProfileOptionsCell.swift */; };
+		BA1154FB29A42EC2000D50A9 /* ProfileOptionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1154F929A42EC2000D50A9 /* ProfileOptionsCell.xib */; };
+		BA1154FF29A43418000D50A9 /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154FE29A43418000D50A9 /* ProfilePresenter.swift */; };
+		BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11550129A43442000D50A9 /* ProfileModel.swift */; };
+		BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */; };
+		BA1755BE29A4038A00B696E5 /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */; };
 		BA90657A29A023E20022EFB5 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657829A023E20022EFB5 /* SplashVC.swift */; };
 		BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90657929A023E20022EFB5 /* SplashVC.xib */; };
 		BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657C29A023F10022EFB5 /* SplashPresenter.swift */; };
@@ -87,6 +107,26 @@
 		168B0EFDBAB787CACA265605 /* Pods-GhazaMarkeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.release.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.release.xcconfig"; sourceTree = "<group>"; };
 		284169C1752C6EFB10D85C1F /* Pods-GhazaMarkeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.debug.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.debug.xcconfig"; sourceTree = "<group>"; };
 		373546932554645DBEE4606E /* libPods-GhazaMarkeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhazaMarkeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenter.swift; sourceTree = "<group>"; };
+		BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordModel.swift; sourceTree = "<group>"; };
+		BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhazaTabbar.swift; sourceTree = "<group>"; };
+		BA1154D729A4230F000D50A9 /* GhazaTabbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GhazaTabbar.xib; sourceTree = "<group>"; };
+		BA1154DC29A4238C000D50A9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BA1154DD29A4238C000D50A9 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		BA1154E329A423FC000D50A9 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		BA1154E429A423FC000D50A9 /* CategoriesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesVC.xib; sourceTree = "<group>"; };
+		BA1154E829A4244F000D50A9 /* PodtAdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodtAdVC.swift; sourceTree = "<group>"; };
+		BA1154E929A4244F000D50A9 /* PodtAdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodtAdVC.xib; sourceTree = "<group>"; };
+		BA1154EE29A42482000D50A9 /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		BA1154EF29A42482000D50A9 /* ChatListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListVC.xib; sourceTree = "<group>"; };
+		BA1154F429A424B3000D50A9 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		BA1154F529A424B3000D50A9 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
+		BA1154F829A42EC2000D50A9 /* ProfileOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionsCell.swift; sourceTree = "<group>"; };
+		BA1154F929A42EC2000D50A9 /* ProfileOptionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileOptionsCell.xib; sourceTree = "<group>"; };
+		BA1154FE29A43418000D50A9 /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
+		BA11550129A43442000D50A9 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
 		BA90657829A023E20022EFB5 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		BA90657929A023E20022EFB5 /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		BA90657C29A023F10022EFB5 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
@@ -193,6 +233,171 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BA1154CE29A410B4000D50A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA1154D129A41552000D50A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA1154D429A42239000D50A9 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154D529A4224B000D50A9 /* View */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		BA1154D529A4224B000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */,
+				BA1154D729A4230F000D50A9 /* GhazaTabbar.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154DA29A42368000D50A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154DB29A42372000D50A9 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA1154DB29A42372000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154DC29A4238C000D50A9 /* HomeVC.swift */,
+				BA1154DD29A4238C000D50A9 /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154E029A423CA000D50A9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154E229A423EC000D50A9 /* View */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BA1154E129A423D9000D50A9 /* Post Ad */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154E729A42440000D50A9 /* View */,
+			);
+			path = "Post Ad";
+			sourceTree = "<group>";
+		};
+		BA1154E229A423EC000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154E329A423FC000D50A9 /* CategoriesVC.swift */,
+				BA1154E429A423FC000D50A9 /* CategoriesVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154E729A42440000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154E829A4244F000D50A9 /* PodtAdVC.swift */,
+				BA1154E929A4244F000D50A9 /* PodtAdVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154EC29A42464000D50A9 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154ED29A42470000D50A9 /* View */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		BA1154ED29A42470000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154EE29A42482000D50A9 /* ChatListVC.swift */,
+				BA1154EF29A42482000D50A9 /* ChatListVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154F229A42498000D50A9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BA11550029A43437000D50A9 /* Model */,
+				BA1154FD29A43406000D50A9 /* ViewModel */,
+				BA1154F329A424A0000D50A9 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BA1154F329A424A0000D50A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154FC29A42ECC000D50A9 /* Cells */,
+				BA1154F429A424B3000D50A9 /* ProfileVC.swift */,
+				BA1154F529A424B3000D50A9 /* ProfileVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA1154FC29A42ECC000D50A9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154F829A42EC2000D50A9 /* ProfileOptionsCell.swift */,
+				BA1154F929A42EC2000D50A9 /* ProfileOptionsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA1154FD29A43406000D50A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154FE29A43418000D50A9 /* ProfilePresenter.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA11550029A43437000D50A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA11550129A43442000D50A9 /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA1755B929A4036000B696E5 /* Change Password */ = {
+			isa = PBXGroup;
+			children = (
+				BA1154D129A41552000D50A9 /* Model */,
+				BA1154CE29A410B4000D50A9 /* ViewModel */,
+				BA1755BA29A4036E00B696E5 /* View */,
+			);
+			path = "Change Password";
+			sourceTree = "<group>";
+		};
+		BA1755BA29A4036E00B696E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */,
+				BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		BA90656729A0229C0022EFB5 /* Custom Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,7 +445,14 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA1154F229A42498000D50A9 /* Profile */,
+				BA1154EC29A42464000D50A9 /* Chat */,
+				BA1154E129A423D9000D50A9 /* Post Ad */,
+				BA1154E029A423CA000D50A9 /* Categories */,
+				BA1154DA29A42368000D50A9 /* Home */,
+				BA1154D429A42239000D50A9 /* Tabbar */,
 				BAD010AC29A15872000639E3 /* SignUp */,
+				BA1755B929A4036000B696E5 /* Change Password */,
 				BAFAA8AD29A14D6D005B2197 /* Otp */,
 				BAD2653C29A148F300C8D26D /* Forgot Password */,
 				BAFC934429A035D6001608A9 /* Login */,
@@ -649,6 +861,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFC933429A02E9B001608A9 /* Roboto-Medium.ttf in Resources */,
+				BA1154DF29A4238C000D50A9 /* HomeVC.xib in Resources */,
 				BAFC933129A02E9B001608A9 /* Roboto-Bold.ttf in Resources */,
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
@@ -657,17 +870,24 @@
 				BAFC933629A02E9B001608A9 /* Roboto-MediumItalic.ttf in Resources */,
 				BAFC934C29A03FA7001608A9 /* LoginVC.xib in Resources */,
 				BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */,
+				BA1154F729A424B3000D50A9 /* ProfileVC.xib in Resources */,
 				BAFC932F29A02E95001608A9 /* Roboto-Black.ttf in Resources */,
 				BAFC933929A02E9B001608A9 /* Roboto-Thin.ttf in Resources */,
 				BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */,
 				BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */,
 				BAFC933829A02E9B001608A9 /* Roboto-Regular.ttf in Resources */,
+				BA1154FB29A42EC2000D50A9 /* ProfileOptionsCell.xib in Resources */,
 				BAFC933529A02E9B001608A9 /* Roboto-BlackItalic.ttf in Resources */,
+				BA1154F129A42482000D50A9 /* ChatListVC.xib in Resources */,
+				BA1154E629A423FC000D50A9 /* CategoriesVC.xib in Resources */,
 				BAFC933329A02E9B001608A9 /* Roboto-LightItalic.ttf in Resources */,
 				BAFC933A29A02E9B001608A9 /* Roboto-ThinItalic.ttf in Resources */,
 				BAF4500629A00EC100949780 /* LaunchScreen.storyboard in Resources */,
+				BA1755BE29A4038A00B696E5 /* ChangePasswordVC.xib in Resources */,
 				BAFC933229A02E9B001608A9 /* Roboto-Light.ttf in Resources */,
 				BAF4500329A00EC100949780 /* Assets.xcassets in Resources */,
+				BA1154D929A4230F000D50A9 /* GhazaTabbar.xib in Resources */,
+				BA1154EB29A4244F000D50A9 /* PodtAdVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,12 +954,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */,
 				BAFC931229A027C1001608A9 /* Ex-ProgressView.swift in Sources */,
 				BA90658529A025C20022EFB5 /* AuthTypeVC.swift in Sources */,
 				BAFC931329A027C1001608A9 /* Ex - UIBlurView.swift in Sources */,
 				BAFC930929A027C1001608A9 /* Ex-UIView.swift in Sources */,
 				BAFC930829A027C1001608A9 /* Ex-UITableView.swift in Sources */,
 				BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */,
+				BA1154EA29A4244F000D50A9 /* PodtAdVC.swift in Sources */,
+				BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */,
 				BAFC931929A027EA001608A9 /* Network-Availablity-Helper.swift in Sources */,
 				BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */,
 				BAFC931129A027C1001608A9 /* Ex-UITabbar.swift in Sources */,
@@ -748,15 +971,23 @@
 				BAFC930629A027C1001608A9 /* Ex-Float.swift in Sources */,
 				BAFC92DF29A026D1001608A9 /* Router.swift in Sources */,
 				BAFC930F29A027C1001608A9 /* Ex-String.swift in Sources */,
+				BA1154E529A423FC000D50A9 /* CategoriesVC.swift in Sources */,
 				BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */,
 				BAFC934B29A03FA7001608A9 /* LoginVC.swift in Sources */,
+				BA1154DE29A4238C000D50A9 /* HomeVC.swift in Sources */,
 				BAFC931029A027C1001608A9 /* Ex-UIColor.swift in Sources */,
 				BAFC930B29A027C1001608A9 /* Ex-UIButton.swift in Sources */,
+				BA1154FF29A43418000D50A9 /* ProfilePresenter.swift in Sources */,
 				BAFAA8B329A14D9F005B2197 /* OtpVC.swift in Sources */,
 				BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */,
+				BA1154D829A4230F000D50A9 /* GhazaTabbar.swift in Sources */,
 				BAFC930C29A027C1001608A9 /* Ex-UILabel.swift in Sources */,
+				BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */,
+				BA1154FA29A42EC2000D50A9 /* ProfileOptionsCell.swift in Sources */,
+				BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */,
 				BAFC931629A027DA001608A9 /* Utility.swift in Sources */,
 				BAFC932129A029AD001608A9 /* Popup-Helper.swift in Sources */,
+				BA1154F629A424B3000D50A9 /* ProfileVC.swift in Sources */,
 				BAFC930E29A027C1001608A9 /* Ex-UICollectionView.swift in Sources */,
 				BAFC931D29A02922001608A9 /* Constant.swift in Sources */,
 				BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */,
@@ -767,6 +998,7 @@
 				BAFC931729A027DA001608A9 /* DateUtil.swift in Sources */,
 				BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */,
 				BAFC930A29A027C1001608A9 /* Ex-UINavigation.swift in Sources */,
+				BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

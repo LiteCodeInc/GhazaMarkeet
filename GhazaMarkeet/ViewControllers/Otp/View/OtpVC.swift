@@ -32,7 +32,7 @@ class OtpVC: UIViewController {
     }
     
     @IBAction func SenBtnAction(_ sender: CustomBtnWithBG) {
-        Router.changeRootView(from: self, to: LoginVC())
+        Router.changeRootView(from: self, to: ChangePasswordVC())
     }
     
     @IBAction func ResendCodeBtnAction(_ sender: CustomBtnTwoWithUnderline) {
