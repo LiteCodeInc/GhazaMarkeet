@@ -37,6 +37,8 @@
 		BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD010B129A1589D000639E3 /* SignUpVC.xib */; };
 		BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */; };
 		BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */; };
+		BAEFB9BD29A5571200F8CCFD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */; };
+		BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */; };
 		BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FF929A00EBB00949780 /* AppDelegate.swift */; };
 		BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FFB29A00EBB00949780 /* SceneDelegate.swift */; };
 		BAF4500329A00EC100949780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF4500229A00EC100949780 /* Assets.xcassets */; };
@@ -136,6 +138,8 @@
 		BAD010B129A1589D000639E3 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileVC.xib; sourceTree = "<group>"; };
 		BAF44FF629A00EBB00949780 /* GhazaMarkeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhazaMarkeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF44FF929A00EBB00949780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF44FFB29A00EBB00949780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -445,6 +449,7 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BAEFB9B929A556E400F8CCFD /* Edit Profile */,
 				BA1154F229A42498000D50A9 /* Profile */,
 				BA1154EC29A42464000D50A9 /* Chat */,
 				BA1154E129A423D9000D50A9 /* Post Ad */,
@@ -569,6 +574,23 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BAEFB9B929A556E400F8CCFD /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFB9BA29A556F400F8CCFD /* View */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		BAEFB9BA29A556F400F8CCFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */,
+				BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BAF44FED29A00EBB00949780 = {
@@ -862,6 +884,7 @@
 			files = (
 				BAFC933429A02E9B001608A9 /* Roboto-Medium.ttf in Resources */,
 				BA1154DF29A4238C000D50A9 /* HomeVC.xib in Resources */,
+				BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */,
 				BAFC933129A02E9B001608A9 /* Roboto-Bold.ttf in Resources */,
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
@@ -984,6 +1007,7 @@
 				BAFC930C29A027C1001608A9 /* Ex-UILabel.swift in Sources */,
 				BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */,
 				BA1154FA29A42EC2000D50A9 /* ProfileOptionsCell.swift in Sources */,
+				BAEFB9BD29A5571200F8CCFD /* EditProfileVC.swift in Sources */,
 				BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */,
 				BAFC931629A027DA001608A9 /* Utility.swift in Sources */,
 				BAFC932129A029AD001608A9 /* Popup-Helper.swift in Sources */,

@@ -19,6 +19,11 @@ class Router {
         let forgotPasswordVC = ForgotPasswordVC()
         view.navigationController?.pushViewController(forgotPasswordVC, animated: true)
     }
+    
+    class func pushVC(from:UIViewController, to:UIViewController) {
+        to.navigationController?.navigationBar.isHidden = true
+        from.navigationController?.pushViewController(to, animated: true)
+    }
 //    
 //    // SIGNUP
 //    class func moveToSignupVC(view:UIViewController) {

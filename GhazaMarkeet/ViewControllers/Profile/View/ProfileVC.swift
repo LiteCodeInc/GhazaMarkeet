@@ -51,5 +51,11 @@ extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
         cell.config(data: presenter.dataList[indexPath.row])
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            Router.pushVC(from: self, to: EditProfileVC())
+        }
+    }
 
 }
