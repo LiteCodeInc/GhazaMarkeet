@@ -28,6 +28,7 @@ class ProfileVC: UIViewController {
     //IBACTION'S
 
     @IBAction func EditBtnAction(_ sender: Any) {
+        Router.pushVC(from: self, to: EditProfileVC())
     }
 }
 
@@ -54,7 +55,9 @@ extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
-            Router.pushVC(from: self, to: EditProfileVC())
+            
+        } else if indexPath.row == 1 {
+            Router.pushVC(from: self, to: MyAdsVC())
         }
     }
 

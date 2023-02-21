@@ -28,6 +28,12 @@
 		BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11550129A43442000D50A9 /* ProfileModel.swift */; };
 		BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */; };
 		BA1755BE29A4038A00B696E5 /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */; };
+		BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */; };
+		BA7FB3AA29A56A18004C9C77 /* MyAdsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */; };
+		BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */; };
+		BA7FB3B029A56B42004C9C77 /* AdsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7FB3AE29A56B42004C9C77 /* AdsCell.xib */; };
+		BA7FB3B429A575F9004C9C77 /* MyAdsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3B329A575F9004C9C77 /* MyAdsViewModel.swift */; };
+		BA7FB3B629A57627004C9C77 /* MyAdsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3B529A57627004C9C77 /* MyAdsModel.swift */; };
 		BA90657A29A023E20022EFB5 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657829A023E20022EFB5 /* SplashVC.swift */; };
 		BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90657929A023E20022EFB5 /* SplashVC.xib */; };
 		BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657C29A023F10022EFB5 /* SplashPresenter.swift */; };
@@ -129,6 +135,12 @@
 		BA11550129A43442000D50A9 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
+		BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsVC.swift; sourceTree = "<group>"; };
+		BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAdsVC.xib; sourceTree = "<group>"; };
+		BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCell.swift; sourceTree = "<group>"; };
+		BA7FB3AE29A56B42004C9C77 /* AdsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsCell.xib; sourceTree = "<group>"; };
+		BA7FB3B329A575F9004C9C77 /* MyAdsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsViewModel.swift; sourceTree = "<group>"; };
+		BA7FB3B529A57627004C9C77 /* MyAdsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsModel.swift; sourceTree = "<group>"; };
 		BA90657829A023E20022EFB5 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		BA90657929A023E20022EFB5 /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		BA90657C29A023F10022EFB5 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
@@ -402,6 +414,51 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BA7FB3A629A56A04004C9C77 /* My Ads */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FB3B229A56EA4004C9C77 /* Model */,
+				BA7FB3B129A56E96004C9C77 /* ViewModel */,
+				BA7FB3AB29A56B03004C9C77 /* VIew */,
+			);
+			path = "My Ads";
+			sourceTree = "<group>";
+		};
+		BA7FB3AB29A56B03004C9C77 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FB3AC29A56B0C004C9C77 /* Cell */,
+				BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */,
+				BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		BA7FB3AC29A56B0C004C9C77 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */,
+				BA7FB3AE29A56B42004C9C77 /* AdsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA7FB3B129A56E96004C9C77 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FB3B329A575F9004C9C77 /* MyAdsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA7FB3B229A56EA4004C9C77 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA7FB3B529A57627004C9C77 /* MyAdsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BA90656729A0229C0022EFB5 /* Custom Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,6 +506,7 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA7FB3A629A56A04004C9C77 /* My Ads */,
 				BAEFB9B929A556E400F8CCFD /* Edit Profile */,
 				BA1154F229A42498000D50A9 /* Profile */,
 				BA1154EC29A42464000D50A9 /* Chat */,
@@ -889,6 +947,7 @@
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
 				BAFC933729A02E9B001608A9 /* Roboto-BoldItalic.ttf in Resources */,
+				BA7FB3AA29A56A18004C9C77 /* MyAdsVC.xib in Resources */,
 				BAFAA8B429A14D9F005B2197 /* OtpVC.xib in Resources */,
 				BAFC933629A02E9B001608A9 /* Roboto-MediumItalic.ttf in Resources */,
 				BAFC934C29A03FA7001608A9 /* LoginVC.xib in Resources */,
@@ -910,6 +969,7 @@
 				BAFC933229A02E9B001608A9 /* Roboto-Light.ttf in Resources */,
 				BAF4500329A00EC100949780 /* Assets.xcassets in Resources */,
 				BA1154D929A4230F000D50A9 /* GhazaTabbar.xib in Resources */,
+				BA7FB3B029A56B42004C9C77 /* AdsCell.xib in Resources */,
 				BA1154EB29A4244F000D50A9 /* PodtAdVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -979,6 +1039,7 @@
 			files = (
 				BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */,
 				BAFC931229A027C1001608A9 /* Ex-ProgressView.swift in Sources */,
+				BA7FB3B629A57627004C9C77 /* MyAdsModel.swift in Sources */,
 				BA90658529A025C20022EFB5 /* AuthTypeVC.swift in Sources */,
 				BAFC931329A027C1001608A9 /* Ex - UIBlurView.swift in Sources */,
 				BAFC930929A027C1001608A9 /* Ex-UIView.swift in Sources */,
@@ -993,7 +1054,9 @@
 				BA90657A29A023E20022EFB5 /* SplashVC.swift in Sources */,
 				BAFC930629A027C1001608A9 /* Ex-Float.swift in Sources */,
 				BAFC92DF29A026D1001608A9 /* Router.swift in Sources */,
+				BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */,
 				BAFC930F29A027C1001608A9 /* Ex-String.swift in Sources */,
+				BA7FB3B429A575F9004C9C77 /* MyAdsViewModel.swift in Sources */,
 				BA1154E529A423FC000D50A9 /* CategoriesVC.swift in Sources */,
 				BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */,
 				BAFC934B29A03FA7001608A9 /* LoginVC.swift in Sources */,
@@ -1020,6 +1083,7 @@
 				BAFC930529A027C1001608A9 /* Ex-UITableViewCell.swift in Sources */,
 				BAFC930729A027C1001608A9 /* Ex-UITextField.swift in Sources */,
 				BAFC931729A027DA001608A9 /* DateUtil.swift in Sources */,
+				BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */,
 				BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */,
 				BAFC930A29A027C1001608A9 /* Ex-UINavigation.swift in Sources */,
 				BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */,
