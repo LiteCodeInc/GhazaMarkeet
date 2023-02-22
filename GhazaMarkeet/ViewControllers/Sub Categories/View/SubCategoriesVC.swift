@@ -1,19 +1,20 @@
 //
-//  CategoriesVC.swift
+//  SubCategoriesVC.swift
 //  GhazaMarkeet
 //
-//  Created by Mapple.pk on 21/02/2023.
+//  Created by Mapple.pk on 23/02/2023.
 //
 
 import UIKit
 
-class CategoriesVC: UIViewController {
-    
+class SubCategoriesVC: UIViewController {
+
     //IBOUTLET'S
-    @IBOutlet weak var CategoriesList: UICollectionView!
+    @IBOutlet weak var SubTypesList: UICollectionView!
     
-    //VARIABLE'S
-    var presenter = CategoriesPresenter()
+    //VARIBALE'S
+    var presenter = SubCategoriesPresenter()
+    
     
     //VC LIFE CYCLE
     override func viewDidLoad() {
@@ -25,12 +26,13 @@ class CategoriesVC: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
     }
-    
-    //UBACTION'S
+
+    //IBACTION'S
     
 }
 
-extension CategoriesVC {
+
+extension SubCategoriesVC {
     
     func setupUI() {
         
@@ -39,7 +41,7 @@ extension CategoriesVC {
 }
 
 
-extension CategoriesVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+extension SubCategoriesVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return presenter.categories.count
@@ -54,7 +56,7 @@ extension CategoriesVC: UICollectionViewDataSource, UICollectionViewDelegate, UI
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        Router.pushVC(from: self, to: SubCategoriesVC())
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -66,3 +68,4 @@ extension CategoriesVC: UICollectionViewDataSource, UICollectionViewDelegate, UI
     }
     
 }
+
