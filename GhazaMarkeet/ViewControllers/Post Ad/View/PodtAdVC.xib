@@ -16,6 +16,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PodtAdVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="AdsImagesList" destination="oFR-ua-6FB" id="x6d-Ev-7Dv"/>
+                <outlet property="AdsImagesListHeight" destination="KJv-HP-5Sx" id="WFf-ra-2ai"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -71,10 +73,27 @@
                     <rect key="frame" x="0.0" y="91" width="393" height="761"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fSr-ne-ADu">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="658"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="764"/>
                             <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="oFR-ua-6FB">
+                                    <rect key="frame" x="20" y="8" width="353" height="75"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="75" id="KJv-HP-5Sx"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="c9X-Ug-1Zg">
+                                        <size key="itemSize" width="128" height="128"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="ufR-SS-KDP"/>
+                                        <outlet property="delegate" destination="-1" id="z1n-jL-qwR"/>
+                                    </connections>
+                                </collectionView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TU7-Fg-CT8">
-                                    <rect key="frame" x="20" y="0.0" width="353" height="76"/>
+                                    <rect key="frame" x="20" y="106" width="353" height="76"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="upS-FA-mZF" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
@@ -142,7 +161,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzA-hE-3JU">
-                                    <rect key="frame" x="20" y="100" width="353" height="223"/>
+                                    <rect key="frame" x="20" y="206" width="353" height="223"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egg-Lu-3CX" userLabel="Product Description" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
@@ -197,7 +216,7 @@
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="BMU-Tt-3hO">
-                                    <rect key="frame" x="20" y="347" width="353" height="76"/>
+                                    <rect key="frame" x="20" y="453" width="353" height="76"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AXe-pT-jsQ">
                                             <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="76"/>
@@ -338,7 +357,7 @@
                                     </subviews>
                                 </stackView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6qG-la-nUg">
-                                    <rect key="frame" x="20" y="447" width="353" height="76"/>
+                                    <rect key="frame" x="20" y="553" width="353" height="76"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ora-cb-dZT" userLabel="Address" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
@@ -406,7 +425,7 @@
                                     </constraints>
                                 </view>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="aOh-qc-g21">
-                                    <rect key="frame" x="20" y="578" width="353" height="52"/>
+                                    <rect key="frame" x="20" y="684" width="353" height="52"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ru-ZX-Kh6" customClass="CustomBtnWithoutBG" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="52"/>
@@ -429,6 +448,7 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
+                                <constraint firstItem="oFR-ua-6FB" firstAttribute="leading" secondItem="fSr-ne-ADu" secondAttribute="leading" constant="20" id="5Tr-uG-lSc"/>
                                 <constraint firstItem="BMU-Tt-3hO" firstAttribute="leading" secondItem="fSr-ne-ADu" secondAttribute="leading" constant="20" id="6rz-4C-qXu"/>
                                 <constraint firstItem="aOh-qc-g21" firstAttribute="top" secondItem="6qG-la-nUg" secondAttribute="bottom" constant="55" id="C6S-aY-LAd"/>
                                 <constraint firstItem="aOh-qc-g21" firstAttribute="leading" secondItem="fSr-ne-ADu" secondAttribute="leading" constant="20" id="Iic-NI-RrC"/>
@@ -442,9 +462,11 @@
                                 <constraint firstAttribute="trailing" secondItem="TU7-Fg-CT8" secondAttribute="trailing" constant="20" id="gO2-h2-n4X"/>
                                 <constraint firstAttribute="trailing" secondItem="aOh-qc-g21" secondAttribute="trailing" constant="20" id="htG-RU-KaS"/>
                                 <constraint firstItem="TU7-Fg-CT8" firstAttribute="leading" secondItem="fSr-ne-ADu" secondAttribute="leading" constant="20" id="kFo-0f-zSw"/>
-                                <constraint firstItem="TU7-Fg-CT8" firstAttribute="top" secondItem="fSr-ne-ADu" secondAttribute="top" id="opG-FR-KSM"/>
+                                <constraint firstItem="TU7-Fg-CT8" firstAttribute="top" secondItem="oFR-ua-6FB" secondAttribute="bottom" constant="23" id="lr0-1A-OfI"/>
                                 <constraint firstItem="6qG-la-nUg" firstAttribute="leading" secondItem="fSr-ne-ADu" secondAttribute="leading" constant="20" id="pyN-iC-gfs"/>
+                                <constraint firstItem="oFR-ua-6FB" firstAttribute="top" secondItem="fSr-ne-ADu" secondAttribute="top" constant="8" id="qFc-zD-PdJ"/>
                                 <constraint firstItem="fzA-hE-3JU" firstAttribute="top" secondItem="TU7-Fg-CT8" secondAttribute="bottom" constant="24" id="x6f-Qa-tKh"/>
+                                <constraint firstAttribute="trailing" secondItem="oFR-ua-6FB" secondAttribute="trailing" constant="20" id="yOW-Hp-Ydo"/>
                             </constraints>
                         </view>
                     </subviews>

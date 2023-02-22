@@ -32,6 +32,9 @@
 		BA2245F629A587BD00C6BBF5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2245F429A587BD00C6BBF5 /* CategoryCell.swift */; };
 		BA2245F729A587BD00C6BBF5 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */; };
 		BA2245F929A589E600C6BBF5 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2245F829A589E500C6BBF5 /* HomeModel.swift */; };
+		BA540A6A29A6C6AA007CEE5C /* AdsImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA540A6829A6C6AA007CEE5C /* AdsImagesCell.swift */; };
+		BA540A6B29A6C6AA007CEE5C /* AdsImagesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA540A6929A6C6AA007CEE5C /* AdsImagesCell.xib */; };
+		BA540A6E29A6C74F007CEE5C /* PostAdsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA540A6D29A6C74F007CEE5C /* PostAdsViewModel.swift */; };
 		BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */; };
 		BA7FB3AA29A56A18004C9C77 /* MyAdsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */; };
 		BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */; };
@@ -154,6 +157,9 @@
 		BA2245F429A587BD00C6BBF5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		BA2245F829A589E500C6BBF5 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		BA540A6829A6C6AA007CEE5C /* AdsImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsImagesCell.swift; sourceTree = "<group>"; };
+		BA540A6929A6C6AA007CEE5C /* AdsImagesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsImagesCell.xib; sourceTree = "<group>"; };
+		BA540A6D29A6C74F007CEE5C /* PostAdsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAdsViewModel.swift; sourceTree = "<group>"; };
 		BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsVC.swift; sourceTree = "<group>"; };
 		BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAdsVC.xib; sourceTree = "<group>"; };
 		BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCell.swift; sourceTree = "<group>"; };
@@ -345,6 +351,7 @@
 		BA1154E129A423D9000D50A9 /* Post Ad */ = {
 			isa = PBXGroup;
 			children = (
+				BA540A6C29A6C739007CEE5C /* ViewModel */,
 				BA1154E729A42440000D50A9 /* View */,
 			);
 			path = "Post Ad";
@@ -362,6 +369,7 @@
 		BA1154E729A42440000D50A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA540A6729A6C67E007CEE5C /* Cells */,
 				BA1154E829A4244F000D50A9 /* PodtAdVC.swift */,
 				BA1154E929A4244F000D50A9 /* PodtAdVC.xib */,
 			);
@@ -472,6 +480,23 @@
 				BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA540A6729A6C67E007CEE5C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA540A6829A6C6AA007CEE5C /* AdsImagesCell.swift */,
+				BA540A6929A6C6AA007CEE5C /* AdsImagesCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA540A6C29A6C739007CEE5C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA540A6D29A6C74F007CEE5C /* PostAdsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		BA7FB3A629A56A04004C9C77 /* My Ads */ = {
@@ -1121,6 +1146,7 @@
 				BA1154FB29A42EC2000D50A9 /* ProfileOptionsCell.xib in Resources */,
 				BAFC933529A02E9B001608A9 /* Roboto-BlackItalic.ttf in Resources */,
 				BA1154F129A42482000D50A9 /* ChatListVC.xib in Resources */,
+				BA540A6B29A6C6AA007CEE5C /* AdsImagesCell.xib in Resources */,
 				BA1154E629A423FC000D50A9 /* CategoriesVC.xib in Resources */,
 				BAFC933329A02E9B001608A9 /* Roboto-LightItalic.ttf in Resources */,
 				BAFC933A29A02E9B001608A9 /* Roboto-ThinItalic.ttf in Resources */,
@@ -1232,8 +1258,10 @@
 				BAFC931029A027C1001608A9 /* Ex-UIColor.swift in Sources */,
 				BAFC930B29A027C1001608A9 /* Ex-UIButton.swift in Sources */,
 				BA1154FF29A43418000D50A9 /* ProfilePresenter.swift in Sources */,
+				BA540A6A29A6C6AA007CEE5C /* AdsImagesCell.swift in Sources */,
 				BAFAA8B329A14D9F005B2197 /* OtpVC.swift in Sources */,
 				BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */,
+				BA540A6E29A6C74F007CEE5C /* PostAdsViewModel.swift in Sources */,
 				BA1154D829A4230F000D50A9 /* GhazaTabbar.swift in Sources */,
 				BAFC930C29A027C1001608A9 /* Ex-UILabel.swift in Sources */,
 				BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */,
