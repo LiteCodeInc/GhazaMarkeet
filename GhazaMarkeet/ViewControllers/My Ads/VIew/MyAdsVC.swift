@@ -27,7 +27,10 @@ class MyAdsVC: UIViewController {
     }
     
     //IBACTION'S
-
+    @IBAction func BackBtnAction(_ sender: UIButton) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
 }
 
 

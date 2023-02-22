@@ -28,6 +28,10 @@
 		BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11550129A43442000D50A9 /* ProfileModel.swift */; };
 		BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */; };
 		BA1755BE29A4038A00B696E5 /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */; };
+		BA2245F229A5860400C6BBF5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2245F129A5860400C6BBF5 /* HomeViewModel.swift */; };
+		BA2245F629A587BD00C6BBF5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2245F429A587BD00C6BBF5 /* CategoryCell.swift */; };
+		BA2245F729A587BD00C6BBF5 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */; };
+		BA2245F929A589E600C6BBF5 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2245F829A589E500C6BBF5 /* HomeModel.swift */; };
 		BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */; };
 		BA7FB3AA29A56A18004C9C77 /* MyAdsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */; };
 		BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */; };
@@ -135,6 +139,10 @@
 		BA11550129A43442000D50A9 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		BA1755BB29A4038A00B696E5 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
+		BA2245F129A5860400C6BBF5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BA2245F429A587BD00C6BBF5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		BA2245F829A589E500C6BBF5 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		BA7FB3A729A56A18004C9C77 /* MyAdsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdsVC.swift; sourceTree = "<group>"; };
 		BA7FB3A829A56A18004C9C77 /* MyAdsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyAdsVC.xib; sourceTree = "<group>"; };
 		BA7FB3AD29A56B42004C9C77 /* AdsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCell.swift; sourceTree = "<group>"; };
@@ -285,6 +293,8 @@
 		BA1154DA29A42368000D50A9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BA2245F029A585F500C6BBF5 /* HomeModel */,
+				BA2245EF29A585EC00C6BBF5 /* HomeViewModel */,
 				BA1154DB29A42372000D50A9 /* View */,
 			);
 			path = Home;
@@ -293,6 +303,7 @@
 		BA1154DB29A42372000D50A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA2245F329A5879E00C6BBF5 /* Cells */,
 				BA1154DC29A4238C000D50A9 /* HomeVC.swift */,
 				BA1154DD29A4238C000D50A9 /* HomeVC.xib */,
 			);
@@ -412,6 +423,31 @@
 				BA1755BC29A4038A00B696E5 /* ChangePasswordVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BA2245EF29A585EC00C6BBF5 /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA2245F129A5860400C6BBF5 /* HomeViewModel.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
+		BA2245F029A585F500C6BBF5 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA2245F829A589E500C6BBF5 /* HomeModel.swift */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+		BA2245F329A5879E00C6BBF5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA2245F429A587BD00C6BBF5 /* CategoryCell.swift */,
+				BA2245F529A587BD00C6BBF5 /* CategoryCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BA7FB3A629A56A04004C9C77 /* My Ads */ = {
@@ -971,6 +1007,7 @@
 				BA1154D929A4230F000D50A9 /* GhazaTabbar.xib in Resources */,
 				BA7FB3B029A56B42004C9C77 /* AdsCell.xib in Resources */,
 				BA1154EB29A4244F000D50A9 /* PodtAdVC.xib in Resources */,
+				BA2245F729A587BD00C6BBF5 /* CategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,6 +1074,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2245F929A589E600C6BBF5 /* HomeModel.swift in Sources */,
 				BA11550229A43442000D50A9 /* ProfileModel.swift in Sources */,
 				BAFC931229A027C1001608A9 /* Ex-ProgressView.swift in Sources */,
 				BA7FB3B629A57627004C9C77 /* MyAdsModel.swift in Sources */,
@@ -1071,10 +1109,12 @@
 				BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */,
 				BA1154FA29A42EC2000D50A9 /* ProfileOptionsCell.swift in Sources */,
 				BAEFB9BD29A5571200F8CCFD /* EditProfileVC.swift in Sources */,
+				BA2245F229A5860400C6BBF5 /* HomeViewModel.swift in Sources */,
 				BA1755BD29A4038A00B696E5 /* ChangePasswordVC.swift in Sources */,
 				BAFC931629A027DA001608A9 /* Utility.swift in Sources */,
 				BAFC932129A029AD001608A9 /* Popup-Helper.swift in Sources */,
 				BA1154F629A424B3000D50A9 /* ProfileVC.swift in Sources */,
+				BA2245F629A587BD00C6BBF5 /* CategoryCell.swift in Sources */,
 				BAFC930E29A027C1001608A9 /* Ex-UICollectionView.swift in Sources */,
 				BAFC931D29A02922001608A9 /* Constant.swift in Sources */,
 				BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */,
