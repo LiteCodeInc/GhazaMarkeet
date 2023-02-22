@@ -36,14 +36,3 @@ class HomeModel: Codable {
     
 }
 
-//MARK: CATEGORY MODEL
-
-class CetegoryModel:Codable {
-    var type = String()
-    var icon = String()
-    
-    init(type:String, icon:String) {
-        self.type = type
-        self.icon = icon
-    }
-}

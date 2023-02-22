@@ -1,22 +1,135 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoriesVC" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoriesVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="CategoriesList" destination="jgt-zU-eaZ" id="3ac-80-H4X"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2wh-Vh-aoh">
+                    <rect key="frame" x="20" y="37" width="353" height="54"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search" translatesAutoresizingMaskIntoConstraints="NO" id="u3m-YZ-p2G">
+                            <rect key="frame" x="17" y="17" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="czq-qq-Oov"/>
+                                <constraint firstAttribute="height" constant="20" id="kZ7-xh-ZWO"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Anything..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S1g-DA-S2I">
+                            <rect key="frame" x="47" y="0.0" width="296" height="54"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                    <color key="value" name="TextFieldPlaceholder"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="S1g-DA-S2I" secondAttribute="trailing" constant="10" id="73r-1N-ALI"/>
+                        <constraint firstAttribute="height" constant="54" id="Pu1-CL-2z8"/>
+                        <constraint firstAttribute="bottom" secondItem="S1g-DA-S2I" secondAttribute="bottom" id="WrX-rU-8SI"/>
+                        <constraint firstItem="u3m-YZ-p2G" firstAttribute="centerY" secondItem="2wh-Vh-aoh" secondAttribute="centerY" id="a5V-Lc-CwE"/>
+                        <constraint firstItem="S1g-DA-S2I" firstAttribute="top" secondItem="2wh-Vh-aoh" secondAttribute="top" id="dzJ-Fi-JCj"/>
+                        <constraint firstItem="S1g-DA-S2I" firstAttribute="leading" secondItem="u3m-YZ-p2G" secondAttribute="trailing" constant="10" id="pKW-A1-Q4u"/>
+                        <constraint firstItem="u3m-YZ-p2G" firstAttribute="leading" secondItem="2wh-Vh-aoh" secondAttribute="leading" constant="17" id="zLJ-8w-Gzv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="12"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="Shodow"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOO-Qy-JuU">
+                    <rect key="frame" x="20" y="113" width="353" height="25"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-SQ-jpX">
+                            <rect key="frame" x="0.0" y="0.0" width="353" height="25"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                            <color key="textColor" name="TextBlack"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="7yr-3G-aoA"/>
+                        <constraint firstAttribute="trailing" secondItem="OLM-SQ-jpX" secondAttribute="trailing" id="UBl-bG-M2x"/>
+                        <constraint firstItem="OLM-SQ-jpX" firstAttribute="leading" secondItem="XOO-Qy-JuU" secondAttribute="leading" id="jaQ-XW-syJ"/>
+                        <constraint firstItem="OLM-SQ-jpX" firstAttribute="top" secondItem="XOO-Qy-JuU" secondAttribute="top" id="n9g-w7-nE2"/>
+                        <constraint firstAttribute="bottom" secondItem="OLM-SQ-jpX" secondAttribute="bottom" id="qEb-Wp-0HR"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jgt-zU-eaZ">
+                    <rect key="frame" x="20" y="138" width="353" height="714"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yjR-lr-m4l">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="hKS-NE-wtk"/>
+                        <outlet property="delegate" destination="-1" id="5lJ-QH-VSF"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" name="Theam2"/>
+            <constraints>
+                <constraint firstItem="2wh-Vh-aoh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="37" id="8BQ-Cv-Nzz"/>
+                <constraint firstAttribute="bottom" secondItem="jgt-zU-eaZ" secondAttribute="bottom" id="9nJ-tG-hHf"/>
+                <constraint firstItem="2wh-Vh-aoh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="B87-gP-syA"/>
+                <constraint firstItem="XOO-Qy-JuU" firstAttribute="top" secondItem="2wh-Vh-aoh" secondAttribute="bottom" constant="22" id="HuK-et-C5Y"/>
+                <constraint firstAttribute="trailing" secondItem="jgt-zU-eaZ" secondAttribute="trailing" constant="20" id="MCu-TH-43b"/>
+                <constraint firstAttribute="trailing" secondItem="XOO-Qy-JuU" secondAttribute="trailing" constant="20" id="RpS-UM-RZ0"/>
+                <constraint firstItem="jgt-zU-eaZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="eRH-g1-pLJ"/>
+                <constraint firstItem="jgt-zU-eaZ" firstAttribute="top" secondItem="XOO-Qy-JuU" secondAttribute="bottom" id="hKf-vx-HhR"/>
+                <constraint firstAttribute="trailing" secondItem="2wh-Vh-aoh" secondAttribute="trailing" constant="20" id="kPn-CS-9Tf"/>
+                <constraint firstItem="XOO-Qy-JuU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="lpH-FM-MMp"/>
+            </constraints>
+            <point key="canvasLocation" x="91" y="20"/>
         </view>
     </objects>
+    <resources>
+        <image name="Search" width="21" height="20.333333969116211"/>
+        <namedColor name="Shodow">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextBlack">
+            <color red="0.18823529411764706" green="0.21568627450980393" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextFieldPlaceholder">
+            <color red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Theam2">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
 </document>

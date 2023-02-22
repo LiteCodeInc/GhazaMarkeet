@@ -64,6 +64,7 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
         
         if collectionView.tag == 0 {
             let cell = collectionView.register(CategoryCell.self, indexPath: indexPath)
+            cell.config(data: presenter.dataModel.categories[indexPath.row])
             return cell
         } else {
             let cell = collectionView.register(AdsCell.self, indexPath: indexPath)

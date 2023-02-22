@@ -47,6 +47,8 @@
 		BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD010B129A1589D000639E3 /* SignUpVC.xib */; };
 		BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */; };
 		BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */; };
+		BADA2FAB29A6A34000E52FA6 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FAA29A6A34000E52FA6 /* CategoriesViewModel.swift */; };
+		BADA2FAE29A6A37500E52FA6 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FAD29A6A37500E52FA6 /* CategoriesModel.swift */; };
 		BAEFB9BD29A5571200F8CCFD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */; };
 		BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */; };
 		BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FF929A00EBB00949780 /* AppDelegate.swift */; };
@@ -158,6 +160,8 @@
 		BAD010B129A1589D000639E3 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		BAD2654129A1491A00C8D26D /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		BADA2FAA29A6A34000E52FA6 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		BADA2FAD29A6A37500E52FA6 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
 		BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileVC.xib; sourceTree = "<group>"; };
 		BAF44FF629A00EBB00949780 /* GhazaMarkeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhazaMarkeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +317,8 @@
 		BA1154E029A423CA000D50A9 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				BADA2FAC29A6A36900E52FA6 /* Model */,
+				BADA2FA929A6A32600E52FA6 /* VIewModel */,
 				BA1154E229A423EC000D50A9 /* View */,
 			);
 			path = Categories;
@@ -666,6 +672,22 @@
 		BAD2653F29A1490700C8D26D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BADA2FA929A6A32600E52FA6 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FAA29A6A34000E52FA6 /* CategoriesViewModel.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		BADA2FAC29A6A36900E52FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FAD29A6A37500E52FA6 /* CategoriesModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1094,6 +1116,7 @@
 				BAFC92DF29A026D1001608A9 /* Router.swift in Sources */,
 				BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */,
 				BAFC930F29A027C1001608A9 /* Ex-String.swift in Sources */,
+				BADA2FAE29A6A37500E52FA6 /* CategoriesModel.swift in Sources */,
 				BA7FB3B429A575F9004C9C77 /* MyAdsViewModel.swift in Sources */,
 				BA1154E529A423FC000D50A9 /* CategoriesVC.swift in Sources */,
 				BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */,
@@ -1126,6 +1149,7 @@
 				BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */,
 				BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */,
 				BAFC930A29A027C1001608A9 /* Ex-UINavigation.swift in Sources */,
+				BADA2FAB29A6A34000E52FA6 /* CategoriesViewModel.swift in Sources */,
 				BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
