@@ -52,6 +52,12 @@
 		BADA2FB329A6A64600E52FA6 /* SubCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FB129A6A64600E52FA6 /* SubCategoriesVC.swift */; };
 		BADA2FB429A6A64600E52FA6 /* SubCategoriesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADA2FB229A6A64600E52FA6 /* SubCategoriesVC.xib */; };
 		BADA2FB829A6A71900E52FA6 /* SubCategoriesViiewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FB729A6A71900E52FA6 /* SubCategoriesViiewModel.swift */; };
+		BADA2FBD29A6A92A00E52FA6 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FBB29A6A92A00E52FA6 /* SearchVC.swift */; };
+		BADA2FBE29A6A92A00E52FA6 /* SearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADA2FBC29A6A92A00E52FA6 /* SearchVC.xib */; };
+		BADA2FC229A6AACD00E52FA6 /* SearchTagsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FC029A6AACD00E52FA6 /* SearchTagsCell.swift */; };
+		BADA2FC329A6AACD00E52FA6 /* SearchTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADA2FC129A6AACD00E52FA6 /* SearchTagsCell.xib */; };
+		BADA2FC629A6AC0F00E52FA6 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FC529A6AC0F00E52FA6 /* SearchViewModel.swift */; };
+		BADA2FC929A6AC4000E52FA6 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADA2FC829A6AC4000E52FA6 /* SearchModel.swift */; };
 		BAEFB9BD29A5571200F8CCFD /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */; };
 		BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */; };
 		BAF44FFA29A00EBB00949780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF44FF929A00EBB00949780 /* AppDelegate.swift */; };
@@ -168,6 +174,12 @@
 		BADA2FB129A6A64600E52FA6 /* SubCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoriesVC.swift; sourceTree = "<group>"; };
 		BADA2FB229A6A64600E52FA6 /* SubCategoriesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubCategoriesVC.xib; sourceTree = "<group>"; };
 		BADA2FB729A6A71900E52FA6 /* SubCategoriesViiewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoriesViiewModel.swift; sourceTree = "<group>"; };
+		BADA2FBB29A6A92A00E52FA6 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BADA2FBC29A6A92A00E52FA6 /* SearchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchVC.xib; sourceTree = "<group>"; };
+		BADA2FC029A6AACD00E52FA6 /* SearchTagsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTagsCell.swift; sourceTree = "<group>"; };
+		BADA2FC129A6AACD00E52FA6 /* SearchTagsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTagsCell.xib; sourceTree = "<group>"; };
+		BADA2FC529A6AC0F00E52FA6 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		BADA2FC829A6AC4000E52FA6 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		BAEFB9BB29A5571200F8CCFD /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
 		BAEFB9BC29A5571200F8CCFD /* EditProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProfileVC.xib; sourceTree = "<group>"; };
 		BAF44FF629A00EBB00949780 /* GhazaMarkeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhazaMarkeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -554,6 +566,7 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BADA2FB929A6A90B00E52FA6 /* Search */,
 				BADA2FAF29A6A61900E52FA6 /* Sub Categories */,
 				BA7FB3A629A56A04004C9C77 /* My Ads */,
 				BAEFB9B929A556E400F8CCFD /* Edit Profile */,
@@ -729,6 +742,51 @@
 		BADA2FB629A6A6FF00E52FA6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BADA2FB929A6A90B00E52FA6 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FC729A6AC3000E52FA6 /* Model */,
+				BADA2FC429A6AC0000E52FA6 /* ViewModel */,
+				BADA2FBA29A6A91300E52FA6 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BADA2FBA29A6A91300E52FA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FBF29A6AAA800E52FA6 /* Cells */,
+				BADA2FBB29A6A92A00E52FA6 /* SearchVC.swift */,
+				BADA2FBC29A6A92A00E52FA6 /* SearchVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BADA2FBF29A6AAA800E52FA6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FC029A6AACD00E52FA6 /* SearchTagsCell.swift */,
+				BADA2FC129A6AACD00E52FA6 /* SearchTagsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BADA2FC429A6AC0000E52FA6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FC529A6AC0F00E52FA6 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BADA2FC729A6AC3000E52FA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BADA2FC829A6AC4000E52FA6 /* SearchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1043,6 +1101,8 @@
 				BA1154DF29A4238C000D50A9 /* HomeVC.xib in Resources */,
 				BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */,
 				BAFC933129A02E9B001608A9 /* Roboto-Bold.ttf in Resources */,
+				BADA2FC329A6AACD00E52FA6 /* SearchTagsCell.xib in Resources */,
+				BADA2FBE29A6A92A00E52FA6 /* SearchVC.xib in Resources */,
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
 				BADA2FB429A6A64600E52FA6 /* SubCategoriesVC.xib in Resources */,
@@ -1144,10 +1204,13 @@
 				BA7FB3B629A57627004C9C77 /* MyAdsModel.swift in Sources */,
 				BA90658529A025C20022EFB5 /* AuthTypeVC.swift in Sources */,
 				BAFC931329A027C1001608A9 /* Ex - UIBlurView.swift in Sources */,
+				BADA2FC629A6AC0F00E52FA6 /* SearchViewModel.swift in Sources */,
 				BAFC930929A027C1001608A9 /* Ex-UIView.swift in Sources */,
 				BAFC930829A027C1001608A9 /* Ex-UITableView.swift in Sources */,
 				BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */,
 				BA1154EA29A4244F000D50A9 /* PodtAdVC.swift in Sources */,
+				BADA2FBD29A6A92A00E52FA6 /* SearchVC.swift in Sources */,
+				BADA2FC929A6AC4000E52FA6 /* SearchModel.swift in Sources */,
 				BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */,
 				BAFC931929A027EA001608A9 /* Network-Availablity-Helper.swift in Sources */,
 				BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */,
@@ -1155,6 +1218,7 @@
 				BAFC931B29A028F0001608A9 /* CustomComponents.swift in Sources */,
 				BA90657A29A023E20022EFB5 /* SplashVC.swift in Sources */,
 				BAFC930629A027C1001608A9 /* Ex-Float.swift in Sources */,
+				BADA2FC229A6AACD00E52FA6 /* SearchTagsCell.swift in Sources */,
 				BAFC92DF29A026D1001608A9 /* Router.swift in Sources */,
 				BA7FB3AF29A56B42004C9C77 /* AdsCell.swift in Sources */,
 				BAFC930F29A027C1001608A9 /* Ex-String.swift in Sources */,

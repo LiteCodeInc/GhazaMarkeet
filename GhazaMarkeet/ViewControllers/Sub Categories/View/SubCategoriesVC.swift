@@ -8,7 +8,7 @@
 import UIKit
 
 class SubCategoriesVC: UIViewController {
-
+    
     //IBOUTLET'S
     @IBOutlet weak var SubTypesList: UICollectionView!
     
@@ -26,7 +26,7 @@ class SubCategoriesVC: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.isHidden = true
     }
-
+    
     //IBACTION'S
     
 }
@@ -56,7 +56,7 @@ extension SubCategoriesVC: UICollectionViewDataSource, UICollectionViewDelegate,
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        Router.pushVC(from: self, to: SearchVC())
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
