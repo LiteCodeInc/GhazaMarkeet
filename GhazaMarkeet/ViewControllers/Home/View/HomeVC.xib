@@ -225,18 +225,11 @@
                         <outlet property="delegate" destination="-1" id="wcX-Kg-meW"/>
                     </connections>
                 </collectionView>
-                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9v-zQ-ubx">
-                    <rect key="frame" x="20" y="117" width="353" height="243"/>
+                <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P9v-zQ-ubx">
+                    <rect key="frame" x="12" y="117" width="369" height="251"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RotatedRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="NWb-4r-Xjc">
-                            <rect key="frame" x="34" y="0.0" width="22" height="22"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="22" id="0pw-el-D0C"/>
-                                <constraint firstAttribute="height" constant="22" id="ghq-pb-vbm"/>
-                            </constraints>
-                        </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Adv-lY-9Yg">
-                            <rect key="frame" x="0.0" y="13" width="353" height="230"/>
+                            <rect key="frame" x="8" y="13" width="353" height="230"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PAf-x4-4kD" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
                                     <rect key="frame" x="18" y="14.999999999999998" width="317" height="20.333333333333329"/>
@@ -371,17 +364,64 @@
                                 <constraint firstAttribute="trailing" secondItem="9cX-oU-xfE" secondAttribute="trailing" constant="16" id="oqh-cz-j6M"/>
                                 <constraint firstItem="9cX-oU-xfE" firstAttribute="leading" secondItem="Adv-lY-9Yg" secondAttribute="leading" constant="16" id="whH-TJ-hDe"/>
                             </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                    <color key="value" name="Shodow"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                    <size key="value" width="0.0" height="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RotatedRectangle" translatesAutoresizingMaskIntoConstraints="NO" id="NWb-4r-Xjc">
+                            <rect key="frame" x="34" y="2" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="22" id="0pw-el-D0C"/>
+                                <constraint firstAttribute="height" constant="22" id="ghq-pb-vbm"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                    <color key="value" name="Shodow"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iM-B1-G6E">
+                            <rect key="frame" x="33" y="13" width="24" height="15"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="YDa-6m-Umj"/>
+                            </constraints>
                         </view>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="Adv-lY-9Yg" secondAttribute="trailing" id="24m-1S-HY7"/>
-                        <constraint firstAttribute="height" constant="243" id="4su-1I-iRd"/>
+                        <constraint firstAttribute="trailing" secondItem="Adv-lY-9Yg" secondAttribute="trailing" constant="8" id="24m-1S-HY7"/>
                         <constraint firstItem="NWb-4r-Xjc" firstAttribute="leading" secondItem="P9v-zQ-ubx" secondAttribute="leading" constant="34" id="70q-kH-ZEr"/>
-                        <constraint firstAttribute="bottom" secondItem="Adv-lY-9Yg" secondAttribute="bottom" id="7Hk-Az-YGP"/>
-                        <constraint firstItem="Adv-lY-9Yg" firstAttribute="leading" secondItem="P9v-zQ-ubx" secondAttribute="leading" id="aaR-hd-GMx"/>
-                        <constraint firstItem="NWb-4r-Xjc" firstAttribute="top" secondItem="P9v-zQ-ubx" secondAttribute="top" id="wr4-kE-Dg5"/>
+                        <constraint firstAttribute="bottom" secondItem="Adv-lY-9Yg" secondAttribute="bottom" constant="8" id="7Hk-Az-YGP"/>
+                        <constraint firstItem="Adv-lY-9Yg" firstAttribute="top" secondItem="P9v-zQ-ubx" secondAttribute="top" constant="13" id="JXm-3v-TQI"/>
+                        <constraint firstItem="NWb-4r-Xjc" firstAttribute="top" secondItem="Adv-lY-9Yg" secondAttribute="top" constant="-11" id="Ke1-6W-A7O"/>
+                        <constraint firstItem="8iM-B1-G6E" firstAttribute="leading" secondItem="NWb-4r-Xjc" secondAttribute="leading" constant="-1" id="NLa-qC-Zkn"/>
+                        <constraint firstItem="Adv-lY-9Yg" firstAttribute="leading" secondItem="P9v-zQ-ubx" secondAttribute="leading" constant="8" id="aaR-hd-GMx"/>
+                        <constraint firstItem="8iM-B1-G6E" firstAttribute="trailing" secondItem="NWb-4r-Xjc" secondAttribute="trailing" constant="1" id="rKa-Nn-E6N"/>
+                        <constraint firstItem="8iM-B1-G6E" firstAttribute="bottom" secondItem="NWb-4r-Xjc" secondAttribute="bottom" constant="4" id="z5l-Rd-3Zi"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
@@ -394,7 +434,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Aoc-mx-CfO" secondAttribute="trailing" constant="20" id="C5c-vZ-2We"/>
                 <constraint firstItem="Xgx-cj-Dv9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Dhv-1W-zea"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Cce-C4-Tuf" secondAttribute="trailing" constant="20" id="GQu-T6-qNv"/>
-                <constraint firstItem="P9v-zQ-ubx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Gj4-TV-6Ly"/>
+                <constraint firstItem="P9v-zQ-ubx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="Gj4-TV-6Ly"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ioo-IM-FLj" secondAttribute="trailing" constant="20" id="HFO-ZL-cet"/>
                 <constraint firstItem="Cce-C4-Tuf" firstAttribute="top" secondItem="Ioo-IM-FLj" secondAttribute="bottom" id="RA4-b8-gzE"/>
                 <constraint firstItem="tQQ-0R-0du" firstAttribute="top" secondItem="Xgx-cj-Dv9" secondAttribute="bottom" constant="20" id="S9N-LD-r54"/>
@@ -405,7 +445,7 @@
                 <constraint firstItem="P9v-zQ-ubx" firstAttribute="top" secondItem="Xgx-cj-Dv9" secondAttribute="bottom" constant="8" id="jhF-hJ-rJE"/>
                 <constraint firstItem="Ioo-IM-FLj" firstAttribute="top" secondItem="Aoc-mx-CfO" secondAttribute="bottom" constant="23" id="kCM-RI-8Re"/>
                 <constraint firstAttribute="bottom" secondItem="Cce-C4-Tuf" secondAttribute="bottom" id="kxq-jf-U13"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="P9v-zQ-ubx" secondAttribute="trailing" constant="20" id="mgl-hE-kYC"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="P9v-zQ-ubx" secondAttribute="trailing" constant="12" id="mgl-hE-kYC"/>
                 <constraint firstItem="Aoc-mx-CfO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="qyA-Ug-ucs"/>
                 <constraint firstItem="Xgx-cj-Dv9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="tSJ-MY-7gZ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T9a-YD-Nl1" secondAttribute="trailing" constant="20" id="whl-88-dZf"/>
