@@ -37,9 +37,13 @@
                             <buttonConfiguration key="configuration" style="plain" image="Back" title=" " imagePadding="-4">
                                 <color key="baseForegroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </buttonConfiguration>
+                            <connections>
+                                <action selector="backAction" destination="-1" eventType="touchUpInside" id="qy9-TX-mXL"/>
+                                <action selector="dismissVCAction" destination="-1" eventType="touchUpInside" id="fMv-BP-7zJ"/>
+                            </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Ads" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPT-ga-5XR">
-                            <rect key="frame" x="52.999999999999993" y="55" width="74.333333333333314" height="26"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobiles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPT-ga-5XR">
+                            <rect key="frame" x="53" y="55" width="79" height="26"/>
                             <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
                             <color key="textColor" name="TextBlack"/>
                             <nil key="highlightedColor"/>

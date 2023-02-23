@@ -60,7 +60,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDx-PR-tsg">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="662.66666666666663"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="762.66666666666663"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts5-RO-sah" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="27" y="60" width="339" height="28"/>
@@ -90,10 +90,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Otp" translatesAutoresizingMaskIntoConstraints="NO" id="KaR-Ai-lfu">
-                                            <rect key="frame" x="103" y="209.66666666666666" width="187" height="81.999999999999972"/>
+                                            <rect key="frame" x="103" y="209.66666666666663" width="187" height="182"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="182" id="LBd-ZH-ew4"/>
+                                            </constraints>
                                         </imageView>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Onl-eh-s8s">
-                                            <rect key="frame" x="27" y="394.66666666666669" width="339" height="52"/>
+                                            <rect key="frame" x="27" y="494.66666666666674" width="339" height="52"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3kO-Sg-DNC">
                                                     <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="52"/>
@@ -303,12 +306,12 @@
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </stackView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ow-Zd-hu5" customClass="CustomBtnWithBG" customModule="GhazaMarkeet" customModuleProvider="target">
-                                            <rect key="frame" x="27" y="477.66666666666669" width="339" height="52.000000000000057"/>
+                                            <rect key="frame" x="27" y="577.66666666666663" width="339" height="52"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="52" id="6rW-Sb-oZ5"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" title="SEND"/>
+                                            <buttonConfiguration key="configuration" style="plain" title="VERIFY"/>
                                             <connections>
                                                 <action selector="SenBtnAction:" destination="-1" eventType="touchUpInside" id="987-ou-yme"/>
                                             </connections>
@@ -330,7 +333,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gua-2R-MVO" customClass="CustomBtnTwoWithUnderline" customModule="GhazaMarkeet" customModuleProvider="target">
-                                            <rect key="frame" x="133.66666666666666" y="557.66666666666663" width="125.99999999999997" height="16"/>
+                                            <rect key="frame" x="133.66666666666666" y="657.66666666666663" width="125.99999999999997" height="16"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="16" id="GNp-gB-Ind"/>
                                             </constraints>
@@ -361,7 +364,6 @@
                                         <constraint firstItem="ts5-RO-sah" firstAttribute="top" secondItem="pDx-PR-tsg" secondAttribute="top" constant="60" id="iIa-Fn-1bf"/>
                                         <constraint firstItem="Onl-eh-s8s" firstAttribute="top" secondItem="KaR-Ai-lfu" secondAttribute="bottom" constant="103" id="l61-F7-oMR"/>
                                         <constraint firstItem="qQe-7D-nwi" firstAttribute="leading" secondItem="pDx-PR-tsg" secondAttribute="leading" constant="27" id="ltd-CD-Qb0"/>
-                                        <constraint firstAttribute="height" constant="662.66999999999996" id="mhd-Eq-nvo"/>
                                         <constraint firstItem="qQe-7D-nwi" firstAttribute="top" secondItem="ts5-RO-sah" secondAttribute="bottom" constant="7" id="n5M-Oa-Ugg"/>
                                         <constraint firstItem="gua-2R-MVO" firstAttribute="top" secondItem="3Ow-Zd-hu5" secondAttribute="bottom" constant="28" id="ndu-2T-hPR"/>
                                         <constraint firstItem="iaD-2U-yvE" firstAttribute="top" secondItem="qQe-7D-nwi" secondAttribute="bottom" constant="4" id="qnX-iy-CDH"/>

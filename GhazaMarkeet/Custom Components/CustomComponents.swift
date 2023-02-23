@@ -160,6 +160,7 @@ class CustomBtnWithBG: UIButton {
         tintColor = theamTwo
         backgroundColor = theam
         cornerRadius = 10
+        titleLabel?.font =  UIFont(name: Constant.robotoBold, size: 15)
     }
 }
 
@@ -171,6 +172,7 @@ class CustomBtnWithoutBG: UIButton {
         borderColor = theam
         borderWidth = 1
         cornerRadius = 10
+        titleLabel?.font =  UIFont(name: Constant.robotoBold, size: 15)
     }
 }
 

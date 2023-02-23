@@ -17,6 +17,8 @@ class SignUpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        self.navigationController?.toolbar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = true
     }
 
     //IBACTION'S

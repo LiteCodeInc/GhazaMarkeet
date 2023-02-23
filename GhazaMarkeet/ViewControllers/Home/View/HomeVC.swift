@@ -23,10 +23,13 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        self.navigationController?.toolbar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = true
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.navigationController?.toolbar.isHidden = true
         self.navigationController?.navigationBar.isHidden = true
         self.tabBarController?.tabBar.isHidden = false
     }
@@ -78,6 +81,7 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if collectionView.tag == 0 {
             // Move to subtype vc...
+            Router.pushVC(from: self, to: SubCategoriesVC())
         }
     }
     
