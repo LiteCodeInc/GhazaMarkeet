@@ -27,11 +27,11 @@ extension UIViewController: UIWindowSceneDelegate {
 //    }
 //    
     func changeRootViewController(controller:UIViewController) {
-        let onBoardingNev = UINavigationController(rootViewController: controller)
+//        let onBoardingNev = UINavigationController(rootViewController: controller)
 //        onBoardingNev.setupNavigation()
         
         kApplicationWindow = Utility.getAppDelegate()!.window
-        kApplicationWindow?.rootViewController = onBoardingNev
+        kApplicationWindow?.rootViewController = controller
         kApplicationWindow?.makeKeyAndVisible()
     }
     

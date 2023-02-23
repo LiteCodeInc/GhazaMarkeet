@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -28,7 +29,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uRi-4s-PbJ">
-                    <rect key="frame" x="0.0" y="35" width="393" height="74"/>
+                    <rect key="frame" x="0.0" y="48" width="393" height="74"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="WdZ-8C-ecB">
                             <rect key="frame" x="0.0" y="20" width="393" height="54"/>
@@ -38,6 +39,7 @@
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbW-jc-haS">
                                             <rect key="frame" x="8" y="14.666666666666671" width="25" height="25"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="Sm9-mz-ros"/>
                                                 <constraint firstAttribute="width" constant="25" id="xwh-Cr-xUM"/>
@@ -53,7 +55,7 @@
                                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46A-aH-xFt">
                                             <rect key="frame" x="53" y="0.0" width="340" height="54"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search" translatesAutoresizingMaskIntoConstraints="NO" id="c2m-DT-1Mb">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Search 1" translatesAutoresizingMaskIntoConstraints="NO" id="c2m-DT-1Mb">
                                                     <rect key="frame" x="17" y="17" width="20" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Jx5-lo-la0"/>
@@ -511,7 +513,7 @@
                     </constraints>
                 </view>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="jYM-c0-55h">
-                    <rect key="frame" x="20" y="131" width="353" height="35"/>
+                    <rect key="frame" x="20" y="144" width="353" height="35"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="35" id="Vpu-di-64Y"/>
@@ -528,7 +530,7 @@
                     </connections>
                 </collectionView>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="SkD-cH-MgH">
-                    <rect key="frame" x="20" y="174" width="353" height="678"/>
+                    <rect key="frame" x="20" y="187" width="353" height="665"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="L0X-nP-2W5">
                         <size key="itemSize" width="128" height="128"/>
@@ -542,13 +544,14 @@
                     </connections>
                 </collectionView>
             </subviews>
+            <viewLayoutGuide key="safeArea" id="o38-zD-bZ6"/>
             <color key="backgroundColor" name="Theam2"/>
             <constraints>
                 <constraint firstItem="uRi-4s-PbJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CGD-6G-W3F"/>
                 <constraint firstAttribute="trailing" secondItem="SkD-cH-MgH" secondAttribute="trailing" constant="20" id="JCX-d0-5zX"/>
                 <constraint firstAttribute="trailing" secondItem="jYM-c0-55h" secondAttribute="trailing" constant="20" id="RlO-oE-1AP"/>
                 <constraint firstItem="jYM-c0-55h" firstAttribute="top" secondItem="uRi-4s-PbJ" secondAttribute="bottom" constant="22" id="S99-v2-qBM"/>
-                <constraint firstItem="uRi-4s-PbJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="TZk-iv-pGt"/>
+                <constraint firstItem="uRi-4s-PbJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="TZk-iv-pGt"/>
                 <constraint firstItem="jYM-c0-55h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="aTr-eA-bYv"/>
                 <constraint firstAttribute="trailing" secondItem="uRi-4s-PbJ" secondAttribute="trailing" id="g70-J0-3em"/>
                 <constraint firstItem="SkD-cH-MgH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="qMA-cW-Vr5"/>
@@ -562,7 +565,7 @@
         <image name="Back" width="8.3333330154418945" height="13.333333015441895"/>
         <image name="DropDown" width="13.333333015441895" height="8.3333330154418945"/>
         <image name="Filter" width="20" height="18"/>
-        <image name="Search" width="21" height="20.333333969116211"/>
+        <image name="Search 1" width="21" height="20.333333969116211"/>
         <namedColor name="Logout">
             <color red="1" green="0.2627450980392157" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -22,11 +22,15 @@ class SearchVC: UIViewController {
     //VC LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
+        FilterMainView.isHidden = true
+        SearchMainView.isHidden = false
+//        SearchMainView.bringSubviewToFront(self.view)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true
+        self.navigationController?.navigationBar.removeFromSuperview()
+        self.navigationController?.toolbar.removeFromSuperview()
     }
     
     
