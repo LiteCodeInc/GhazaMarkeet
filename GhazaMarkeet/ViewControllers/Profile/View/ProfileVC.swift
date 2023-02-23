@@ -11,8 +11,8 @@ class ProfileVC: UIViewController {
     
     //IBOUTLET'S
     @IBOutlet weak var UserProfileImage: UIImageView!
-    @IBOutlet weak var UserName: H3!
-    @IBOutlet weak var UserPhoneNumber: H1!
+    @IBOutlet weak var UserName: H1!
+    @IBOutlet weak var UserPhoneNumber: H3!
     @IBOutlet weak var EditBtn: CustomBtnWithBG!
     @IBOutlet weak var OptionList: UITableView!
     

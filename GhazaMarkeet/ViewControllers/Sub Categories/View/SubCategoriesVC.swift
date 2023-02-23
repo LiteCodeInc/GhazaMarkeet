@@ -24,11 +24,7 @@ class SubCategoriesVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.toolbar.isHidden = true
-        self.navigationController?.navigationBar.isHidden = true
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        self.navigationController?.hidesBarsOnTap = true
-        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.navigationBar.isHidden = true 
     }
     
     override func viewDidLayoutSubviews() {
