@@ -263,10 +263,23 @@ extension UIView {
     }
     
     func roundCorners(corners: UIRectCorner, radius: CGFloat) {
-        let path = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
-        let mask = CAShapeLayer()
-        mask.path = path.cgPath
-        layer.mask = mask
+        let bounds = self.bounds
+        
+        let maskPath = UIBezierPath(roundedRect: bounds, byRoundingCorners: corners, cornerRadii: CGSizeMake(radius, radius))
+        
+        let maskLayer = CAShapeLayer()
+        maskLayer.frame = bounds
+        maskLayer.path = maskPath.cgPath
+        
+        self.layer.mask = maskLayer
+        
+        let frameLayer = CAShapeLayer()
+        frameLayer.frame = bounds
+        frameLayer.path = maskPath.cgPath
+        frameLayer.strokeColor = UIColor(named: "MessageBorder")!.cgColor
+        frameLayer.fillColor = nil
+        
+        self.layer.addSublayer(frameLayer)
     }
     
     func setCornerRadius() -> CGFloat{

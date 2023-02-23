@@ -29,7 +29,10 @@ class PodtAdVC: UIViewController {
     }
     
     //UBACTION'S
-
+    @IBAction func BackBtnAction(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 0
+    }
+    
 }
 
 extension PodtAdVC {

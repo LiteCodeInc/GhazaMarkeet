@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		428D2F5613C9E83738A30037 /* libPods-GhazaMarkeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 373546932554645DBEE4606E /* libPods-GhazaMarkeet.a */; };
+		BA002C2229A7F4A10045D6D4 /* ChatItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2029A7F4A10045D6D4 /* ChatItemCell.swift */; };
+		BA002C2329A7F4A10045D6D4 /* ChatItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA002C2129A7F4A10045D6D4 /* ChatItemCell.xib */; };
+		BA002C2729A7F8470045D6D4 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2629A7F8470045D6D4 /* ChatViewModel.swift */; };
+		BA002C2A29A7F8850045D6D4 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2929A7F8850045D6D4 /* ChatModel.swift */; };
+		BA002C3129A7FB5A0045D6D4 /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2F29A7FB5A0045D6D4 /* ConversationVC.swift */; };
+		BA002C3229A7FB5A0045D6D4 /* ConversationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA002C3029A7FB5A0045D6D4 /* ConversationVC.xib */; };
 		BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */; };
 		BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */; };
 		BA1154D829A4230F000D50A9 /* GhazaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */; };
@@ -46,6 +52,8 @@
 		BA90657D29A023F10022EFB5 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90657C29A023F10022EFB5 /* SplashPresenter.swift */; };
 		BA90658529A025C20022EFB5 /* AuthTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA90658329A025C20022EFB5 /* AuthTypeVC.swift */; };
 		BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90658429A025C20022EFB5 /* AuthTypeVC.xib */; };
+		BA97365F29A8037600E2FDA7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97365D29A8037600E2FDA7 /* MessageCell.swift */; };
+		BA97366029A8037600E2FDA7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA97365E29A8037600E2FDA7 /* MessageCell.xib */; };
 		BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD010B029A1589D000639E3 /* SignUpVC.swift */; };
 		BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD010B129A1589D000639E3 /* SignUpVC.xib */; };
 		BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */; };
@@ -133,6 +141,12 @@
 		168B0EFDBAB787CACA265605 /* Pods-GhazaMarkeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.release.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.release.xcconfig"; sourceTree = "<group>"; };
 		284169C1752C6EFB10D85C1F /* Pods-GhazaMarkeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhazaMarkeet.debug.xcconfig"; path = "Target Support Files/Pods-GhazaMarkeet/Pods-GhazaMarkeet.debug.xcconfig"; sourceTree = "<group>"; };
 		373546932554645DBEE4606E /* libPods-GhazaMarkeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhazaMarkeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA002C2029A7F4A10045D6D4 /* ChatItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatItemCell.swift; sourceTree = "<group>"; };
+		BA002C2129A7F4A10045D6D4 /* ChatItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatItemCell.xib; sourceTree = "<group>"; };
+		BA002C2629A7F8470045D6D4 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		BA002C2929A7F8850045D6D4 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		BA002C2F29A7FB5A0045D6D4 /* ConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationVC.swift; sourceTree = "<group>"; };
+		BA002C3029A7FB5A0045D6D4 /* ConversationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationVC.xib; sourceTree = "<group>"; };
 		BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenter.swift; sourceTree = "<group>"; };
 		BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordModel.swift; sourceTree = "<group>"; };
 		BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhazaTabbar.swift; sourceTree = "<group>"; };
@@ -171,6 +185,8 @@
 		BA90657C29A023F10022EFB5 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
 		BA90658329A025C20022EFB5 /* AuthTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTypeVC.swift; sourceTree = "<group>"; };
 		BA90658429A025C20022EFB5 /* AuthTypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthTypeVC.xib; sourceTree = "<group>"; };
+		BA97365D29A8037600E2FDA7 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		BA97365E29A8037600E2FDA7 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		BAD010B029A1589D000639E3 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		BAD010B129A1589D000639E3 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
@@ -285,6 +301,65 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BA002C1F29A7F4800045D6D4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA002C2029A7F4A10045D6D4 /* ChatItemCell.swift */,
+				BA002C2129A7F4A10045D6D4 /* ChatItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BA002C2429A7F8270045D6D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA002C2629A7F8470045D6D4 /* ChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA002C2529A7F82B0045D6D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA002C2929A7F8850045D6D4 /* ChatModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA002C2B29A7FB250045D6D4 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				BA002C2E29A7FB410045D6D4 /* Mode; */,
+				BA002C2D29A7FB380045D6D4 /* ViewModel */,
+				BA002C2C29A7FB300045D6D4 /* View */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		BA002C2C29A7FB300045D6D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA97365C29A8035C00E2FDA7 /* Cells */,
+				BA002C2F29A7FB5A0045D6D4 /* ConversationVC.swift */,
+				BA002C3029A7FB5A0045D6D4 /* ConversationVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA002C2D29A7FB380045D6D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA002C2E29A7FB410045D6D4 /* Mode; */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Mode;";
+			sourceTree = "<group>";
+		};
 		BA1154CE29A410B4000D50A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +454,8 @@
 		BA1154EC29A42464000D50A9 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				BA002C2529A7F82B0045D6D4 /* Model */,
+				BA002C2429A7F8270045D6D4 /* ViewModel */,
 				BA1154ED29A42470000D50A9 /* View */,
 			);
 			path = Chat;
@@ -387,6 +464,7 @@
 		BA1154ED29A42470000D50A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA002C1F29A7F4800045D6D4 /* Cells */,
 				BA1154EE29A42482000D50A9 /* ChatListVC.swift */,
 				BA1154EF29A42482000D50A9 /* ChatListVC.xib */,
 			);
@@ -591,6 +669,7 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA002C2B29A7FB250045D6D4 /* Conversation */,
 				BADA2FB929A6A90B00E52FA6 /* Search */,
 				BADA2FAF29A6A61900E52FA6 /* Sub Categories */,
 				BA7FB3A629A56A04004C9C77 /* My Ads */,
@@ -653,6 +732,15 @@
 				BA90658429A025C20022EFB5 /* AuthTypeVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BA97365C29A8035C00E2FDA7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA97365D29A8037600E2FDA7 /* MessageCell.swift */,
+				BA97365E29A8037600E2FDA7 /* MessageCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BAD010AC29A15872000639E3 /* SignUp */ = {
@@ -1132,12 +1220,15 @@
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
 				BADA2FB429A6A64600E52FA6 /* SubCategoriesVC.xib in Resources */,
 				BAFC933729A02E9B001608A9 /* Roboto-BoldItalic.ttf in Resources */,
+				BA002C2329A7F4A10045D6D4 /* ChatItemCell.xib in Resources */,
 				BA7FB3AA29A56A18004C9C77 /* MyAdsVC.xib in Resources */,
 				BAFAA8B429A14D9F005B2197 /* OtpVC.xib in Resources */,
 				BAFC933629A02E9B001608A9 /* Roboto-MediumItalic.ttf in Resources */,
 				BAFC934C29A03FA7001608A9 /* LoginVC.xib in Resources */,
 				BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */,
+				BA97366029A8037600E2FDA7 /* MessageCell.xib in Resources */,
 				BA1154F729A424B3000D50A9 /* ProfileVC.xib in Resources */,
+				BA002C3229A7FB5A0045D6D4 /* ConversationVC.xib in Resources */,
 				BAFC932F29A02E95001608A9 /* Roboto-Black.ttf in Resources */,
 				BAFC933929A02E9B001608A9 /* Roboto-Thin.ttf in Resources */,
 				BAD2654329A1491A00C8D26D /* ForgotPasswordVC.xib in Resources */,
@@ -1237,6 +1328,8 @@
 				BA1154EA29A4244F000D50A9 /* PodtAdVC.swift in Sources */,
 				BADA2FBD29A6A92A00E52FA6 /* SearchVC.swift in Sources */,
 				BADA2FC929A6AC4000E52FA6 /* SearchModel.swift in Sources */,
+				BA97365F29A8037600E2FDA7 /* MessageCell.swift in Sources */,
+				BA002C2729A7F8470045D6D4 /* ChatViewModel.swift in Sources */,
 				BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */,
 				BAFC931929A027EA001608A9 /* Network-Availablity-Helper.swift in Sources */,
 				BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */,
@@ -1258,6 +1351,7 @@
 				BAFC931029A027C1001608A9 /* Ex-UIColor.swift in Sources */,
 				BAFC930B29A027C1001608A9 /* Ex-UIButton.swift in Sources */,
 				BA1154FF29A43418000D50A9 /* ProfilePresenter.swift in Sources */,
+				BA002C2A29A7F8850045D6D4 /* ChatModel.swift in Sources */,
 				BA540A6A29A6C6AA007CEE5C /* AdsImagesCell.swift in Sources */,
 				BAFAA8B329A14D9F005B2197 /* OtpVC.swift in Sources */,
 				BAF44FFC29A00EBB00949780 /* SceneDelegate.swift in Sources */,
@@ -1275,6 +1369,7 @@
 				BA2245F629A587BD00C6BBF5 /* CategoryCell.swift in Sources */,
 				BAFC930E29A027C1001608A9 /* Ex-UICollectionView.swift in Sources */,
 				BAFC931D29A02922001608A9 /* Constant.swift in Sources */,
+				BA002C3129A7FB5A0045D6D4 /* ConversationVC.swift in Sources */,
 				BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */,
 				BAFC930D29A027C1001608A9 /* Ex-ViewController.swift in Sources */,
 				BAFC932029A029AD001608A9 /* Document-Picker-Helper.swift in Sources */,
@@ -1284,6 +1379,7 @@
 				BA7FB3A929A56A18004C9C77 /* MyAdsVC.swift in Sources */,
 				BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */,
 				BADA2FB829A6A71900E52FA6 /* SubCategoriesViiewModel.swift in Sources */,
+				BA002C2229A7F4A10045D6D4 /* ChatItemCell.swift in Sources */,
 				BAFC930A29A027C1001608A9 /* Ex-UINavigation.swift in Sources */,
 				BADA2FAB29A6A34000E52FA6 /* CategoriesViewModel.swift in Sources */,
 				BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */,
