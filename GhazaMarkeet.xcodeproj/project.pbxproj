@@ -14,6 +14,8 @@
 		BA002C2A29A7F8850045D6D4 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2929A7F8850045D6D4 /* ChatModel.swift */; };
 		BA002C3129A7FB5A0045D6D4 /* ConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA002C2F29A7FB5A0045D6D4 /* ConversationVC.swift */; };
 		BA002C3229A7FB5A0045D6D4 /* ConversationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA002C3029A7FB5A0045D6D4 /* ConversationVC.xib */; };
+		BA03636B29AA624900B39B16 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03636929AA624900B39B16 /* DetailVC.swift */; };
+		BA03636C29AA624900B39B16 /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA03636A29AA624900B39B16 /* DetailVC.xib */; };
 		BA1154D029A41534000D50A9 /* ChangePasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */; };
 		BA1154D329A4155F000D50A9 /* ChangePasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */; };
 		BA1154D829A4230F000D50A9 /* GhazaTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */; };
@@ -54,6 +56,7 @@
 		BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA90658429A025C20022EFB5 /* AuthTypeVC.xib */; };
 		BA97365F29A8037600E2FDA7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA97365D29A8037600E2FDA7 /* MessageCell.swift */; };
 		BA97366029A8037600E2FDA7 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA97365E29A8037600E2FDA7 /* MessageCell.xib */; };
+		BAA5F03A29A8272E006F0B05 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAA5F03C29A8272E006F0B05 /* Localizable.strings */; };
 		BAD010B229A1589E000639E3 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD010B029A1589D000639E3 /* SignUpVC.swift */; };
 		BAD010B329A1589E000639E3 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD010B129A1589D000639E3 /* SignUpVC.xib */; };
 		BAD2654229A1491A00C8D26D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */; };
@@ -147,6 +150,8 @@
 		BA002C2929A7F8850045D6D4 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		BA002C2F29A7FB5A0045D6D4 /* ConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationVC.swift; sourceTree = "<group>"; };
 		BA002C3029A7FB5A0045D6D4 /* ConversationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationVC.xib; sourceTree = "<group>"; };
+		BA03636929AA624900B39B16 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		BA03636A29AA624900B39B16 /* DetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
 		BA1154CF29A41534000D50A9 /* ChangePasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordPresenter.swift; sourceTree = "<group>"; };
 		BA1154D229A4155F000D50A9 /* ChangePasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordModel.swift; sourceTree = "<group>"; };
 		BA1154D629A4230F000D50A9 /* GhazaTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhazaTabbar.swift; sourceTree = "<group>"; };
@@ -187,6 +192,9 @@
 		BA90658429A025C20022EFB5 /* AuthTypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthTypeVC.xib; sourceTree = "<group>"; };
 		BA97365D29A8037600E2FDA7 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		BA97365E29A8037600E2FDA7 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		BAA5F03B29A8272E006F0B05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BAA5F03D29A827DF006F0B05 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		BAA5F03E29A827DF006F0B05 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BAD010B029A1589D000639E3 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		BAD010B129A1589D000639E3 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 		BAD2654029A1491A00C8D26D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
@@ -358,6 +366,39 @@
 			children = (
 			);
 			path = "Mode;";
+			sourceTree = "<group>";
+		};
+		BA03636529AA621500B39B16 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BA03636829AA623100B39B16 /* Model */,
+				BA03636729AA622A00B39B16 /* ViewModel */,
+				BA03636629AA622100B39B16 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		BA03636629AA622100B39B16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA03636929AA624900B39B16 /* DetailVC.swift */,
+				BA03636A29AA624900B39B16 /* DetailVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA03636729AA622A00B39B16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA03636829AA623100B39B16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BA1154CE29A410B4000D50A9 /* ViewModel */ = {
@@ -634,6 +675,7 @@
 			isa = PBXGroup;
 			children = (
 				BAFC931C29A02922001608A9 /* Constant.swift */,
+				BAA5F03C29A8272E006F0B05 /* Localizable.strings */,
 			);
 			path = Globals;
 			sourceTree = "<group>";
@@ -669,6 +711,7 @@
 		BA90657429A023A20022EFB5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BA03636529AA621500B39B16 /* Detail */,
 				BA002C2B29A7FB250045D6D4 /* Conversation */,
 				BADA2FB929A6A90B00E52FA6 /* Search */,
 				BADA2FAF29A6A61900E52FA6 /* Sub Categories */,
@@ -1192,6 +1235,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = BAF44FED29A00EBB00949780;
 			productRefGroup = BAF44FF729A00EBB00949780 /* Products */;
@@ -1215,6 +1259,7 @@
 				BAEFB9BE29A5571200F8CCFD /* EditProfileVC.xib in Resources */,
 				BAFC933129A02E9B001608A9 /* Roboto-Bold.ttf in Resources */,
 				BADA2FC329A6AACD00E52FA6 /* SearchTagsCell.xib in Resources */,
+				BAA5F03A29A8272E006F0B05 /* Localizable.strings in Resources */,
 				BADA2FBE29A6A92A00E52FA6 /* SearchVC.xib in Resources */,
 				BA90658629A025C20022EFB5 /* AuthTypeVC.xib in Resources */,
 				BAFC933029A02E9B001608A9 /* Roboto-Italic.ttf in Resources */,
@@ -1226,6 +1271,7 @@
 				BAFC933629A02E9B001608A9 /* Roboto-MediumItalic.ttf in Resources */,
 				BAFC934C29A03FA7001608A9 /* LoginVC.xib in Resources */,
 				BA90657B29A023E20022EFB5 /* SplashVC.xib in Resources */,
+				BA03636C29AA624900B39B16 /* DetailVC.xib in Resources */,
 				BA97366029A8037600E2FDA7 /* MessageCell.xib in Resources */,
 				BA1154F729A424B3000D50A9 /* ProfileVC.xib in Resources */,
 				BA002C3229A7FB5A0045D6D4 /* ConversationVC.xib in Resources */,
@@ -1380,6 +1426,7 @@
 				BAFC930429A027C1001608A9 /* Ex-UIImage.swift in Sources */,
 				BADA2FB829A6A71900E52FA6 /* SubCategoriesViiewModel.swift in Sources */,
 				BA002C2229A7F4A10045D6D4 /* ChatItemCell.swift in Sources */,
+				BA03636B29AA624900B39B16 /* DetailVC.swift in Sources */,
 				BAFC930A29A027C1001608A9 /* Ex-UINavigation.swift in Sources */,
 				BADA2FAB29A6A34000E52FA6 /* CategoriesViewModel.swift in Sources */,
 				BA1154F029A42482000D50A9 /* ChatListVC.swift in Sources */,
@@ -1419,10 +1466,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		BAA5F03C29A8272E006F0B05 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAA5F03B29A8272E006F0B05 /* en */,
+				BAA5F03E29A827DF006F0B05 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		BAF4500429A00EC100949780 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BAF4500529A00EC100949780 /* Base */,
+				BAA5F03D29A827DF006F0B05 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1434,6 +1491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1494,6 +1552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1566,7 +1625,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesOrbit.GhazaMarkeet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codesorbit.GhazaMarkeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1596,7 +1655,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesOrbit.GhazaMarkeet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codesorbit.GhazaMarkeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1615,7 +1674,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesOrbit.GhazaMarkeetTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codesorbit.GhazaMarkeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1653,7 +1712,7 @@
 				DEVELOPMENT_TEAM = YBC6QZE5G7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesOrbit.GhazaMarkeetUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codesorbit.GhazaMarkeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -1671,7 +1730,7 @@
 				DEVELOPMENT_TEAM = YBC6QZE5G7;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codesOrbit.GhazaMarkeetUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Codesorbit.GhazaMarkeet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

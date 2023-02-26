@@ -11,8 +11,8 @@ class ProfileVC: UIViewController {
     
     //IBOUTLET'S
     @IBOutlet weak var UserProfileImage: UIImageView!
-    @IBOutlet weak var UserName: H1!
-    @IBOutlet weak var UserPhoneNumber: H3!
+    @IBOutlet weak var UserName: H1Bold!
+    @IBOutlet weak var UserPhoneNumber: H2Medium!
     @IBOutlet weak var EditBtn: CustomBtnWithBG!
     @IBOutlet weak var OptionList: UITableView!
     
@@ -41,7 +41,7 @@ class ProfileVC: UIViewController {
 extension ProfileVC {
     
     func setupUI() {
-        
+        EditBtn.setTitle(Constant.editProfile, for: .normal)
     }
     
 }

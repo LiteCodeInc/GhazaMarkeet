@@ -8,13 +8,14 @@
 import UIKit
 
 class HomeVC: UIViewController {
-
+    
     //IBOUTLET'S
     @IBOutlet weak var SearchField: UITextField!
     @IBOutlet weak var CategoriesList: UICollectionView!
     @IBOutlet weak var NewProductList: UICollectionView!
     @IBOutlet weak var LocationView: UIView!
-    
+    @IBOutlet weak var SaveBtn: UIButton!
+    @IBOutlet weak var CancelBtn: UIButton!
     
     //VARIABLE'S
     var presenter = HomePresenter()
@@ -23,10 +24,8 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        self.navigationController?.toolbar.isHidden = true
-        self.navigationController?.navigationBar.isHidden = true
     }
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.toolbar.isHidden = true
@@ -48,14 +47,17 @@ class HomeVC: UIViewController {
 extension HomeVC {
     
     func setupUI() {
-        
+        SaveBtn.setTitle(Constant.save, for: .normal)
+        CancelBtn.setTitle(Constant.cancel, for: .normal)
+        self.navigationController?.toolbar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = true
     }
     
 }
 
 
 extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, AdsCellResponder {
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if collectionView.tag == 0 {
             return presenter.dataModel.categories.count
@@ -75,7 +77,6 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
             cell.config(data: presenter.dataModel.adsData[indexPath.row], indexPath: indexPath, delegate: self)
             return cell
         }
-       
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -97,7 +98,7 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
             return CGSize(width:widthPerItem, height:200)
         }
     }
-
+    
     func AdsResponder(respondType: AdCellRespondType, indexPath: IndexPath) {
         switch respondType {
         case .adOptions:
@@ -109,8 +110,6 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
         case .deleteAd:
             break
         }
-    }
-    
-    
+    }    
     
 }

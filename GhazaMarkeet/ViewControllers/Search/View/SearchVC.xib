@@ -125,7 +125,7 @@
                                     </constraints>
                                 </view>
                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUz-Qj-udj">
-                                    <rect key="frame" x="0.0" y="54.000000000000028" width="393" height="445.66666666666674"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="445.66666666666669"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylg-GQ-P3e">
                                             <rect key="frame" x="8" y="20.666666666666671" width="25" height="25"/>
@@ -143,7 +143,7 @@
                                                 <action selector="dismissVCAction" destination="-1" eventType="touchUpInside" id="4Bx-Na-N9S"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIe-hp-c3M">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VIe-hp-c3M" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="52.999999999999986" y="20" width="240.66666666666663" height="26"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="26" id="Nbb-iQ-McQ"/>
@@ -175,12 +175,12 @@
                                             </constraints>
                                         </view>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-Ls-2XD">
-                                            <rect key="frame" x="20" y="70.666666666666657" width="353" height="280"/>
+                                            <rect key="frame" x="20" y="70.666666666666686" width="353" height="280"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6H-r9-39N">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="76"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRL-Ld-Btt" userLabel="Category" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GRL-Ld-Btt" userLabel="Category" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="16" id="nJB-Da-a0d"/>
@@ -190,7 +190,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHV-mt-O6u">
-                                                            <rect key="frame" x="0.0" y="24" width="353" height="52"/>
+                                                            <rect key="frame" x="0.0" y="23.999999999999986" width="353" height="52"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown" translatesAutoresizingMaskIntoConstraints="NO" id="7TL-xq-Lzl">
                                                                     <rect key="frame" x="331" y="20" width="8" height="12"/>
@@ -246,9 +246,9 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huu-6d-h4c">
-                                                    <rect key="frame" x="0.0" y="102.00000000000003" width="353" height="76"/>
+                                                    <rect key="frame" x="0.0" y="102" width="353" height="76"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bip-0P-VyR" userLabel="Locations" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bip-0P-VyR" userLabel="Locations" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="16" id="0RI-DC-9jd"/>
@@ -261,7 +261,7 @@
                                                             <rect key="frame" x="0.0" y="24" width="353" height="52"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-8j-c5E">
-                                                                    <rect key="frame" x="331" y="20" width="8" height="12"/>
+                                                                    <rect key="frame" x="331" y="20.000000000000028" width="8" height="12"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="12" id="Nyw-Jz-LwK"/>
                                                                         <constraint firstAttribute="width" constant="8" id="Pp1-Bw-EZC"/>
@@ -314,12 +314,12 @@
                                                     </constraints>
                                                 </view>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="OyF-60-MrH">
-                                                    <rect key="frame" x="0.0" y="204.00000000000003" width="353" height="75.999999999999972"/>
+                                                    <rect key="frame" x="0.0" y="204" width="353" height="76"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoY-Er-z3W">
                                                             <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="76"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price From" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-Xd-X6J" userLabel="Locations" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price From" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pg6-Xd-X6J" userLabel="Locations" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                                     <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="16"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="16" id="AwB-hO-ehK"/>
@@ -378,7 +378,7 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EC1-v8-Zoz">
                                                             <rect key="frame" x="184.66666666666663" y="0.0" width="168.33333333333337" height="76"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ph-oU-ZEb" userLabel="Locations" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ph-oU-ZEb" userLabel="Locations" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                                     <rect key="frame" x="0.0" y="0.0" width="168.33333333333334" height="16"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="16" id="ULp-tf-xA0"/>
@@ -561,6 +561,41 @@
             <point key="canvasLocation" x="90.839694656488547" y="19.718309859154932"/>
         </view>
     </objects>
+    <designables>
+        <designable name="2Ph-oU-ZEb">
+            <size key="intrinsicContentSize" width="61.333333333333336" height="20.333333333333332"/>
+        </designable>
+        <designable name="2bP-wx-VRM">
+            <size key="intrinsicContentSize" width="72.666666666666671" height="18.666666666666668"/>
+        </designable>
+        <designable name="GRL-Ld-Btt">
+            <size key="intrinsicContentSize" width="70.333333333333329" height="20.333333333333332"/>
+        </designable>
+        <designable name="IL2-TU-4za">
+            <size key="intrinsicContentSize" width="89.333333333333329" height="34.333333333333336"/>
+        </designable>
+        <designable name="VIe-hp-c3M">
+            <size key="intrinsicContentSize" width="51.333333333333336" height="26"/>
+        </designable>
+        <designable name="WXk-2D-X7g">
+            <size key="intrinsicContentSize" width="72.666666666666671" height="18.666666666666668"/>
+        </designable>
+        <designable name="Wiq-PC-Xvk">
+            <size key="intrinsicContentSize" width="74.333333333333329" height="34.333333333333336"/>
+        </designable>
+        <designable name="bip-0P-VyR">
+            <size key="intrinsicContentSize" width="73.666666666666671" height="20.333333333333332"/>
+        </designable>
+        <designable name="oSb-nv-eW6">
+            <size key="intrinsicContentSize" width="72.666666666666671" height="18.666666666666668"/>
+        </designable>
+        <designable name="pg6-Xd-X6J">
+            <size key="intrinsicContentSize" width="82" height="20.333333333333332"/>
+        </designable>
+        <designable name="w84-dp-X4o">
+            <size key="intrinsicContentSize" width="78" height="18.666666666666668"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Back" width="8.3333330154418945" height="13.333333015441895"/>
         <image name="DropDown" width="13.333333015441895" height="8.3333330154418945"/>

@@ -12,6 +12,10 @@ class PodtAdVC: UIViewController {
     //IBOUTLET'S
     @IBOutlet weak var AdsImagesList: UICollectionView!
     @IBOutlet weak var AdsImagesListHeight: NSLayoutConstraint!
+    @IBOutlet weak var UploadImagesBtn: CustomBtnWithBG!
+    @IBOutlet weak var PostBtn: CustomBtnWithBG!
+    @IBOutlet weak var CancelBtn: CustomBtnWithoutBG!
+    
     
     //VARIABLE'S
     var presenter = PostAdsPresenter()
@@ -38,7 +42,9 @@ class PodtAdVC: UIViewController {
 extension PodtAdVC {
     
     func setupUI() {
-        
+        UploadImagesBtn.setTitle(Constant.images, for: .normal)
+        PostBtn.setTitle(Constant.post, for: .normal)
+        CancelBtn.setTitle(Constant.cancel, for: .normal)
     }
     
 }

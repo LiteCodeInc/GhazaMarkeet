@@ -30,21 +30,21 @@ class GhazaTabbar: UITabBarController {
     
     func addControllers() {
         
-        let homeVC = AddChilds(controller: HomeVC(), title: "Home", image: "Home", selectedImage: "HomeFill")
+        let homeVC = AddChilds(controller: HomeVC(), title: "Home".localized(), image: "Home", selectedImage: "HomeFill")
         homeVC.navigationController?.navigationBar.isHidden = true
         let homeNav = UINavigationController(rootViewController: homeVC)
         
-        let boost = AddChilds(controller: CategoriesVC(), title: "Categories", image: "Categories", selectedImage: "CategoriesFill")
+        let boost = AddChilds(controller: CategoriesVC(), title: "Categories".localized(), image: "Categories", selectedImage: "CategoriesFill")
         boost.navigationController?.navigationBar.isHidden = true
         let boostNav = UINavigationController(rootViewController: boost)
         
-        let empower = AddChilds(controller: PodtAdVC(), title: "Post Ad", image: "PostAd", selectedImage: "PostAd")
+        let empower = AddChilds(controller: PodtAdVC(), title: "Post Ad".localized(), image: "PostAd", selectedImage: "PostAd")
         let empowerNav = UINavigationController(rootViewController: empower)
         
-        let unstopable = AddChilds(controller: ChatListVC(), title: "Chat", image: "Chat", selectedImage: "ChatFill")
+        let unstopable = AddChilds(controller: ChatListVC(), title: "Chat".localized(), image: "Chat", selectedImage: "ChatFill")
         let unstopableNav = UINavigationController(rootViewController: unstopable)
         
-        let setting = AddChilds(controller: ProfileVC(), title: "Profile", image: "Profile", selectedImage: "ProfileFill")
+        let setting = AddChilds(controller: ProfileVC(), title: "Profile".localized(), image: "Profile", selectedImage: "ProfileFill")
         let settingNav = UINavigationController(rootViewController: setting)
         
         self.viewControllers = [homeNav,boostNav,empowerNav,unstopableNav,settingNav]

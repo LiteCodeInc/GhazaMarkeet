@@ -40,4 +40,9 @@ class LoginVC: UIViewController {
 //MARK: ------------ HELPING METHOD'S ------------ 
 extension LoginVC {
     
+    func setupUI () {
+        LoginBtn.setTitle(Constant.BestPrice, for: .normal)
+        SignUpBtn.setTitle(Constant.Youwill, for: .normal)
+    }
+    
 }

@@ -62,7 +62,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDx-PR-tsg">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="762.66666666666663"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts5-RO-sah" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify your Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ts5-RO-sah" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="27" y="60" width="339" height="28"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="28" id="VpK-UA-TBe"/>
@@ -71,7 +71,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the 4 digit code sent to" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQe-7D-nwi" customClass="H2" customModule="GhazaMarkeet" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the 4 digit code sent to" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQe-7D-nwi" customClass="H2Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="27" y="95" width="339" height="20.333333333333329"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20.329999999999998" id="DeC-Q9-6rm"/>
@@ -406,6 +406,23 @@
             <point key="canvasLocation" x="82" y="20"/>
         </view>
     </objects>
+    <designables>
+        <designable name="3Ow-Zd-hu5">
+            <size key="intrinsicContentSize" width="79.666666666666671" height="34.333333333333336"/>
+        </designable>
+        <designable name="gua-2R-MVO">
+            <size key="intrinsicContentSize" width="126" height="34.333333333333336"/>
+        </designable>
+        <designable name="iaD-2U-yvE">
+            <size key="intrinsicContentSize" width="168.66666666666666" height="20.333333333333332"/>
+        </designable>
+        <designable name="qQe-7D-nwi">
+            <size key="intrinsicContentSize" width="275" height="20.333333333333332"/>
+        </designable>
+        <designable name="ts5-RO-sah">
+            <size key="intrinsicContentSize" width="127" height="20.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Back" width="8.3333330154418945" height="13.333333015441895"/>
         <image name="BottomBG" width="360" height="61.333332061767578"/>

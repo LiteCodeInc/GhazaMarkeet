@@ -23,7 +23,7 @@ class AdsCell: UICollectionViewCell {
     //IBOUTLET'S
     @IBOutlet weak var Thumbnail: UIImageView!
     @IBOutlet weak var AdTitle: UILabel!
-    @IBOutlet weak var Location: H4!
+    @IBOutlet weak var Location: H4Medium!
     @IBOutlet weak var PostDate: UILabel!
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var OptionView: UIView!

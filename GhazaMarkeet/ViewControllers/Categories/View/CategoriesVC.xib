@@ -70,7 +70,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XOO-Qy-JuU">
                     <rect key="frame" x="20" y="113" width="353" height="25"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-SQ-jpX">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLM-SQ-jpX" customClass="H2Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="353" height="25"/>
                             <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
                             <color key="textColor" name="TextBlack"/>
@@ -117,6 +117,11 @@
             <point key="canvasLocation" x="91" y="20"/>
         </view>
     </objects>
+    <designables>
+        <designable name="OLM-SQ-jpX">
+            <size key="intrinsicContentSize" width="78.333333333333329" height="19"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Search" width="21" height="20.333333969116211"/>
         <namedColor name="Shodow">

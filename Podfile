@@ -7,5 +7,5 @@ target 'GhazaMarkeet' do
   pod 'SwiftyJSON', '~> 4.0'
   pod 'NVActivityIndicatorView'
   pod 'DropDown'
-
+  pod 'Localize-Swift'
 end

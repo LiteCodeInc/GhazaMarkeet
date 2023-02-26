@@ -50,7 +50,7 @@ class ChangePasswordVC: UIViewController {
 extension ChangePasswordVC {
     
     func setupUI() {
-        
+        UpdateBtn.setTitle(Constant.update, for: .normal)
     }
     
 }

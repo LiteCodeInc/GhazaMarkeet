@@ -11,6 +11,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AuthTypeVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="DescriptionLabel" destination="15h-ls-B95" id="DmK-Bw-uZr"/>
+                <outlet property="LoginBtn" destination="TLw-ob-XuE" id="Hm3-3M-yat"/>
+                <outlet property="SignUpBtn" destination="eAA-i6-b9a" id="lWC-6X-rke"/>
+                <outlet property="TitleLabel" destination="LsP-YT-HHr" id="kf2-uf-bSY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -22,7 +26,7 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AuthTypeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="HdY-oU-26D">
                     <rect key="frame" x="76" y="158" width="241" height="207"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Price &amp; Deals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsP-YT-HHr" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Price &amp; Deals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LsP-YT-HHr" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                     <rect key="frame" x="25" y="440" width="343" height="28"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="28" id="XqG-7D-RaU"/>
@@ -53,7 +57,7 @@
                         <action selector="LoginBtnAction:" destination="-1" eventType="touchUpInside" id="g1H-4g-zaS"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will find all your favorite deals at the best prices only on Gahazamarket." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15h-ls-B95" customClass="H2" customModule="GhazaMarkeet" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You will find all your favorite deals at the best prices only on Gazamarket" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15h-ls-B95" customClass="H2Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                     <rect key="frame" x="25" y="478" width="343" height="40.666666666666629"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -83,6 +87,20 @@
             <point key="canvasLocation" x="91" y="20"/>
         </view>
     </objects>
+    <designables>
+        <designable name="15h-ls-B95">
+            <size key="intrinsicContentSize" width="548" height="20.333333333333332"/>
+        </designable>
+        <designable name="LsP-YT-HHr">
+            <size key="intrinsicContentSize" width="140" height="20.333333333333332"/>
+        </designable>
+        <designable name="TLw-ob-XuE">
+            <size key="intrinsicContentSize" width="74" height="34.333333333333336"/>
+        </designable>
+        <designable name="eAA-i6-b9a">
+            <size key="intrinsicContentSize" width="90" height="34.333333333333336"/>
+        </designable>
+    </designables>
     <resources>
         <image name="AuthTypeIcon" width="207" height="207"/>
         <namedColor name="Theam2">

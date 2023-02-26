@@ -42,8 +42,9 @@ class OtpVC: UIViewController {
 
 extension OtpVC {
     
-    func setupUI() {
-        
+    func setupUI () {
+        SendBtn.setTitle(Constant.Verify, for: .normal)
+//        ResendBtn.setTitle(Constant.bestPriceDescription, for: .normal)
     }
     
 }

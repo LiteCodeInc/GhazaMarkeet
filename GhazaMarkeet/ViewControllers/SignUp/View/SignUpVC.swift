@@ -10,6 +10,8 @@ import UIKit
 class SignUpVC: UIViewController {
 
     //IBOUTLET'S
+    @IBOutlet weak var SignUpBtn: CustomBtnWithoutBG!
+    @IBOutlet weak var LoginBtn: CustomBtnWithUnderline!
     
     //VARIABLE'S
     
@@ -17,8 +19,7 @@ class SignUpVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        self.navigationController?.toolbar.isHidden = true
-        self.navigationController?.navigationBar.isHidden = true
+        
     }
 
     //IBACTION'S
@@ -39,7 +40,9 @@ class SignUpVC: UIViewController {
 extension SignUpVC {
     
     func setupUI() {
-        
+        SignUpBtn.setTitle(Constant.signUp, for: .normal)
+        self.navigationController?.toolbar.isHidden = true
+        self.navigationController?.navigationBar.isHidden = true
     }
     
 }

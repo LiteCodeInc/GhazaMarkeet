@@ -17,7 +17,7 @@ class EditProfileVC: UIViewController {
     @IBOutlet weak var PhoneNumberField: CustomField!
     @IBOutlet weak var PasswordField: CustomField!
     @IBOutlet weak var ConfirmPasswordField: CustomField!
-    @IBOutlet weak var SignUpBtn: CustomBtnWithBG!
+    @IBOutlet weak var UpdateBtn: CustomBtnWithBG!
     
     //VARIABLE'S
     
@@ -50,7 +50,7 @@ class EditProfileVC: UIViewController {
         ConfirmPasswordField.isSecureTextEntry = !ConfirmPasswordField.isSecureTextEntry
     }
     
-    @IBAction func SignUpBtnAction(_ sender: CustomBtnWithBG) {
+    @IBAction func UpdateBtnAction(_ sender: CustomBtnWithBG) {
         self.navigationController?.popViewController(animated: true)
     }
     
@@ -60,6 +60,7 @@ class EditProfileVC: UIViewController {
 extension EditProfileVC {
     
     func setupUI()  {
+        UpdateBtn.setTitle(Constant.update, for: .normal)
     }
     
 }

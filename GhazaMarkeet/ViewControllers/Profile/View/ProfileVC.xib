@@ -35,7 +35,7 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="isCirculer" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyle Butler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXc-iJ-s2d" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyle Butler" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXc-iJ-s2d" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                     <rect key="frame" x="27" y="212" width="339" height="25"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="25" id="YGw-yl-kcY"/>
@@ -44,7 +44,7 @@
                     <color key="textColor" name="TextBlack"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(951)097-8575x8472" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP6-2d-p6L" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(951)097-8575x8472" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UP6-2d-p6L" customClass="H2Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                     <rect key="frame" x="27" y="248" width="339" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="GUZ-Ep-X1x"/>
@@ -97,6 +97,11 @@
             <point key="canvasLocation" x="28" y="20"/>
         </view>
     </objects>
+    <designables>
+        <designable name="Ek6-ay-IDQ">
+            <size key="intrinsicContentSize" width="106" height="34.333333333333336"/>
+        </designable>
+    </designables>
     <resources>
         <image name="ProfilePlaceholder" width="151" height="151"/>
         <namedColor name="SubHeading2">

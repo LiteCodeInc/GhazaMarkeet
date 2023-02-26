@@ -42,7 +42,7 @@
                                 <action selector="dismissVCAction" destination="-1" eventType="touchUpInside" id="fMv-BP-7zJ"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobiles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPT-ga-5XR">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobiles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPT-ga-5XR" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                             <rect key="frame" x="53" y="55" width="79" height="26"/>
                             <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
                             <color key="textColor" name="TextBlack"/>
@@ -86,6 +86,11 @@
             <point key="canvasLocation" x="91" y="20"/>
         </view>
     </objects>
+    <designables>
+        <designable name="PPT-ga-5XR">
+            <size key="intrinsicContentSize" width="79" height="26"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Back" width="8.3333330154418945" height="13.333333015441895"/>
         <namedColor name="TextBlack">

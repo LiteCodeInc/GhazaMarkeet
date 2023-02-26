@@ -34,6 +34,7 @@ class Constant {
     // MARK: ---------- MESSAGE'S ----------
     static let UploadFileStudentMessage = "If you are a Student then Please also Upload your Student ID"
     static let notEnoughAmount = "Not enough amount in the wallet."
+    static let fileNotFound = "File cannot be found"
     
     // MARK: ---------- CELL'S IDENTIFIER'S ----------
     static let jdsCell = "JdsCell"
@@ -41,8 +42,80 @@ class Constant {
     static let paymentCardCell = "PaymentCardCell"
     
     
-    // MARK: ---------- OTHER'S ----------
-    static let fileNotFound = "File cannot be found"
+    // MARK: ---------- UI COMPONENT'S STRING's ----------
+    
+    static let BestPrice = "Best Price".localized()
+    static let Youwill = "You will find all your favorite deals at the best prices only on Gazamarket".localized()
+    static let Login = "Login".localized()
+    static let SignUp = "Sign Up".localized()
+    static let LoginAccount = "Login Account".localized()
+    static let HelloWelcome = "Hello, Welcome Back to Gazamarket".localized()
+    static let Email = "Email".localized()
+    static let EnterEmail = "Enter Email".localized()
+    static let Password = "Password".localized()
+    static let EnterPassword = "Enter Password".localized()
+    static let ForgotPassword = "Forgot Password".localized()
+    static let OopsYour = "Oops ! Your password is not correct".localized()
+    static let PleaseEnter = "Please enter your email address to receive a verfication code".localized()
+    static let VerifyYour = "Verify your email".localized()
+    static let PleaseEnterDigit = "Please enter the 4 digit code sent to".localized()
+    static let Verify = "Verify".localized()
+    static let ResendCode = "Resend code".localized()
+    static let CreateNew = "Create new password".localized()
+    static let YourPassword = "Your password must be different from previously used password".localized()
+    static let newPassword = "new password".localized()
+    static let confirmPassword = "confirm password".localized()
+    static let update = "update".localized()
+    static let Name = "Name".localized()
+    static let EnterFull = "Enter full name".localized()
+    static let phoneNumber = "phone number".localized()
+    static let enterPhone = "enter phone number".localized()
+    static let email = "email".localized()
+    static let enterEmail = "enter email".localized()
+    static let password = "password".localized()
+    static let enterPassword = "enter password".localized()
+    static let enterConfirmed = "enter confirmed password".localized()
+    static let signUp = "sign up".localized()
+    static let alreadyHave = "already have an account? Login".localized()
+    static let SignupAccount = "Signup account".localized()
+    static let PhoneNumber = "Phone number".localized()
+    static let currentLocation = "current location".localized()
+    static let SearchAnything = "Search anything".localized()
+    static let categories = "categories".localized()
+    static let newProducts = "new products".localized()
+    static let Home = "Home".localized()
+    static let chat = "chat".localized()
+    static let Profile = "Profile".localized()
+    static let selectLocation = "select location".localized()
+    static let cancel = "cancel".localized()
+    static let save = "save".localized()
+    static let Details = "Details".localized()
+    static let SearchCategories = "Search categories".localized()
+    static let filter = "filter".localized()
+    static let reset = "reset".localized()
+    static let Locations = "Locations".localized()
+    static let priceFrom = "price from".localized()
+    static let priceTo = "price to".localized()
+    static let apply = "apply".localized()
+    static let category = "category".localized()
+    static let postAd = "post ad".localized()
+    static let productName = "product name".localized()
+    static let brandName = "brand name".localized()
+    static let productDescription = "product description".localized()
+    static let writeAbout = "write about your product...".localized()
+    static let price = "price".localized()
+    static let adress = "adress".localized()
+    static let post = "post".localized()
+    static let images = "images".localized()
+    static let editProfile = "edit profile".localized()
+    static let address = "address".localized()
+    static let myAds = "my ads".localized()
+    static let privacyPolicy = "privacy policy".localized()
+    static let logout = "logout".localized()
+    
+    
+    
+    
     
 }
 

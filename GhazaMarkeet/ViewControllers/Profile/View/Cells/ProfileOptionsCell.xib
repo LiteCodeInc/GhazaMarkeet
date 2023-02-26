@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="width" constant="32" id="ZDp-jB-DLA"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J90-ai-Wcc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J90-ai-Wcc" customClass="H2Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                                 <rect key="frame" x="63.999999999999986" y="19" width="180.66666666666663" height="19"/>
                                 <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
                                 <color key="textColor" name="TextBlack"/>
@@ -86,6 +86,11 @@
             <point key="canvasLocation" x="117.55725190839694" y="19.366197183098592"/>
         </tableViewCell>
     </objects>
+    <designables>
+        <designable name="J90-ai-Wcc">
+            <size key="intrinsicContentSize" width="59" height="18.666666666666668"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Address" width="32" height="32"/>
         <image name="ForwordArrow" width="7.6666665077209473" height="12.666666984558105"/>

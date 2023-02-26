@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -14,13 +15,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
+        Localize.setCurrentLanguage("ar")
         let window = UIWindow(windowScene: windowScene)
-        let navigationVC = UINavigationController(rootViewController: SplashVC())
-        navigationVC.navigationBar.isHidden = true
-//        navigationVC.setupNavigation()
-        window.rootViewController = navigationVC
+        let rootVC = self.getDefaultController(vc: SplashVC())
+        window.rootViewController = rootVC
         self.window = window
         window.makeKeyAndVisible()
+        
+        if Localize.currentLanguage() == "ar" {
+            UIView.appearance().semanticContentAttribute = .forceRightToLeft
+        } else {
+            UIView.appearance().semanticContentAttribute = .forceLeftToRight
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,6 +57,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
 
+    func getDefaultController(vc:UIViewController) -> UINavigationController {
+        let navigationVC = UINavigationController(rootViewController: vc)
+        navigationVC.navigationBar.isHidden = true
+        return navigationVC
+    }
+    
 
 }
 

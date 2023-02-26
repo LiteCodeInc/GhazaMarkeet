@@ -55,7 +55,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPx-My-8Da">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="785.33333333333337"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmW-Pd-eMd" customClass="H1" customModule="GhazaMarkeet" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EmW-Pd-eMd" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="27" y="60" width="339" height="28"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="28" id="GwB-4W-1JD"/>
@@ -64,7 +64,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Welcome Back to Ghazamarket" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDK-4T-cwt" customClass="H2" customModule="GhazaMarkeet" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, Welcome Back to Ghazamarket" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDK-4T-cwt" customClass="H2Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="27" y="95" width="339" height="20.333333333333329"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20.329999999999998" id="ne1-nW-pVY"/>
@@ -79,7 +79,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfv-bT-gdk">
                                             <rect key="frame" x="27" y="330.33333333333331" width="339" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXV-Bs-BeC" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXV-Bs-BeC" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="339" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="S2z-WP-hUL"/>
@@ -158,7 +158,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OxG-W1-f1h">
                                             <rect key="frame" x="27" y="433.33333333333331" width="339" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xjv-lg-Vkm" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xjv-lg-Vkm" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="339" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="vop-pC-rac"/>
@@ -331,6 +331,35 @@
             <point key="canvasLocation" x="19.083969465648853" y="19.014084507042256"/>
         </view>
     </objects>
+    <designables>
+        <designable name="EmW-Pd-eMd">
+            <size key="intrinsicContentSize" width="109" height="20.333333333333332"/>
+        </designable>
+        <designable name="W4B-S5-RND">
+            <size key="intrinsicContentSize" width="72.666666666666671" height="18.666666666666668"/>
+        </designable>
+        <designable name="XOG-5h-xjJ">
+            <size key="intrinsicContentSize" width="100" height="17"/>
+        </designable>
+        <designable name="Xjv-lg-Vkm">
+            <size key="intrinsicContentSize" width="73.333333333333329" height="20.333333333333332"/>
+        </designable>
+        <designable name="byw-nz-tui">
+            <size key="intrinsicContentSize" width="160" height="34.333333333333336"/>
+        </designable>
+        <designable name="dcZ-CN-XSS">
+            <size key="intrinsicContentSize" width="90" height="34.333333333333336"/>
+        </designable>
+        <designable name="sgV-bX-1tq">
+            <size key="intrinsicContentSize" width="74" height="34.333333333333336"/>
+        </designable>
+        <designable name="uDK-4T-cwt">
+            <size key="intrinsicContentSize" width="285.66666666666669" height="20.333333333333332"/>
+        </designable>
+        <designable name="wXV-Bs-BeC">
+            <size key="intrinsicContentSize" width="40.666666666666664" height="20.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
         <image name="BottomBG" width="360" height="61.333332061767578"/>
         <image name="Email" width="20" height="20"/>

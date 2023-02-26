@@ -43,49 +43,155 @@ class CustomField: UITextField {
         super.init(coder: coder)
         backgroundColor = .clear
         textColor = textBlack
+        placeholder = placeholder?.localized()
     }
 }
 
 // MARK: ---------------- LABEL'S ----------------
-class H1: UILabel {
+class H1Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.robotoBold, size: 24)
         textColor = textBlack
+        self.text = text?.localized()
     }
 }
 
-class H2: UILabel {
+class H1Medium: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 24)
+        textColor = textBlack
+        self.text = text?.localized()
+    }
+}
+
+class H1Light: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 24)
+        textColor = textBlack
+        self.text = text?.localized()
+    }
+}
+
+
+
+class H2Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.interRegular, size: 16)
         textColor = subHeading
+        self.text = text?.localized()
     }
 }
 
-class H3: UILabel {
+class H2Medium: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.interRegular, size: 16)
+        textColor = subHeading
+        self.text = text?.localized()
+    }
+}
+
+class H2Light: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.interRegular, size: 16)
+        textColor = subHeading
+        self.text = text?.localized()
+    }
+}
+
+
+
+class H3Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.robotoRegular, size: 14)
         textColor = subHeadingTwo
+        self.text = text?.localized()
     }
 }
 
-class H4: UILabel {
+class H3Medium: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoRegular, size: 14)
+        textColor = subHeadingTwo
+        self.text = text?.localized()
+    }
+}
+
+class H3Light: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoRegular, size: 14)
+        textColor = subHeadingTwo
+        self.text = text?.localized()
+    }
+}
+
+
+
+class H4Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.robotoBold, size: 14)
         textColor = .white
+        self.text = text?.localized()
     }
 }
 
-class H5: UILabel {
+class H4Medium: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 14)
+        textColor = subHeadingTwo
+        self.text = text?.localized()
+    }
+}
+
+class H4Light: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 14)
+        textColor = .white
+        self.text = text?.localized()
+    }
+}
+
+
+
+class H5Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.robotoBold, size: 12)
         textColor = .white
+        self.text = text?.localized()
     }
 }
+
+class H5Medium: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 12)
+        textColor = .white
+        self.text = text?.localized()
+    }
+}
+
+class H5Light: UILabel {
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        font = UIFont(name: Constant.robotoBold, size: 12)
+        textColor = .white
+        self.text = text?.localized()
+    }
+}
+
+
 
 class UnderLineLabel: UILabel {
     required init?(coder: NSCoder) {
@@ -96,63 +202,13 @@ class UnderLineLabel: UILabel {
             .underlineStyle: NSUnderlineStyle.single.rawValue
         ]
         let attributeString = NSMutableAttributedString(
-            string: self.text ?? "",
+            string: self.text?.localized() ?? "",
             attributes: yourAttributes
         )
         self.attributedText = attributeString
     }
 }
 
-//
-//class NumberPad: UILabel {
-//    required init?(coder: NSCoder) {
-//        super.init(coder: coder)
-//        font = UIFont(name: Constant.FontName, size: 28)
-//        textColor = .white
-//    }
-//}
-//
-//
-//// MARK: ---------------- BUTTON'S ----------------
-//class ERideButton: UIButton {
-//    override var isEnabled: Bool {
-//        didSet{
-//            if isEnabled {
-//                backgroundColor = lightGreen
-//                titleLabel?.textColor = black
-//            } else {
-//                backgroundColor = lightBlack
-//                titleLabel?.textColor = lightGray
-//            }
-//            layer.cornerRadius = 8
-//        }
-//    }
-//}
-//
-//class ERideTextButton: UIButton {
-//    required init?(coder: NSCoder) {
-//        super.init(coder: coder)
-//        tintColor = lightGreen
-//        let yourAttributes: [NSAttributedString.Key: Any] = [
-//            .font: UIFont.systemFont(ofSize: 14),
-//            .foregroundColor: lightGreen,
-//            .underlineStyle: NSUnderlineStyle.single.rawValue
-//        ]
-//        let attributeString = NSMutableAttributedString(
-//            string: self.titleLabel!.text ?? "",
-//            attributes: yourAttributes
-//        )
-//        setAttributedTitle(attributeString, for: .normal)
-//    }
-//}
-//
-//class ERideButtonWithoutUnderline: UIButton {
-//    required init?(coder: NSCoder) {
-//        super.init(coder: coder)
-//        tintColor = lightGreen
-//        backgroundColor = .clear
-//    }
-//}
 
 class CustomBtnWithBG: UIButton {
     required init?(coder: NSCoder) {
@@ -161,6 +217,7 @@ class CustomBtnWithBG: UIButton {
         backgroundColor = theam
         cornerRadius = 10
         titleLabel?.font =  UIFont(name: Constant.robotoBold, size: 15)
+        
     }
 }
 
@@ -186,7 +243,7 @@ class CustomBtnWithUnderline: UIButton {
             .underlineStyle: NSUnderlineStyle.single.rawValue
         ]
         let attributeString = NSMutableAttributedString(
-            string: self.titleLabel!.text ?? "",
+            string: self.titleLabel!.text?.localized() ?? "".localized(),
             attributes: yourAttributes
         )
         setAttributedTitle(attributeString, for: .normal)
@@ -203,7 +260,7 @@ class CustomBtnTwoWithUnderline: UIButton {
             .underlineStyle: NSUnderlineStyle.single.rawValue
         ]
         let attributeString = NSMutableAttributedString(
-            string: self.titleLabel!.text ?? "",
+            string: self.titleLabel!.text?.localized() ?? "".localized(),
             attributes: yourAttributes
         )
         setAttributedTitle(attributeString, for: .normal)

@@ -21,7 +21,7 @@
                 <outlet property="NameField" destination="SjG-30-3AP" id="iIN-A3-31G"/>
                 <outlet property="PasswordField" destination="7Oe-PR-Qah" id="QMZ-ly-cqm"/>
                 <outlet property="PhoneNumberField" destination="BH0-f6-bXV" id="ZSZ-ap-wka"/>
-                <outlet property="SignUpBtn" destination="AYw-v1-MK2" id="yqP-Fd-Nwk"/>
+                <outlet property="UpdateBtn" destination="AYw-v1-MK2" id="3vw-Mk-Hdh"/>
                 <outlet property="UserProfileImage" destination="HRi-9o-6QY" id="heJ-mM-yju"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -54,8 +54,8 @@
                                                 <action selector="BackBtnAction:" destination="-1" eventType="touchUpInside" id="ju6-mX-ndt"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uz-zL-6Qx">
-                                            <rect key="frame" x="53" y="55.333333333333336" width="38.333333333333343" height="25.666666666666664"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Uz-zL-6Qx" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
+                                            <rect key="frame" x="53" y="55" width="38" height="26"/>
                                             <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
                                             <color key="textColor" name="TextBlack"/>
                                             <nil key="highlightedColor"/>
@@ -99,7 +99,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0wO-K3-68d">
                                             <rect key="frame" x="0.0" y="0.0" width="353" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zg-tg-B33" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zg-tg-B33" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="SfY-eE-hY7"/>
@@ -178,7 +178,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vg8-bN-hgK">
                                             <rect key="frame" x="0.0" y="105" width="353" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRD-4r-kEr" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRD-4r-kEr" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="Sof-Do-BIh"/>
@@ -257,7 +257,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-r6-nEk">
                                             <rect key="frame" x="0.0" y="210" width="353" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrj-iX-uOk" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrj-iX-uOk" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="nOw-la-eqg"/>
@@ -336,7 +336,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l2p-nl-3Zb">
                                             <rect key="frame" x="0.0" y="315" width="353" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="880-fC-9yR" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="880-fC-9yR" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="YDy-dE-TpE"/>
@@ -429,7 +429,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YoD-wj-6s0">
                                             <rect key="frame" x="0.0" y="420" width="353" height="76"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnn-mM-aMo" customClass="H3" customModule="GhazaMarkeet" customModuleProvider="target">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnn-mM-aMo" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="dxn-oP-hnR"/>
@@ -536,7 +536,7 @@
                                     <state key="normal" title="Button"/>
                                     <buttonConfiguration key="configuration" style="plain" title="UPDATE"/>
                                     <connections>
-                                        <action selector="SignUpBtnAction:" destination="-1" eventType="touchUpInside" id="Z5U-UN-hEd"/>
+                                        <action selector="UpdateBtnAction:" destination="-1" eventType="touchUpInside" id="AEY-sL-F1r"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -580,6 +580,44 @@
             <point key="canvasLocation" x="78.625954198473281" y="19.718309859154932"/>
         </view>
     </objects>
+    <designables>
+        <designable name="2Uz-zL-6Qx">
+            <size key="intrinsicContentSize" width="38" height="26"/>
+        </designable>
+        <designable name="6zg-tg-B33">
+            <size key="intrinsicContentSize" width="36" height="20.333333333333332"/>
+        </designable>
+        <designable name="7Oe-PR-Qah">
+            <size key="intrinsicContentSize" width="100" height="17"/>
+        </designable>
+        <designable name="880-fC-9yR">
+            <size key="intrinsicContentSize" width="73.333333333333329" height="20.333333333333332"/>
+        </designable>
+        <designable name="AYw-v1-MK2">
+            <size key="intrinsicContentSize" width="87.666666666666671" height="34.333333333333336"/>
+        </designable>
+        <designable name="BH0-f6-bXV">
+            <size key="intrinsicContentSize" width="134.33333333333334" height="18.666666666666668"/>
+        </designable>
+        <designable name="CBR-E2-954">
+            <size key="intrinsicContentSize" width="72.666666666666671" height="18.666666666666668"/>
+        </designable>
+        <designable name="SjG-30-3AP">
+            <size key="intrinsicContentSize" width="102" height="18.666666666666668"/>
+        </designable>
+        <designable name="UQs-T6-dbA">
+            <size key="intrinsicContentSize" width="155.33333333333334" height="17"/>
+        </designable>
+        <designable name="Zrj-iX-uOk">
+            <size key="intrinsicContentSize" width="114.33333333333333" height="20.333333333333332"/>
+        </designable>
+        <designable name="sRD-4r-kEr">
+            <size key="intrinsicContentSize" width="40.666666666666664" height="20.333333333333332"/>
+        </designable>
+        <designable name="xnn-mM-aMo">
+            <size key="intrinsicContentSize" width="138.66666666666666" height="20.333333333333332"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Back" width="8.3333330154418945" height="13.333333015441895"/>
         <image name="Edit Profile Camera" width="38" height="37.666667938232422"/>
