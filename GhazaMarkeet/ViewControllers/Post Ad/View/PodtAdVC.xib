@@ -48,7 +48,7 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post Ad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LE9-dc-cgY" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
-                            <rect key="frame" x="53" y="50" width="78" height="26"/>
+                            <rect key="frame" x="52.999999999999993" y="50.333333333333336" width="78.333333333333314" height="25.666666666666664"/>
                             <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
                             <color key="textColor" name="TextBlack"/>
                             <nil key="highlightedColor"/>
@@ -499,7 +499,7 @@
             <size key="intrinsicContentSize" width="104" height="18.666666666666668"/>
         </designable>
         <designable name="LE9-dc-cgY">
-            <size key="intrinsicContentSize" width="78" height="26"/>
+            <size key="intrinsicContentSize" width="78.333333333333329" height="25.666666666666668"/>
         </designable>
         <designable name="Lmb-zg-Nun">
             <size key="intrinsicContentSize" width="80" height="18.666666666666668"/>

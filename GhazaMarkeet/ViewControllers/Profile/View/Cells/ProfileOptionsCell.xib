@@ -89,7 +89,7 @@
     </objects>
     <designables>
         <designable name="J90-ai-Wcc">
-            <size key="intrinsicContentSize" width="59.333333333333336" height="19"/>
+            <size key="intrinsicContentSize" width="59" height="18.666666666666668"/>
         </designable>
     </designables>
     <resources>

@@ -10,6 +10,17 @@ import UIKit
 class DetailVC: UIViewController {
 
     //IBOUTLET'S
+    @IBOutlet weak var ItemImagesCollection: UICollectionView!
+    @IBOutlet weak var ProductTitle: H1Bold!
+    @IBOutlet weak var ProductLocation: H3Medium!
+    @IBOutlet weak var ProductPrice: H4Bold!
+    @IBOutlet weak var ProductCategory: H3Medium!
+    @IBOutlet weak var Detail: H2Medium!
+    @IBOutlet weak var RelatedItemsList: UICollectionView!
+    
+    @IBOutlet weak var OwnerName: H2Bold!
+    @IBOutlet weak var OwnerImage: UIImageView!
+    @IBOutlet weak var OwnerLocation: H4Medium!
     
     
     //VARIABLE'S
@@ -23,7 +34,11 @@ class DetailVC: UIViewController {
     
     
     //IBACTION'S
-
+    
+    @IBAction func CallBtnAction(_ sender: UIButton) {
+    }
+    @IBAction func MessageBtnAction(_ sender: UIButton) {
+    }
 }
 
 extension DetailVC {
