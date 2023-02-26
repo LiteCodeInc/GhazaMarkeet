@@ -80,7 +80,7 @@ class H1Light: UILabel {
 class H2Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.interRegular, size: 16)
+        font = UIFont(name: Constant.robotoBold, size: 16)
         textColor = subHeading
         self.text = text?.localized()
     }
@@ -147,7 +147,7 @@ class H4Bold: UILabel {
 class H4Medium: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.robotoBold, size: 14)
+        font = UIFont(name: Constant.robotoMedium, size: 14)
         textColor = subHeadingTwo
         self.text = text?.localized()
     }

@@ -16,6 +16,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditProfileVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="BackBtn" destination="cQi-Wp-xse" id="uiV-d5-4pC"/>
                 <outlet property="ConfirmPasswordField" destination="UQs-T6-dbA" id="LHT-CR-UlC"/>
                 <outlet property="EmailField" destination="CBR-E2-954" id="yNw-lH-WtU"/>
                 <outlet property="NameField" destination="SjG-30-3AP" id="iIN-A3-31G"/>

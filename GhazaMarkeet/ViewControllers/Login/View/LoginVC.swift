@@ -21,6 +21,7 @@ class LoginVC: UIViewController {
     //VC LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
     }
 
     //IBACTION'S
@@ -41,8 +42,8 @@ class LoginVC: UIViewController {
 extension LoginVC {
     
     func setupUI () {
-        LoginBtn.setTitle(Constant.BestPrice, for: .normal)
-        SignUpBtn.setTitle(Constant.Youwill, for: .normal)
+        LoginBtn.setTitle(Constant.Login, for: .normal)
+        SignUpBtn.setTitle(Constant.SignUp, for: .normal)
     }
     
 }

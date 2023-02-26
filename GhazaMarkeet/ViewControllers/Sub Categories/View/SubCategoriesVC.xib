@@ -15,6 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubCategoriesVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="BackBtn" destination="5Ab-gy-qCN" id="YQz-Fa-NRK"/>
                 <outlet property="SubTypesList" destination="en4-so-WpQ" id="2gM-jO-0YN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

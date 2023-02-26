@@ -18,6 +18,7 @@
             <connections>
                 <outlet property="AdsImagesList" destination="oFR-ua-6FB" id="x6d-Ev-7Dv"/>
                 <outlet property="AdsImagesListHeight" destination="KJv-HP-5Sx" id="WFf-ra-2ai"/>
+                <outlet property="BackBtn" destination="yE1-Xi-ruz" id="Rn4-gU-YR0"/>
                 <outlet property="CancelBtn" destination="3Ru-ZX-Kh6" id="Njv-K1-o1H"/>
                 <outlet property="PostBtn" destination="Uf8-3b-Ube" id="pA1-KN-0ki"/>
                 <outlet property="UploadImagesBtn" destination="Oj5-3v-osk" id="qXS-mP-mBS"/>
@@ -239,15 +240,8 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B57-7e-72N">
                                                     <rect key="frame" x="0.0" y="24" width="168.66666666666666" height="52"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown" translatesAutoresizingMaskIntoConstraints="NO" id="HBq-We-f9J">
-                                                            <rect key="frame" x="146.66666666666666" y="20" width="8" height="12"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="width" constant="8" id="3VX-vr-Aen"/>
-                                                                <constraint firstAttribute="height" constant="12" id="Bo9-mk-2I6"/>
-                                                            </constraints>
-                                                        </imageView>
                                                         <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Price" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aDH-gU-wLc" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
-                                                            <rect key="frame" x="15.000000000000007" y="0.0" width="123.66666666666669" height="52"/>
+                                                            <rect key="frame" x="15" y="0.0" width="138.66666666666666" height="52"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             <userDefinedRuntimeAttributes>
@@ -259,10 +253,8 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
-                                                        <constraint firstItem="HBq-We-f9J" firstAttribute="leading" secondItem="aDH-gU-wLc" secondAttribute="trailing" constant="8" id="1lO-OS-WEU"/>
                                                         <constraint firstItem="aDH-gU-wLc" firstAttribute="leading" secondItem="B57-7e-72N" secondAttribute="leading" constant="15" id="5eq-6G-0l9"/>
-                                                        <constraint firstItem="HBq-We-f9J" firstAttribute="centerY" secondItem="aDH-gU-wLc" secondAttribute="centerY" id="TFc-CF-lJb"/>
-                                                        <constraint firstAttribute="trailing" secondItem="HBq-We-f9J" secondAttribute="trailing" constant="14" id="cGc-XC-gOA"/>
+                                                        <constraint firstAttribute="trailing" secondItem="aDH-gU-wLc" secondAttribute="trailing" constant="15" id="g2j-fT-3G9"/>
                                                         <constraint firstAttribute="bottom" secondItem="aDH-gU-wLc" secondAttribute="bottom" id="rh9-mv-g9c"/>
                                                         <constraint firstAttribute="height" constant="52" id="xfR-bO-EiK"/>
                                                         <constraint firstItem="aDH-gU-wLc" firstAttribute="top" secondItem="B57-7e-72N" secondAttribute="top" id="ztL-Bi-MxT"/>

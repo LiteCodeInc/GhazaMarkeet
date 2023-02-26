@@ -47,7 +47,7 @@ class Constant {
     static let BestPrice = "Best Price".localized()
     static let Youwill = "You will find all your favorite deals at the best prices only on Gazamarket".localized()
     static let Login = "Login".localized()
-    static let SignUp = "Sign Up".localized()
+    static let SignUp = "SIGN UP".localized()
     static let LoginAccount = "Login Account".localized()
     static let HelloWelcome = "Hello, Welcome Back to Gazamarket".localized()
     static let Email = "Email".localized()
@@ -61,6 +61,7 @@ class Constant {
     static let PleaseEnterDigit = "Please enter the 4 digit code sent to".localized()
     static let Verify = "Verify".localized()
     static let ResendCode = "Resend code".localized()
+    static let send = "SEND".localized()
     static let CreateNew = "Create new password".localized()
     static let YourPassword = "Your password must be different from previously used password".localized()
     static let newPassword = "new password".localized()
@@ -75,8 +76,7 @@ class Constant {
     static let password = "password".localized()
     static let enterPassword = "enter password".localized()
     static let enterConfirmed = "enter confirmed password".localized()
-    static let signUp = "sign up".localized()
-    static let alreadyHave = "already have an account? Login".localized()
+    static let alreadyHave = "Already have an account? Login".localized()
     static let SignupAccount = "Signup account".localized()
     static let PhoneNumber = "Phone number".localized()
     static let currentLocation = "current location".localized()
@@ -87,8 +87,8 @@ class Constant {
     static let chat = "chat".localized()
     static let Profile = "Profile".localized()
     static let selectLocation = "select location".localized()
-    static let cancel = "cancel".localized()
-    static let save = "save".localized()
+    static let cancel = "Cancel".localized()
+    static let save = "Save".localized()
     static let Details = "Details".localized()
     static let SearchCategories = "Search categories".localized()
     static let filter = "filter".localized()
@@ -112,7 +112,9 @@ class Constant {
     static let myAds = "my ads".localized()
     static let privacyPolicy = "privacy policy".localized()
     static let logout = "logout".localized()
-    
+    static let viewAll = "View All".localized()
+    static let edit = "Edit".localized()
+    static let delete = "Delete".localized()
     
     
     

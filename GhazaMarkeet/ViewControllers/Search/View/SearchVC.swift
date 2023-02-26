@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class SearchVC: UIViewController {
     
@@ -14,7 +15,7 @@ class SearchVC: UIViewController {
     @IBOutlet weak var AdsList: UICollectionView!
     @IBOutlet weak var SearchMainView: UIView!
     @IBOutlet weak var FilterMainView: UIView!
-    
+    @IBOutlet weak var BackBtn: UIButton!
     
     //VARIBALE'S
     var presenter = SearchPresenter()
@@ -22,9 +23,7 @@ class SearchVC: UIViewController {
     //VC LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
-        FilterMainView.isHidden = true
-        SearchMainView.isHidden = false
-//        SearchMainView.bringSubviewToFront(self.view)
+        setupUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -57,6 +56,14 @@ class SearchVC: UIViewController {
 }
 
 extension SearchVC {
+    
+    func setupUI() {
+        FilterMainView.isHidden = true
+        SearchMainView.isHidden = false
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
+    }
     
     func changeFilterOrSearchStatus() {
         self.SearchMainView.isHidden = self.FilterMainView.isHidden

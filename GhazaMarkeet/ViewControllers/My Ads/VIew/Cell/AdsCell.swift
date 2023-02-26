@@ -28,6 +28,8 @@ class AdsCell: UICollectionViewCell {
     @IBOutlet weak var PriceLabel: UILabel!
     @IBOutlet weak var OptionView: UIView!
     @IBOutlet weak var OptionBtn: UIButton!
+    @IBOutlet weak var EditBtn: UIButton!
+    @IBOutlet weak var DeleteBtn: UIButton!
     
     //VARIABLE'S
     var delegate: AdsCellResponder?
@@ -35,7 +37,8 @@ class AdsCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        EditBtn.setTitle(Constant.edit.localized(), for: .normal)
+        DeleteBtn.setTitle(Constant.delete.localized(), for: .normal)
     }
     
     

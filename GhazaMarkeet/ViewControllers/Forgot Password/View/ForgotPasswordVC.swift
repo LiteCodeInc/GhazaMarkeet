@@ -11,12 +11,14 @@ class ForgotPasswordVC: UIViewController {
 
     //IBOUTLET'S
     @IBOutlet weak var EmailField: CustomField!
+    @IBOutlet weak var SendBtn: CustomBtnWithBG!
     
     //VARIABLE'S
     
     //VC LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
     }
 
     //IBACTION'S
@@ -26,6 +28,15 @@ class ForgotPasswordVC: UIViewController {
     
     @IBAction func SendBtnAction(_ sender: CustomBtnWithBG) {
         Router.changeRootView(from: self, to: OtpVC())
+    }
+    
+}
+
+
+extension ForgotPasswordVC {
+    
+    func setupUI() {
+        SendBtn.setTitle(Constant.send, for: .normal)
     }
     
 }

@@ -40,7 +40,7 @@ class SignUpVC: UIViewController {
 extension SignUpVC {
     
     func setupUI() {
-        SignUpBtn.setTitle(Constant.signUp, for: .normal)
+        SignUpBtn.setTitle(Constant.SignUp, for: .normal)
         self.navigationController?.toolbar.isHidden = true
         self.navigationController?.navigationBar.isHidden = true
     }

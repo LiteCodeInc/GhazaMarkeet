@@ -6,17 +6,21 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class ProfileOptionsCell: UITableViewCell {
 
     //IBOUTLET'S
     @IBOutlet weak var ItemIcon: UIImageView!
     @IBOutlet weak var ItemTitle: UILabel!
+    @IBOutlet weak var ForwordIcon: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         self.selectionStyle = .none
-        // Initialization code
+        if Localize.currentLanguage() == "ar" {
+            ForwordIcon.image = UIImage(named: "lightBack")
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

@@ -214,6 +214,8 @@
             </constraints>
             <connections>
                 <outlet property="AdTitle" destination="Vj9-fP-V1a" id="BK6-We-Szd"/>
+                <outlet property="DeleteBtn" destination="lrC-yQ-UCz" id="ilu-qX-TQX"/>
+                <outlet property="EditBtn" destination="DhY-Ag-nuG" id="c1W-bo-Rqw"/>
                 <outlet property="Location" destination="EXP-UB-T90" id="cQ2-2O-oUa"/>
                 <outlet property="OptionBtn" destination="RzJ-XU-gGO" id="cAI-D5-b7y"/>
                 <outlet property="OptionView" destination="6cN-CQ-1dh" id="c8l-X9-PZ5"/>

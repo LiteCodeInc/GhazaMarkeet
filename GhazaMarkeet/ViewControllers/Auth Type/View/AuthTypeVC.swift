@@ -39,7 +39,7 @@ extension AuthTypeVC {
     
     func setupUI() {
         LoginBtn.setTitle(Constant.Login, for: .normal)
-        SignUpBtn.setTitle(Constant.signUp, for: .normal)
+        SignUpBtn.setTitle(Constant.SignUp, for: .normal)
     }
     
 }

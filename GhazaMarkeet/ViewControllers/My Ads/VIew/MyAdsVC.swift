@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class MyAdsVC: UIViewController {
 
     //IBOUTLET'S
     @IBOutlet weak var MyAdsList: UICollectionView!
+    @IBOutlet weak var BackBtn: UIButton!
     
     //VARIABLE'S
     var presenter = MyAdsPresenter()
@@ -37,6 +39,9 @@ class MyAdsVC: UIViewController {
 extension MyAdsVC {
     
     func setupUI() {
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
     }
     
 }

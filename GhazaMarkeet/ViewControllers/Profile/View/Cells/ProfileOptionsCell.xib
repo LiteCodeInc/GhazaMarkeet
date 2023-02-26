@@ -80,6 +80,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
+                <outlet property="ForwordIcon" destination="0nd-PG-op6" id="5yW-SZ-rGG"/>
                 <outlet property="ItemIcon" destination="TLq-cY-oj4" id="sjm-z3-xGb"/>
                 <outlet property="ItemTitle" destination="J90-ai-Wcc" id="iup-GT-XdU"/>
             </connections>
@@ -88,7 +89,7 @@
     </objects>
     <designables>
         <designable name="J90-ai-Wcc">
-            <size key="intrinsicContentSize" width="59" height="18.666666666666668"/>
+            <size key="intrinsicContentSize" width="59.333333333333336" height="19"/>
         </designable>
     </designables>
     <resources>

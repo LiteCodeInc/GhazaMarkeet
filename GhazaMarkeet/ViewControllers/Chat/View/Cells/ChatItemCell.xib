@@ -40,7 +40,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kyle Butler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hb-JC-VPs" customClass="H1Medium" customModule="GhazaMarkeet" customModuleProvider="target">
-                                <rect key="frame" x="67" y="14" width="176" height="19"/>
+                                <rect key="frame" x="67" y="14" width="166" height="19"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="19" id="UHI-IJ-UGy"/>
                                 </constraints>
@@ -58,9 +58,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 Jan" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zJb-XW-2il" customClass="H2Medium" customModule="GhazaMarkeet" customModuleProvider="target">
-                                <rect key="frame" x="243" y="16.666666666666668" width="45" height="14"/>
+                                <rect key="frame" x="233" y="16.666666666666668" width="55" height="14"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="Eal-M6-jLF"/>
+                                    <constraint firstAttribute="width" constant="55" id="Eal-M6-jLF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
                                 <color key="textColor" name="Theam"/>
@@ -95,8 +95,8 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="LastMessage" destination="hoz-cs-Xrb" id="l3U-k7-bp3"/>
-                <outlet property="MessageDate" destination="zJb-XW-2il" id="H0L-G5-yyJ"/>
+                <outlet property="LastMessage" destination="hoz-cs-Xrb" id="5di-2f-PP8"/>
+                <outlet property="MessageDate" destination="zJb-XW-2il" id="ocy-OF-emv"/>
                 <outlet property="UserImage" destination="pmY-9x-PIs" id="nMH-YZ-hMo"/>
                 <outlet property="UserName" destination="3Hb-JC-VPs" id="ydQ-kh-o2p"/>
             </connections>

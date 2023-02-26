@@ -18,6 +18,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConversationVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="BackBtn" destination="x95-nJ-WJF" id="EO7-WE-d3K"/>
+                <outlet property="ConversationList" destination="yVY-7c-W8O" id="vNh-42-mka"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

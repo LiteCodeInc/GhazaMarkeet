@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class PodtAdVC: UIViewController {
 
@@ -15,6 +16,7 @@ class PodtAdVC: UIViewController {
     @IBOutlet weak var UploadImagesBtn: CustomBtnWithBG!
     @IBOutlet weak var PostBtn: CustomBtnWithBG!
     @IBOutlet weak var CancelBtn: CustomBtnWithoutBG!
+    @IBOutlet weak var BackBtn: UIButton!
     
     
     //VARIABLE'S
@@ -42,6 +44,9 @@ class PodtAdVC: UIViewController {
 extension PodtAdVC {
     
     func setupUI() {
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
         UploadImagesBtn.setTitle(Constant.images, for: .normal)
         PostBtn.setTitle(Constant.post, for: .normal)
         CancelBtn.setTitle(Constant.cancel, for: .normal)

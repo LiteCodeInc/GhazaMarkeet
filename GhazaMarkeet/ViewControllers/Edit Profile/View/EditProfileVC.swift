@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class EditProfileVC: UIViewController {
     
@@ -18,6 +19,7 @@ class EditProfileVC: UIViewController {
     @IBOutlet weak var PasswordField: CustomField!
     @IBOutlet weak var ConfirmPasswordField: CustomField!
     @IBOutlet weak var UpdateBtn: CustomBtnWithBG!
+    @IBOutlet weak var BackBtn: UIButton!
     
     //VARIABLE'S
     
@@ -60,6 +62,9 @@ class EditProfileVC: UIViewController {
 extension EditProfileVC {
     
     func setupUI()  {
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
         UpdateBtn.setTitle(Constant.update, for: .normal)
     }
     

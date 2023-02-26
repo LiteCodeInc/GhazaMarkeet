@@ -15,10 +15,10 @@ class ProfilePresenter: NSObject {
     override init() {
         
         dataList = [
-            ProfileModel(itemImage: "Address", itemTitle: "Address", titleColor: "TextBlack"),
-            ProfileModel(itemImage: "MyAds", itemTitle: "My Ads", titleColor: "TextBlack"),
-            ProfileModel(itemImage: "Privacy", itemTitle: "Privacy Policy", titleColor: "TextBlack"),
-            ProfileModel(itemImage: "Logout", itemTitle: "Logout", titleColor: "Logout"),
+            ProfileModel(itemImage: "Address", itemTitle: "Address".localized(), titleColor: "TextBlack"),
+            ProfileModel(itemImage: "MyAds", itemTitle: "My Ads".localized(), titleColor: "TextBlack"),
+            ProfileModel(itemImage: "Privacy", itemTitle: "Privacy Policy".localized(), titleColor: "TextBlack"),
+            ProfileModel(itemImage: "Logout", itemTitle: "Logout".localized(), titleColor: "Logout"),
         ]
         
     }

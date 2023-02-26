@@ -6,16 +6,20 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class HomeVC: UIViewController {
     
     //IBOUTLET'S
-    @IBOutlet weak var SearchField: UITextField!
+    @IBOutlet weak var SearchField: CustomField!
     @IBOutlet weak var CategoriesList: UICollectionView!
     @IBOutlet weak var NewProductList: UICollectionView!
     @IBOutlet weak var LocationView: UIView!
     @IBOutlet weak var SaveBtn: UIButton!
     @IBOutlet weak var CancelBtn: UIButton!
+    @IBOutlet weak var ViewAllBtn: UIButton!
+    @IBOutlet weak var ForwordArrow: UIImageView!
+    
     
     //VARIABLE'S
     var presenter = HomePresenter()
@@ -39,6 +43,7 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func ViewAllCategories(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 1
     }
     
     
@@ -47,8 +52,12 @@ class HomeVC: UIViewController {
 extension HomeVC {
     
     func setupUI() {
+        if Localize.currentLanguage() == "ar" {
+            ForwordArrow.image = UIImage(named: "ForwordArrow 1")
+        }
         SaveBtn.setTitle(Constant.save, for: .normal)
         CancelBtn.setTitle(Constant.cancel, for: .normal)
+        ViewAllBtn.setTitle(Constant.viewAll, for: .normal)
         self.navigationController?.toolbar.isHidden = true
         self.navigationController?.navigationBar.isHidden = true
     }

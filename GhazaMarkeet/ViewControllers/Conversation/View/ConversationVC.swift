@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class ConversationVC: UIViewController {
-
-    //IBOUTLET'S
     
+    //IBOUTLET'S
+    @IBOutlet weak var ConversationList: UITableView!
+    @IBOutlet weak var BackBtn: UIButton!
     
     //VARIABLE'S
     
@@ -18,6 +20,7 @@ class ConversationVC: UIViewController {
     //VC LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupUI()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,6 +33,14 @@ class ConversationVC: UIViewController {
     //IBACTION'S
     @IBAction func BackBtnAction(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
+    }
+}
+
+extension ConversationVC {
+    func setupUI() {
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
     }
 }
 

@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import Localize_Swift
 
 extension UITextField{
    @IBInspectable var placeHolderColor: UIColor? {
@@ -17,6 +18,15 @@ extension UITextField{
             self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: newValue!])
         }
     }
+    
+    open override func awakeFromNib() {
+        super.awakeFromNib()
+        if Localize.currentLanguage() == "ar" {
+            if textAlignment == .natural {
+                self.textAlignment = .right
+            }
+          }
+       }
 }
 
 class MyTextField: UITextField {
@@ -27,4 +37,5 @@ class MyTextField: UITextField {
         super.deleteBackward()
 //        myDelegate?.textFieldDidDelete()
     }
+    
 }

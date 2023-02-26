@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class SubCategoriesVC: UIViewController {
     
     //IBOUTLET'S
     @IBOutlet weak var SubTypesList: UICollectionView!
+    @IBOutlet weak var BackBtn: UIButton!
     
     //VARIBALE'S
     var presenter = SubCategoriesPresenter()
@@ -42,7 +44,9 @@ class SubCategoriesVC: UIViewController {
 extension SubCategoriesVC {
     
     func setupUI() {
-        
+        if Localize.currentLanguage() == "ar" {
+            BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+        }
     }
     
 }
