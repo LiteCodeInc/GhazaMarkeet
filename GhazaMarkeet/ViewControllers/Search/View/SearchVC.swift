@@ -30,6 +30,7 @@ class SearchVC: UIViewController {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBar.removeFromSuperview()
         self.navigationController?.toolbar.removeFromSuperview()
+        self.tabBarController?.tabBar.isHidden = true
     }
     
     
@@ -123,6 +124,7 @@ extension SearchVC: UICollectionViewDataSource, UICollectionViewDelegate, UIColl
         case .editAd:
             break
         case .showAd:
+            Router.pushVC(from: self, to: DetailVC())
             break
         case .deleteAd:
             break

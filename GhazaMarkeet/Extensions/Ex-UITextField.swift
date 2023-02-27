@@ -10,7 +10,7 @@ import UIKit
 import Localize_Swift
 
 extension UITextField{
-   @IBInspectable var placeHolderColor: UIColor? {
+    @IBInspectable var placeHolderColor: UIColor? {
         get {
             return self.placeHolderColor
         }
@@ -25,17 +25,23 @@ extension UITextField{
             if textAlignment == .natural {
                 self.textAlignment = .right
             }
-          }
-       }
+        }
+    }
+    
+    open override var textInputMode: UITextInputMode? {
+        let locale = Locale(identifier: "ar") // your preferred locale
+        
+        return UITextInputMode.activeInputModes.first(where: { $0.primaryLanguage == locale.languageCode }) ?? super.textInputMode
+    }
 }
 
 class MyTextField: UITextField {
-
-//    weak var myDelegate: MyTextFieldDelegate?
-
+    
+    //    weak var myDelegate: MyTextFieldDelegate?
+    
     override func deleteBackward() {
         super.deleteBackward()
-//        myDelegate?.textFieldDidDelete()
+        //        myDelegate?.textFieldDidDelete()
     }
     
 }

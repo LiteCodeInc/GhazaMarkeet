@@ -17,6 +17,7 @@ class PodtAdVC: UIViewController {
     @IBOutlet weak var PostBtn: CustomBtnWithBG!
     @IBOutlet weak var CancelBtn: CustomBtnWithoutBG!
     @IBOutlet weak var BackBtn: UIButton!
+    @IBOutlet weak var ProductDescription: UITextView!
     
     
     //VARIABLE'S
@@ -26,6 +27,7 @@ class PodtAdVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,6 +48,7 @@ extension PodtAdVC {
     func setupUI() {
         if Localize.currentLanguage() == "ar" {
             BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+            ProductDescription.textAlignment = .right
         }
         UploadImagesBtn.setTitle(Constant.images, for: .normal)
         PostBtn.setTitle(Constant.post, for: .normal)

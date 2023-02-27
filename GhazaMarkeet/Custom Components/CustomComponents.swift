@@ -16,6 +16,17 @@ enum AssetsColor: String {
     case TextFieldPlaceholder
     case SubHeading
     case SubHeading2
+    case Date
+    case Logout
+    case MessageBorder
+    case MessageText
+    case MessageTypeBar
+    case Online
+    case Price
+    case PriceBackgroud
+    case Shodow
+    case Tabbar
+    case TabbarUnselected
 }
 
 let theam = UIColor.appColor(.Theam)
@@ -25,6 +36,24 @@ let subHeading = UIColor.appColor(.SubHeading)
 let subHeadingTwo = UIColor.appColor(.SubHeading2)
 let textFieldBorder = UIColor.appColor(.TextFieldBorder)
 let textFieldPlaceholder = UIColor.appColor(.TextFieldPlaceholder)
+let date = UIColor.appColor(.Date)
+let logout = UIColor.appColor(.Logout)
+let messageBorder = UIColor.appColor(.MessageBorder)
+let messageText = UIColor.appColor(.MessageText)
+let messageTypeBar = UIColor.appColor(.MessageTypeBar)
+let online = UIColor.appColor(.Online)
+let price = UIColor.appColor(.Price)
+let priceBackgroud = UIColor.appColor(.PriceBackgroud)
+let shodow = UIColor.appColor(.Shodow)
+let tabbar = UIColor.appColor(.Tabbar)
+let tabbarUnselected = UIColor.appColor(.TabbarUnselected)
+
+
+
+
+
+
+
 
 
 //// MARK: ---------------- UIVIEW'S ----------------
@@ -80,8 +109,8 @@ class H1Light: UILabel {
 class H2Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.robotoBold, size: 16)
-        textColor = subHeading
+        font = UIFont(name: Constant.robotoBold, size: 20)
+        textColor = textBlack
         self.text = text?.localized()
     }
 }
@@ -139,7 +168,7 @@ class H4Bold: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         font = UIFont(name: Constant.robotoBold, size: 14)
-        textColor = .white
+        textColor = textBlack
         self.text = text?.localized()
     }
 }

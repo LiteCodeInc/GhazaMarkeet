@@ -19,6 +19,8 @@ class HomeVC: UIViewController {
     @IBOutlet weak var CancelBtn: UIButton!
     @IBOutlet weak var ViewAllBtn: UIButton!
     @IBOutlet weak var ForwordArrow: UIImageView!
+    @IBOutlet weak var LocationTitle: H3Medium!
+    @IBOutlet weak var CurrentLocation: H4Bold!
     
     
     //VARIABLE'S
@@ -60,6 +62,12 @@ extension HomeVC {
         ViewAllBtn.setTitle(Constant.viewAll, for: .normal)
         self.navigationController?.toolbar.isHidden = true
         self.navigationController?.navigationBar.isHidden = true
+        LocationTitle.textColor = textBlack
+        if Localize.currentLanguage() == "ar" {
+            ForwordArrow.image = UIImage(named: "BackArrow")
+            LocationTitle.textAlignment = .right
+            CurrentLocation.textAlignment = .right
+        }
     }
     
 }
@@ -115,7 +123,7 @@ extension HomeVC: UICollectionViewDataSource, UICollectionViewDelegate, UICollec
         case .editAd:
             break
         case .showAd:
-            break
+            Router.pushVC(from: self, to: DetailVC())
         case .deleteAd:
             break
         }

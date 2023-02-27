@@ -24,7 +24,9 @@
             <connections>
                 <outlet property="CancelBtn" destination="0Z7-YH-Kad" id="4ON-eq-dNf"/>
                 <outlet property="CategoriesList" destination="Aoc-mx-CfO" id="uod-55-Qg2"/>
+                <outlet property="CurrentLocation" destination="3HL-K0-9ip" id="VZz-QD-Uas"/>
                 <outlet property="ForwordArrow" destination="ps0-MN-rO7" id="TJ0-td-GwI"/>
+                <outlet property="LocationTitle" destination="lnI-NG-b6h" id="vDf-a0-KSd"/>
                 <outlet property="LocationView" destination="P9v-zQ-ubx" id="mHe-3w-o1M"/>
                 <outlet property="NewProductList" destination="Cce-C4-Tuf" id="rzY-Sx-XeG"/>
                 <outlet property="SaveBtn" destination="5xs-PI-MeG" id="Xzn-G6-dWI"/>
@@ -48,26 +50,33 @@
                                 <constraint firstAttribute="height" constant="40" id="nnG-te-rLR"/>
                             </constraints>
                         </imageView>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-zW-EBJ">
-                            <rect key="frame" x="70" y="6.6666666666666714" width="287" height="37"/>
-                            <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnI-NG-b6h" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="20.333333333333332"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Islamabad, Pakistan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HL-K0-9ip" customClass="H4Bold" customModule="GhazaMarkeet" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="20.333333333333329" width="287" height="16.666666666666671"/>
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lnI-NG-b6h" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
+                            <rect key="frame" x="70" y="3.3333333333333357" width="285" height="20.333333333333332"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </stackView>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20.329999999999998" id="lvz-sM-eNz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Islamabad, Pakistan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HL-K0-9ip" customClass="H4Bold" customModule="GhazaMarkeet" customModuleProvider="target">
+                            <rect key="frame" x="70" y="26.666666666666671" width="285" height="20.333333333333329"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20.329999999999998" id="Oxp-2Y-SQc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ForwordArrow" translatesAutoresizingMaskIntoConstraints="NO" id="ps0-MN-rO7">
+                            <rect key="frame" x="365" y="19" width="8" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="8" id="9kU-6p-DDc"/>
+                                <constraint firstAttribute="height" constant="12" id="Pgi-SA-cz7"/>
+                            </constraints>
+                        </imageView>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L2K-nX-ZEL">
                             <rect key="frame" x="0.0" y="0.0" width="393" height="50"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,28 +88,24 @@
                                 <action selector="LocationPopupBtn:" destination="-1" eventType="touchUpInside" id="Pg7-UQ-8Fp"/>
                             </connections>
                         </button>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ForwordArrow" translatesAutoresizingMaskIntoConstraints="NO" id="ps0-MN-rO7">
-                            <rect key="frame" x="365" y="19" width="8" height="12"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="8" id="9kU-6p-DDc"/>
-                                <constraint firstAttribute="height" constant="12" id="Pgi-SA-cz7"/>
-                            </constraints>
-                        </imageView>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="cIe-zW-EBJ" firstAttribute="centerY" secondItem="M99-Rq-0re" secondAttribute="centerY" id="4wm-QB-bF7"/>
                         <constraint firstAttribute="trailing" secondItem="ps0-MN-rO7" secondAttribute="trailing" constant="20" id="8vI-u1-whh"/>
                         <constraint firstItem="L2K-nX-ZEL" firstAttribute="leading" secondItem="Xgx-cj-Dv9" secondAttribute="leading" id="BVb-DF-b7V"/>
+                        <constraint firstItem="lnI-NG-b6h" firstAttribute="leading" secondItem="M99-Rq-0re" secondAttribute="trailing" constant="10" id="Gg2-SX-SrU"/>
                         <constraint firstItem="ps0-MN-rO7" firstAttribute="centerY" secondItem="Xgx-cj-Dv9" secondAttribute="centerY" id="I1G-ST-AFt"/>
+                        <constraint firstItem="3HL-K0-9ip" firstAttribute="leading" secondItem="lnI-NG-b6h" secondAttribute="leading" id="PB2-NK-u0J"/>
+                        <constraint firstItem="lnI-NG-b6h" firstAttribute="top" secondItem="Xgx-cj-Dv9" secondAttribute="top" constant="3.3300000000000001" id="PYm-Zo-FiO"/>
                         <constraint firstAttribute="trailing" secondItem="L2K-nX-ZEL" secondAttribute="trailing" id="RNk-fQ-chp"/>
                         <constraint firstItem="M99-Rq-0re" firstAttribute="centerY" secondItem="Xgx-cj-Dv9" secondAttribute="centerY" id="Th5-yQ-u1y"/>
+                        <constraint firstItem="3HL-K0-9ip" firstAttribute="top" secondItem="lnI-NG-b6h" secondAttribute="bottom" constant="3.0000000000000036" id="bx1-J1-Mhg"/>
                         <constraint firstItem="L2K-nX-ZEL" firstAttribute="top" secondItem="Xgx-cj-Dv9" secondAttribute="top" id="hVz-ZF-hxc"/>
                         <constraint firstAttribute="bottom" secondItem="L2K-nX-ZEL" secondAttribute="bottom" id="hpo-Rf-o6N"/>
+                        <constraint firstItem="3HL-K0-9ip" firstAttribute="trailing" secondItem="lnI-NG-b6h" secondAttribute="trailing" id="kJx-DT-gkh"/>
+                        <constraint firstItem="ps0-MN-rO7" firstAttribute="leading" secondItem="lnI-NG-b6h" secondAttribute="trailing" constant="10" id="lLH-DS-Piu"/>
                         <constraint firstItem="M99-Rq-0re" firstAttribute="leading" secondItem="Xgx-cj-Dv9" secondAttribute="leading" constant="20" id="luq-l8-Pul"/>
                         <constraint firstAttribute="height" constant="50" id="pKx-Vh-EEI"/>
-                        <constraint firstItem="cIe-zW-EBJ" firstAttribute="leading" secondItem="M99-Rq-0re" secondAttribute="trailing" constant="10" id="tRN-fD-0B7"/>
-                        <constraint firstItem="ps0-MN-rO7" firstAttribute="leading" secondItem="cIe-zW-EBJ" secondAttribute="trailing" constant="8" id="xk0-kb-1FH"/>
                     </constraints>
                 </view>
                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tQQ-0R-0du">
@@ -216,7 +221,7 @@
                     </connections>
                 </collectionView>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Cce-C4-Tuf">
-                    <rect key="frame" x="20" y="386" width="353" height="466"/>
+                    <rect key="frame" x="20" y="395" width="353" height="457"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jaZ-mw-fca">
                         <size key="itemSize" width="128" height="128"/>
@@ -440,7 +445,7 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Cce-C4-Tuf" secondAttribute="trailing" constant="20" id="GQu-T6-qNv"/>
                 <constraint firstItem="P9v-zQ-ubx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="Gj4-TV-6Ly"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ioo-IM-FLj" secondAttribute="trailing" constant="20" id="HFO-ZL-cet"/>
-                <constraint firstItem="Cce-C4-Tuf" firstAttribute="top" secondItem="Ioo-IM-FLj" secondAttribute="bottom" id="RA4-b8-gzE"/>
+                <constraint firstItem="Cce-C4-Tuf" firstAttribute="top" secondItem="Ioo-IM-FLj" secondAttribute="bottom" constant="9" id="RA4-b8-gzE"/>
                 <constraint firstItem="tQQ-0R-0du" firstAttribute="top" secondItem="Xgx-cj-Dv9" secondAttribute="bottom" constant="20" id="S9N-LD-r54"/>
                 <constraint firstItem="T9a-YD-Nl1" firstAttribute="top" secondItem="tQQ-0R-0du" secondAttribute="bottom" constant="20" id="XLo-Yw-nEa"/>
                 <constraint firstItem="tQQ-0R-0du" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="eTG-Gt-GGE"/>

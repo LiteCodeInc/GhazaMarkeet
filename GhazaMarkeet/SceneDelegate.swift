@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.makeKeyAndVisible()
         
         if Localize.currentLanguage() == "ar" {
+            
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
         } else {
             UIView.appearance().semanticContentAttribute = .forceLeftToRight

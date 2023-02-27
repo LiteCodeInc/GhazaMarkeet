@@ -26,14 +26,13 @@ class SubCategoriesVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true 
+        self.navigationController?.navigationBar.isHidden = true
+        self.tabBarController?.tabBar.isHidden = false
     }
     
     override func viewDidLayoutSubviews() {
-            super.viewDidLayoutSubviews()
-
-            // this one worked the best
-            navigationController?.setNavigationBarHidden(true, animated: false)
+        super.viewDidLayoutSubviews()
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     //IBACTION'S
