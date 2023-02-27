@@ -34,7 +34,7 @@
                                 <constraint firstAttribute="height" constant="20" id="kZ7-xh-ZWO"/>
                             </constraints>
                         </imageView>
-                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Anything..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S1g-DA-S2I">
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Anything..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S1g-DA-S2I" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                             <rect key="frame" x="47" y="0.0" width="296" height="54"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
@@ -120,6 +120,9 @@
     <designables>
         <designable name="OLM-SQ-jpX">
             <size key="intrinsicContentSize" width="78.333333333333329" height="19"/>
+        </designable>
+        <designable name="S1g-DA-S2I">
+            <size key="intrinsicContentSize" width="118" height="18.666666666666668"/>
         </designable>
     </designables>
     <resources>
