@@ -19,6 +19,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
+                <outlet property="BackBtn" destination="gwd-ir-uNm" id="qf1-At-AId"/>
+                <outlet property="BackBtnImage" destination="nwb-Zm-eTE" id="Ig5-a6-ee2"/>
                 <outlet property="Detail" destination="nhK-0N-zFL" id="oef-FB-Chv"/>
                 <outlet property="ItemImagesCollection" destination="tUn-li-HrC" id="JXO-SR-ZvH"/>
                 <outlet property="OwnerImage" destination="m5o-xf-t4O" id="nli-oW-Dhc"/>
@@ -71,10 +73,10 @@
                                     <color key="currentPageIndicatorTintColor" name="Theam"/>
                                 </pageControl>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vc7-iF-pTC">
-                                    <rect key="frame" x="20" y="266" width="353" height="62.666666666666686"/>
+                                    <rect key="frame" x="20" y="266" width="353" height="70.666666666666686"/>
                                     <subviews>
                                         <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eor-68-w6o">
-                                            <rect key="frame" x="279" y="13.333333333333314" width="74" height="36"/>
+                                            <rect key="frame" x="279" y="17.333333333333314" width="74" height="36"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$300" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lL-tx-EHe">
                                                     <rect key="frame" x="8" y="0.0" width="58" height="36"/>
@@ -106,11 +108,8 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sofa Chair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B7-qo-8Uh" customClass="H1Bold" customModule="GhazaMarkeet" customModuleProvider="target">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sofa Chair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5B7-qo-8Uh" customClass="H2Bold" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="18" width="279" height="20.333333333333329"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="20.329999999999998" id="ALk-uS-qsl"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -124,9 +123,6 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Islamabad, Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ogZ-rs-pcq" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                             <rect key="frame" x="20" y="42.333333333333314" width="259" height="20.333333333333329"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="20.329999999999998" id="xfm-eU-Z4F"/>
-                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -143,7 +139,7 @@
                                         <constraint firstItem="75e-Rg-sud" firstAttribute="leading" secondItem="vc7-iF-pTC" secondAttribute="leading" id="R0O-pp-nta"/>
                                         <constraint firstItem="ogZ-rs-pcq" firstAttribute="leading" secondItem="75e-Rg-sud" secondAttribute="trailing" constant="8" symbolic="YES" id="X9a-Sl-Pok"/>
                                         <constraint firstItem="ogZ-rs-pcq" firstAttribute="top" secondItem="5B7-qo-8Uh" secondAttribute="bottom" constant="4" id="k96-Oa-T7I"/>
-                                        <constraint firstAttribute="bottom" secondItem="ogZ-rs-pcq" secondAttribute="bottom" id="pYZ-cV-Ve1"/>
+                                        <constraint firstAttribute="bottom" secondItem="ogZ-rs-pcq" secondAttribute="bottom" constant="8" id="pYZ-cV-Ve1"/>
                                         <constraint firstItem="5B7-qo-8Uh" firstAttribute="leading" secondItem="vc7-iF-pTC" secondAttribute="leading" id="qCz-Nx-IhH"/>
                                     </constraints>
                                 </view>
@@ -276,7 +272,7 @@
                                 <constraint firstItem="dgi-h3-fRH" firstAttribute="leading" secondItem="EkD-cT-xm6" secondAttribute="leading" id="GmJ-AE-1Fp"/>
                                 <constraint firstItem="YQN-mW-Y4t" firstAttribute="leading" secondItem="tUn-li-HrC" secondAttribute="leading" constant="15" id="HTg-ri-m3X"/>
                                 <constraint firstItem="nhK-0N-zFL" firstAttribute="trailing" secondItem="4OA-lJ-thl" secondAttribute="trailing" id="IEh-a7-esR"/>
-                                <constraint firstItem="ay6-c5-Raq" firstAttribute="top" secondItem="vc7-iF-pTC" secondAttribute="bottom" constant="21" id="JND-ch-bGf"/>
+                                <constraint firstItem="ay6-c5-Raq" firstAttribute="top" secondItem="vc7-iF-pTC" secondAttribute="bottom" constant="13" id="JND-ch-bGf"/>
                                 <constraint firstItem="EkD-cT-xm6" firstAttribute="leading" secondItem="nhK-0N-zFL" secondAttribute="leading" id="L1j-Eb-D5f"/>
                                 <constraint firstItem="EkD-cT-xm6" firstAttribute="top" secondItem="nhK-0N-zFL" secondAttribute="bottom" constant="15" id="NYt-yy-qMo"/>
                                 <constraint firstAttribute="trailing" secondItem="tUn-li-HrC" secondAttribute="trailing" constant="20" id="RYa-Mb-Lan"/>
@@ -313,11 +309,12 @@
                             </constraints>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                    <real key="value" value="1"/>
+                                    <real key="value" value="2.5"/>
                                 </userDefinedRuntimeAttribute>
                                 <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
                                     <color key="value" name="Theam2"/>
                                 </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="isCirculer" value="YES"/>
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HM8-BN-rb4" customClass="H2Bold" customModule="GhazaMarkeet" customModuleProvider="target">

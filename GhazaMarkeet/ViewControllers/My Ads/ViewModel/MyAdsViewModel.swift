@@ -15,10 +15,10 @@ class MyAdsPresenter: NSObject {
     override init() {
         
         adsData = [
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false)
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: true, isShowOption: false)
         ]
         
     }

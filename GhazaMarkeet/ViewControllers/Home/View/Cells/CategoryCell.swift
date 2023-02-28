@@ -10,6 +10,7 @@ import UIKit
 class CategoryCell: UICollectionViewCell {
 
     @IBOutlet weak var CategoryIcon: UIImageView!
+    @IBOutlet weak var CategoryTitle: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -18,6 +19,7 @@ class CategoryCell: UICollectionViewCell {
     
     func config(data:CetegoryModel) {
         self.CategoryIcon.image = UIImage(named: data.icon)
+        self.CategoryTitle.text = data.type.localized()
     }
 
 }

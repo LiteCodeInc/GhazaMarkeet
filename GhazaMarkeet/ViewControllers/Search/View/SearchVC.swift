@@ -16,6 +16,8 @@ class SearchVC: UIViewController {
     @IBOutlet weak var SearchMainView: UIView!
     @IBOutlet weak var FilterMainView: UIView!
     @IBOutlet weak var BackBtn: UIButton!
+    @IBOutlet weak var CancelBtn: CustomBtnWithoutBG!
+    @IBOutlet weak var ApplyBtn: CustomBtnWithBG!
     
     //VARIBALE'S
     var presenter = SearchPresenter()
@@ -63,6 +65,8 @@ extension SearchVC {
         SearchMainView.isHidden = false
         if Localize.currentLanguage() == "ar" {
             BackBtn.setImage(UIImage(named: "ForwordBack"), for: .normal)
+            CancelBtn.setTitle("Cancel".localized(), for: .normal)
+            ApplyBtn.setTitle("Apply".localized(), for: .normal)
         }
     }
     

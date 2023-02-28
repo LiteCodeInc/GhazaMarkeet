@@ -185,8 +185,8 @@ class H4Medium: UILabel {
 class H4Light: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        font = UIFont(name: Constant.robotoBold, size: 14)
-        textColor = .white
+        font = UIFont(name: Constant.robotoRegular, size: 12)
+        textColor = subHeadingTwo
         self.text = text?.localized()
     }
 }

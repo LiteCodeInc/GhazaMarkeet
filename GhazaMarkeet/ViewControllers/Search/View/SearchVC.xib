@@ -17,7 +17,9 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchVC" customModule="GhazaMarkeet" customModuleProvider="target">
             <connections>
                 <outlet property="AdsList" destination="SkD-cH-MgH" id="JTo-M1-NLl"/>
+                <outlet property="ApplyBtn" destination="Wiq-PC-Xvk" id="A1h-B4-7sa"/>
                 <outlet property="BackBtn" destination="KbW-jc-haS" id="j2S-ZH-LRr"/>
+                <outlet property="CancelBtn" destination="IL2-TU-4za" id="XUu-He-9yn"/>
                 <outlet property="FilterMainView" destination="oUz-Qj-udj" id="Xnx-Mu-6dP"/>
                 <outlet property="SearchMainView" destination="Rkr-w1-RMS" id="RHq-NE-Nfz"/>
                 <outlet property="SearchTagList" destination="jYM-c0-55h" id="j25-3G-gV2"/>
@@ -63,7 +65,7 @@
                                                         <constraint firstAttribute="width" constant="20" id="zvD-yz-uwd"/>
                                                     </constraints>
                                                 </imageView>
-                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Anything..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rbv-mg-lKx">
+                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search Anything..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rbv-mg-lKx" customClass="CustomField" customModule="GhazaMarkeet" customModuleProvider="target">
                                                     <rect key="frame" x="47" y="0.0" width="193" height="54"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -126,7 +128,7 @@
                                     </constraints>
                                 </view>
                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oUz-Qj-udj">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="445.66666666666669"/>
+                                    <rect key="frame" x="0.0" y="54.000000000000028" width="393" height="445.66666666666674"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylg-GQ-P3e">
                                             <rect key="frame" x="8" y="20.666666666666671" width="25" height="25"/>
@@ -174,7 +176,7 @@
                                             </constraints>
                                         </view>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="26" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-Ls-2XD">
-                                            <rect key="frame" x="20" y="70.666666666666686" width="353" height="280"/>
+                                            <rect key="frame" x="20" y="70.666666666666657" width="353" height="280"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6H-r9-39N">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="76"/>
@@ -189,7 +191,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHV-mt-O6u">
-                                                            <rect key="frame" x="0.0" y="23.999999999999986" width="353" height="52"/>
+                                                            <rect key="frame" x="0.0" y="24" width="353" height="52"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown" translatesAutoresizingMaskIntoConstraints="NO" id="7TL-xq-Lzl">
                                                                     <rect key="frame" x="331" y="20" width="8" height="12"/>
@@ -245,7 +247,7 @@
                                                     </constraints>
                                                 </view>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huu-6d-h4c">
-                                                    <rect key="frame" x="0.0" y="102" width="353" height="76"/>
+                                                    <rect key="frame" x="0.0" y="102.00000000000003" width="353" height="76"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Locations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bip-0P-VyR" userLabel="Locations" customClass="H3Medium" customModule="GhazaMarkeet" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="353" height="16"/>
@@ -260,7 +262,7 @@
                                                             <rect key="frame" x="0.0" y="24" width="353" height="52"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DropDown" translatesAutoresizingMaskIntoConstraints="NO" id="dMy-8j-c5E">
-                                                                    <rect key="frame" x="331" y="20.000000000000028" width="8" height="12"/>
+                                                                    <rect key="frame" x="331" y="20" width="8" height="12"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="12" id="Nyw-Jz-LwK"/>
                                                                         <constraint firstAttribute="width" constant="8" id="Pp1-Bw-EZC"/>
@@ -313,7 +315,7 @@
                                                     </constraints>
                                                 </view>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="OyF-60-MrH">
-                                                    <rect key="frame" x="0.0" y="204" width="353" height="76"/>
+                                                    <rect key="frame" x="0.0" y="204.00000000000003" width="353" height="75.999999999999972"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NoY-Er-z3W">
                                                             <rect key="frame" x="0.0" y="0.0" width="168.66666666666666" height="76"/>

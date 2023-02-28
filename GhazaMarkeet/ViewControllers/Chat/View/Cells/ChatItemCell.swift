@@ -12,16 +12,14 @@ class ChatItemCell: UITableViewCell {
     //IBOUTLET'S
     @IBOutlet weak var UserImage: UIImageView!
     @IBOutlet weak var UserName: UILabel!
-    @IBOutlet weak var LastMessage: UILabel!
+    @IBOutlet weak var LastMessage: H4Light!
     @IBOutlet weak var MessageDate: UILabel!
-    
     
     //VARIBALE'S
     
     override func awakeFromNib() {
         super.awakeFromNib()
         self.selectionStyle = .none
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

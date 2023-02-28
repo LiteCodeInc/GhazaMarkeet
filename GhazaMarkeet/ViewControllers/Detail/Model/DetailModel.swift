@@ -14,10 +14,10 @@ class DetailModel: Codable {
     init() {
         
         adsData = [
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
-            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung", location: "Islamabad", date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false)
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false),
+            MyAdsModel(thumbnail: "AdsPlaceHolder", adTitle: "Samsung".localized(), location: "Islamabad".localized(), date: "15 Feb", price: 300, isShowOptionBtn: false, isShowOption: false)
         ]
         
     }

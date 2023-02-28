@@ -6,13 +6,14 @@
 //
 
 import UIKit
+import Localize_Swift
 
 class DetailVC: UIViewController {
 
     //IBOUTLET'S
     @IBOutlet weak var ItemImagesCollection: UICollectionView!
     @IBOutlet weak var PageController: UIPageControl!
-    @IBOutlet weak var ProductTitle: H1Bold!
+    @IBOutlet weak var ProductTitle: H2Bold!
     @IBOutlet weak var ProductLocation: H3Medium!
     @IBOutlet weak var ProductPrice: H4Bold!
     @IBOutlet weak var ProductCategory: H3Medium!
@@ -21,6 +22,8 @@ class DetailVC: UIViewController {
     @IBOutlet weak var OwnerName: H2Bold!
     @IBOutlet weak var OwnerImage: UIImageView!
     @IBOutlet weak var OwnerLocation: H4Medium!
+    @IBOutlet weak var BackBtn: UIButton!
+    @IBOutlet weak var BackBtnImage: UIImageView!
     
     
     //VARIABLE'S
@@ -56,6 +59,25 @@ extension DetailVC {
     func setupUI() {
         ProductPrice.textColor = price
         ProductCategory.textColor = theam
+        if Localize.currentLanguage() == "ar" {
+            Detail.text = Detail.text?.localized()
+            Detail.textAlignment = .right
+            setLineHeightOnDetail()
+            BackBtnImage.image = UIImage(named: "DetailBackBtn")
+        }
+        
+    }
+    
+    func setLineHeightOnDetail() {
+        let attributedString = NSMutableAttributedString(string: Detail.text!.localized())
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.lineSpacing = 12
+        paragraphStyle.maximumLineHeight = 22
+        paragraphStyle.alignment = .right
+        attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
+
+        // *** Set Attributed String to your label ***
+        Detail.attributedText = attributedString
     }
     
 }

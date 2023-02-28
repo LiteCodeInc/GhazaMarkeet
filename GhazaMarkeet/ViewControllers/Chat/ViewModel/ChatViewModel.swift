@@ -14,12 +14,11 @@ class ChatPresenter: NSObject {
     
     override init() {
         data = [
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan"),
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan"),
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan"),
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan"),
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan"),
-            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler", lastMessage: "Space along marriage doctor theory four.", chatDate: "15 Jan")
+            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler".localized(), lastMessage: "Space along marriage doctor theory four.".localized(), chatDate: "15 Jan"),
+            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler".localized(), lastMessage: "Space along marriage doctor theory four.".localized(), chatDate: "15 Jan"),
+            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler".localized(), lastMessage: "Space along marriage doctor theory four.".localized(), chatDate: "15 Jan"),
+            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler".localized(), lastMessage: "Space along marriage doctor theory four.".localized(), chatDate: "15 Jan"),
+            ChatModel(userImage: "ProfilePlaceholder", userName: "Kyle Butler".localized(), lastMessage: "Space along marriage doctor theory four.".localized(), chatDate: "15 Jan")
         
         ]
     }
